@@ -1,0 +1,5 @@
+pyobjc-core==13.0
+pyobjc-framework-Cocoa==13.0
+pyinstaller==6.22.3
+Pillow==13.0.0
+certifi==2026.10.23
