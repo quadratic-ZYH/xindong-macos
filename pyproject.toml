@@ -5,15 +5,17 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "salary-motivator"
 dynamic = ["version"]
-description = "薪动 · 可置顶、可收进托盘的每日工资计数器"
+description = "薪动 · 菜单栏实时收入、下班倒计时和趣味攒钱目标"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [{name = "WizzenH"}]
+dependencies = ["pyobjc-framework-Cocoa>=11; sys_platform == 'darwin'", "certifi>=2025.1.31"]
 classifiers = [
   "Programming Language :: Python :: 3",
   "Operating System :: Microsoft :: Windows",
   "Operating System :: POSIX :: Linux",
+  "Operating System :: MacOS :: MacOS X",
   "Topic :: Desktop Environment",
 ]
 
@@ -24,7 +26,7 @@ salary-motivator = "salary_motivator.app:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-salary_motivator = ["assets/*.svg", "assets/*.ico", "assets/*.png"]
+salary_motivator = ["assets/*.svg", "assets/*.ico", "assets/*.png", "assets/*.json", "assets/holidays/*.json", "assets/holidays/*.txt"]
 
 [tool.setuptools.dynamic]
 version = {attr = "salary_motivator.__version__"}

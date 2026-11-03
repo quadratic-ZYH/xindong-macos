@@ -16,3 +16,7 @@ Thumbs.db
 .env.*
 *.log
 /.local/
+# Release binaries belong in GitHub Releases, not source history.
+*.app/
+*.dmg
+*.zip

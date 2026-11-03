@@ -1,0 +1,2 @@
+# Preserve upstream license texts verbatim, including their original whitespace.
+third_party/licenses/* -whitespace
