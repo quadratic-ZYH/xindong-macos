@@ -48,7 +48,7 @@ with tempfile.TemporaryDirectory(prefix="salary-themes-") as temporary:
     assert migrated["monthly"] == "12345"
     payroll.CONFIG.write_text(json.dumps(old_settings))
 
-    app = SalaryWidget()
+    app = SalaryWidget(background=False, sync_calendar=False)
     try:
         for key, theme in THEMES.items():
             # Check readability of the small labels as well as the headline amount.

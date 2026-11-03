@@ -20,7 +20,7 @@ with tempfile.TemporaryDirectory(prefix="salary-check-") as temporary:
     if len(sys.argv) > 1:
         assert startup.startup_command() == ["/usr/bin/salary-motivator"]
         assert Path("/etc/xdg/autostart/salary-motivator.desktop").exists()
-    s = dict(payroll.DEFAULTS, overrides={})
+    s = dict(payroll.DEFAULTS, overrides={}, auto_holidays=False)
     assert payroll.workdays(2026, 10, s) == 22
     assert payroll.workdays(2024, 2, s) == 21
     for hour, minute, expected in [
@@ -39,17 +39,21 @@ with tempfile.TemporaryDirectory(prefix="salary-check-") as temporary:
     s["rest"] = "单休"
     s["overrides"] = {}
     assert payroll.workdays(2026, 10, s) == 27
-    global_file = Path(temporary) / "system/autostart" / payroll.AUTOSTART_NAME
-    global_file.parent.mkdir(parents=True)
-    global_file.write_text("[Desktop Entry]\nType=Application\nExec=salary-motivator\n")
-    assert startup.autostart_enabled()
+    if sys.platform == "darwin":
+        startup.MAC_AGENT_PATH = Path(temporary) / "LaunchAgents" / "test.plist"
+        startup.MAC_AGENT_LABEL += f".test.{os.getpid()}"
+    else:
+        global_file = Path(temporary) / "system/autostart" / payroll.AUTOSTART_NAME
+        global_file.parent.mkdir(parents=True)
+        global_file.write_text("[Desktop Entry]\nType=Application\nExec=salary-motivator\n")
+        assert startup.autostart_enabled()
     startup.set_autostart(False)
     assert not startup.autostart_enabled()
     startup.set_autostart(True)
     assert startup.autostart_enabled()
     assert m.acquire_instance()
     assert not m.acquire_instance()
-    app = m.SalaryWidget()
+    app = m.SalaryWidget(background=False, sync_calendar=False)
     app.root.update()
     app.settings()
     app.root.update()
