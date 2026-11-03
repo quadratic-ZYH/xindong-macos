@@ -1,0 +1,7688 @@
+{
+  "version": 1,
+  "currency": "CNY",
+  "price_kind": "趣味参考价",
+  "notice": "手工预设的参考估值，仅用于趣味计薪目标，不是商家报价。规格、地区和活动会影响实际售价。",
+  "items": [
+    {
+      "id": "item-0001",
+      "name": "无糖气泡水（330mL单瓶）",
+      "category": "汽水饮料",
+      "price": "3.20"
+    },
+    {
+      "id": "item-0002",
+      "name": "无糖气泡水（500mL单瓶）",
+      "category": "汽水饮料",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0003",
+      "name": "无糖气泡水（6瓶装）",
+      "category": "汽水饮料",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0004",
+      "name": "无糖气泡水（12瓶装）",
+      "category": "汽水饮料",
+      "price": "40.00"
+    },
+    {
+      "id": "item-0005",
+      "name": "原味苏打水（330mL单瓶）",
+      "category": "汽水饮料",
+      "price": "2.40"
+    },
+    {
+      "id": "item-0006",
+      "name": "原味苏打水（500mL单瓶）",
+      "category": "汽水饮料",
+      "price": "3.00"
+    },
+    {
+      "id": "item-0007",
+      "name": "原味苏打水（6瓶装）",
+      "category": "汽水饮料",
+      "price": "16.50"
+    },
+    {
+      "id": "item-0008",
+      "name": "原味苏打水（12瓶装）",
+      "category": "汽水饮料",
+      "price": "30.00"
+    },
+    {
+      "id": "item-0009",
+      "name": "柠檬汽水（330mL单瓶）",
+      "category": "汽水饮料",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0010",
+      "name": "柠檬汽水（500mL单瓶）",
+      "category": "汽水饮料",
+      "price": "5.00"
+    },
+    {
+      "id": "item-0011",
+      "name": "柠檬汽水（6瓶装）",
+      "category": "汽水饮料",
+      "price": "27.50"
+    },
+    {
+      "id": "item-0012",
+      "name": "柠檬汽水（12瓶装）",
+      "category": "汽水饮料",
+      "price": "50.00"
+    },
+    {
+      "id": "item-0013",
+      "name": "橙味汽水（330mL单瓶）",
+      "category": "汽水饮料",
+      "price": "3.20"
+    },
+    {
+      "id": "item-0014",
+      "name": "橙味汽水（500mL单瓶）",
+      "category": "汽水饮料",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0015",
+      "name": "橙味汽水（6瓶装）",
+      "category": "汽水饮料",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0016",
+      "name": "橙味汽水（12瓶装）",
+      "category": "汽水饮料",
+      "price": "40.00"
+    },
+    {
+      "id": "item-0017",
+      "name": "经典可乐（330mL单瓶）",
+      "category": "汽水饮料",
+      "price": "3.20"
+    },
+    {
+      "id": "item-0018",
+      "name": "经典可乐（500mL单瓶）",
+      "category": "汽水饮料",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0019",
+      "name": "经典可乐（6瓶装）",
+      "category": "汽水饮料",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0020",
+      "name": "经典可乐（12瓶装）",
+      "category": "汽水饮料",
+      "price": "40.00"
+    },
+    {
+      "id": "item-0021",
+      "name": "姜汁汽水（330mL单瓶）",
+      "category": "汽水饮料",
+      "price": "4.80"
+    },
+    {
+      "id": "item-0022",
+      "name": "姜汁汽水（500mL单瓶）",
+      "category": "汽水饮料",
+      "price": "6.00"
+    },
+    {
+      "id": "item-0023",
+      "name": "姜汁汽水（6瓶装）",
+      "category": "汽水饮料",
+      "price": "33.00"
+    },
+    {
+      "id": "item-0024",
+      "name": "姜汁汽水（12瓶装）",
+      "category": "汽水饮料",
+      "price": "60.00"
+    },
+    {
+      "id": "item-0025",
+      "name": "荔枝汽水（330mL单瓶）",
+      "category": "汽水饮料",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0026",
+      "name": "荔枝汽水（500mL单瓶）",
+      "category": "汽水饮料",
+      "price": "5.00"
+    },
+    {
+      "id": "item-0027",
+      "name": "荔枝汽水（6瓶装）",
+      "category": "汽水饮料",
+      "price": "27.50"
+    },
+    {
+      "id": "item-0028",
+      "name": "荔枝汽水（12瓶装）",
+      "category": "汽水饮料",
+      "price": "50.00"
+    },
+    {
+      "id": "item-0029",
+      "name": "葡萄汽水（330mL单瓶）",
+      "category": "汽水饮料",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0030",
+      "name": "葡萄汽水（500mL单瓶）",
+      "category": "汽水饮料",
+      "price": "5.00"
+    },
+    {
+      "id": "item-0031",
+      "name": "葡萄汽水（6瓶装）",
+      "category": "汽水饮料",
+      "price": "27.50"
+    },
+    {
+      "id": "item-0032",
+      "name": "葡萄汽水（12瓶装）",
+      "category": "汽水饮料",
+      "price": "50.00"
+    },
+    {
+      "id": "item-0033",
+      "name": "蜜桃气泡水（330mL单瓶）",
+      "category": "汽水饮料",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0034",
+      "name": "蜜桃气泡水（500mL单瓶）",
+      "category": "汽水饮料",
+      "price": "5.00"
+    },
+    {
+      "id": "item-0035",
+      "name": "蜜桃气泡水（6瓶装）",
+      "category": "汽水饮料",
+      "price": "27.50"
+    },
+    {
+      "id": "item-0036",
+      "name": "蜜桃气泡水（12瓶装）",
+      "category": "汽水饮料",
+      "price": "50.00"
+    },
+    {
+      "id": "item-0037",
+      "name": "青柠苏打水（330mL单瓶）",
+      "category": "汽水饮料",
+      "price": "3.20"
+    },
+    {
+      "id": "item-0038",
+      "name": "青柠苏打水（500mL单瓶）",
+      "category": "汽水饮料",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0039",
+      "name": "青柠苏打水（6瓶装）",
+      "category": "汽水饮料",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0040",
+      "name": "青柠苏打水（12瓶装）",
+      "category": "汽水饮料",
+      "price": "40.00"
+    },
+    {
+      "id": "item-0041",
+      "name": "美式咖啡（中杯热饮）",
+      "category": "咖啡",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0042",
+      "name": "美式咖啡（大杯热饮）",
+      "category": "咖啡",
+      "price": "14.40"
+    },
+    {
+      "id": "item-0043",
+      "name": "美式咖啡（中杯冰饮）",
+      "category": "咖啡",
+      "price": "12.60"
+    },
+    {
+      "id": "item-0044",
+      "name": "美式咖啡（大杯冰饮）",
+      "category": "咖啡",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0045",
+      "name": "拿铁咖啡（中杯热饮）",
+      "category": "咖啡",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0046",
+      "name": "拿铁咖啡（大杯热饮）",
+      "category": "咖啡",
+      "price": "21.60"
+    },
+    {
+      "id": "item-0047",
+      "name": "拿铁咖啡（中杯冰饮）",
+      "category": "咖啡",
+      "price": "18.90"
+    },
+    {
+      "id": "item-0048",
+      "name": "拿铁咖啡（大杯冰饮）",
+      "category": "咖啡",
+      "price": "22.50"
+    },
+    {
+      "id": "item-0049",
+      "name": "卡布奇诺（中杯热饮）",
+      "category": "咖啡",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0050",
+      "name": "卡布奇诺（大杯热饮）",
+      "category": "咖啡",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0051",
+      "name": "卡布奇诺（中杯冰饮）",
+      "category": "咖啡",
+      "price": "21.00"
+    },
+    {
+      "id": "item-0052",
+      "name": "卡布奇诺（大杯冰饮）",
+      "category": "咖啡",
+      "price": "25.00"
+    },
+    {
+      "id": "item-0053",
+      "name": "摩卡咖啡（中杯热饮）",
+      "category": "咖啡",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0054",
+      "name": "摩卡咖啡（大杯热饮）",
+      "category": "咖啡",
+      "price": "26.40"
+    },
+    {
+      "id": "item-0055",
+      "name": "摩卡咖啡（中杯冰饮）",
+      "category": "咖啡",
+      "price": "23.10"
+    },
+    {
+      "id": "item-0056",
+      "name": "摩卡咖啡（大杯冰饮）",
+      "category": "咖啡",
+      "price": "27.50"
+    },
+    {
+      "id": "item-0057",
+      "name": "焦糖玛奇朵（中杯热饮）",
+      "category": "咖啡",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0058",
+      "name": "焦糖玛奇朵（大杯热饮）",
+      "category": "咖啡",
+      "price": "28.80"
+    },
+    {
+      "id": "item-0059",
+      "name": "焦糖玛奇朵（中杯冰饮）",
+      "category": "咖啡",
+      "price": "25.20"
+    },
+    {
+      "id": "item-0060",
+      "name": "焦糖玛奇朵（大杯冰饮）",
+      "category": "咖啡",
+      "price": "30.00"
+    },
+    {
+      "id": "item-0061",
+      "name": "馥芮白（中杯热饮）",
+      "category": "咖啡",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0062",
+      "name": "馥芮白（大杯热饮）",
+      "category": "咖啡",
+      "price": "26.40"
+    },
+    {
+      "id": "item-0063",
+      "name": "馥芮白（中杯冰饮）",
+      "category": "咖啡",
+      "price": "23.10"
+    },
+    {
+      "id": "item-0064",
+      "name": "馥芮白（大杯冰饮）",
+      "category": "咖啡",
+      "price": "27.50"
+    },
+    {
+      "id": "item-0065",
+      "name": "燕麦拿铁（中杯热饮）",
+      "category": "咖啡",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0066",
+      "name": "燕麦拿铁（大杯热饮）",
+      "category": "咖啡",
+      "price": "26.40"
+    },
+    {
+      "id": "item-0067",
+      "name": "燕麦拿铁（中杯冰饮）",
+      "category": "咖啡",
+      "price": "23.10"
+    },
+    {
+      "id": "item-0068",
+      "name": "燕麦拿铁（大杯冰饮）",
+      "category": "咖啡",
+      "price": "27.50"
+    },
+    {
+      "id": "item-0069",
+      "name": "生椰拿铁（中杯热饮）",
+      "category": "咖啡",
+      "price": "21.00"
+    },
+    {
+      "id": "item-0070",
+      "name": "生椰拿铁（大杯热饮）",
+      "category": "咖啡",
+      "price": "25.20"
+    },
+    {
+      "id": "item-0071",
+      "name": "生椰拿铁（中杯冰饮）",
+      "category": "咖啡",
+      "price": "22.05"
+    },
+    {
+      "id": "item-0072",
+      "name": "生椰拿铁（大杯冰饮）",
+      "category": "咖啡",
+      "price": "26.25"
+    },
+    {
+      "id": "item-0073",
+      "name": "香草拿铁（中杯热饮）",
+      "category": "咖啡",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0074",
+      "name": "香草拿铁（大杯热饮）",
+      "category": "咖啡",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0075",
+      "name": "香草拿铁（中杯冰饮）",
+      "category": "咖啡",
+      "price": "21.00"
+    },
+    {
+      "id": "item-0076",
+      "name": "香草拿铁（大杯冰饮）",
+      "category": "咖啡",
+      "price": "25.00"
+    },
+    {
+      "id": "item-0077",
+      "name": "榛果拿铁（中杯热饮）",
+      "category": "咖啡",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0078",
+      "name": "榛果拿铁（大杯热饮）",
+      "category": "咖啡",
+      "price": "26.40"
+    },
+    {
+      "id": "item-0079",
+      "name": "榛果拿铁（中杯冰饮）",
+      "category": "咖啡",
+      "price": "23.10"
+    },
+    {
+      "id": "item-0080",
+      "name": "榛果拿铁（大杯冰饮）",
+      "category": "咖啡",
+      "price": "27.50"
+    },
+    {
+      "id": "item-0081",
+      "name": "茉莉绿茶（中杯）",
+      "category": "茶饮",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0082",
+      "name": "茉莉绿茶（大杯）",
+      "category": "茶饮",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0083",
+      "name": "茉莉绿茶（双杯装）",
+      "category": "茶饮",
+      "price": "19.00"
+    },
+    {
+      "id": "item-0084",
+      "name": "茉莉绿茶（四杯装）",
+      "category": "茶饮",
+      "price": "36.00"
+    },
+    {
+      "id": "item-0085",
+      "name": "乌龙茶（中杯）",
+      "category": "茶饮",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0086",
+      "name": "乌龙茶（大杯）",
+      "category": "茶饮",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0087",
+      "name": "乌龙茶（双杯装）",
+      "category": "茶饮",
+      "price": "19.00"
+    },
+    {
+      "id": "item-0088",
+      "name": "乌龙茶（四杯装）",
+      "category": "茶饮",
+      "price": "36.00"
+    },
+    {
+      "id": "item-0089",
+      "name": "柠檬红茶（中杯）",
+      "category": "茶饮",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0090",
+      "name": "柠檬红茶（大杯）",
+      "category": "茶饮",
+      "price": "14.40"
+    },
+    {
+      "id": "item-0091",
+      "name": "柠檬红茶（双杯装）",
+      "category": "茶饮",
+      "price": "22.80"
+    },
+    {
+      "id": "item-0092",
+      "name": "柠檬红茶（四杯装）",
+      "category": "茶饮",
+      "price": "43.20"
+    },
+    {
+      "id": "item-0093",
+      "name": "桃桃乌龙（中杯）",
+      "category": "茶饮",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0094",
+      "name": "桃桃乌龙（大杯）",
+      "category": "茶饮",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0095",
+      "name": "桃桃乌龙（双杯装）",
+      "category": "茶饮",
+      "price": "28.50"
+    },
+    {
+      "id": "item-0096",
+      "name": "桃桃乌龙（四杯装）",
+      "category": "茶饮",
+      "price": "54.00"
+    },
+    {
+      "id": "item-0097",
+      "name": "百香果茶（中杯）",
+      "category": "茶饮",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0098",
+      "name": "百香果茶（大杯）",
+      "category": "茶饮",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0099",
+      "name": "百香果茶（双杯装）",
+      "category": "茶饮",
+      "price": "28.50"
+    },
+    {
+      "id": "item-0100",
+      "name": "百香果茶（四杯装）",
+      "category": "茶饮",
+      "price": "54.00"
+    },
+    {
+      "id": "item-0101",
+      "name": "葡萄果茶（中杯）",
+      "category": "茶饮",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0102",
+      "name": "葡萄果茶（大杯）",
+      "category": "茶饮",
+      "price": "21.60"
+    },
+    {
+      "id": "item-0103",
+      "name": "葡萄果茶（双杯装）",
+      "category": "茶饮",
+      "price": "34.20"
+    },
+    {
+      "id": "item-0104",
+      "name": "葡萄果茶（四杯装）",
+      "category": "茶饮",
+      "price": "64.80"
+    },
+    {
+      "id": "item-0105",
+      "name": "芒果绿茶（中杯）",
+      "category": "茶饮",
+      "price": "16.00"
+    },
+    {
+      "id": "item-0106",
+      "name": "芒果绿茶（大杯）",
+      "category": "茶饮",
+      "price": "19.20"
+    },
+    {
+      "id": "item-0107",
+      "name": "芒果绿茶（双杯装）",
+      "category": "茶饮",
+      "price": "30.40"
+    },
+    {
+      "id": "item-0108",
+      "name": "芒果绿茶（四杯装）",
+      "category": "茶饮",
+      "price": "57.60"
+    },
+    {
+      "id": "item-0109",
+      "name": "珍珠奶茶（中杯）",
+      "category": "茶饮",
+      "price": "13.00"
+    },
+    {
+      "id": "item-0110",
+      "name": "珍珠奶茶（大杯）",
+      "category": "茶饮",
+      "price": "15.60"
+    },
+    {
+      "id": "item-0111",
+      "name": "珍珠奶茶（双杯装）",
+      "category": "茶饮",
+      "price": "24.70"
+    },
+    {
+      "id": "item-0112",
+      "name": "珍珠奶茶（四杯装）",
+      "category": "茶饮",
+      "price": "46.80"
+    },
+    {
+      "id": "item-0113",
+      "name": "桂花奶茶（中杯）",
+      "category": "茶饮",
+      "price": "16.00"
+    },
+    {
+      "id": "item-0114",
+      "name": "桂花奶茶（大杯）",
+      "category": "茶饮",
+      "price": "19.20"
+    },
+    {
+      "id": "item-0115",
+      "name": "桂花奶茶（双杯装）",
+      "category": "茶饮",
+      "price": "30.40"
+    },
+    {
+      "id": "item-0116",
+      "name": "桂花奶茶（四杯装）",
+      "category": "茶饮",
+      "price": "57.60"
+    },
+    {
+      "id": "item-0117",
+      "name": "红豆奶茶（中杯）",
+      "category": "茶饮",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0118",
+      "name": "红豆奶茶（大杯）",
+      "category": "茶饮",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0119",
+      "name": "红豆奶茶（双杯装）",
+      "category": "茶饮",
+      "price": "28.50"
+    },
+    {
+      "id": "item-0120",
+      "name": "红豆奶茶（四杯装）",
+      "category": "茶饮",
+      "price": "54.00"
+    },
+    {
+      "id": "item-0121",
+      "name": "鲜肉包早餐（单人份）",
+      "category": "早餐",
+      "price": "7.00"
+    },
+    {
+      "id": "item-0122",
+      "name": "鲜肉包早餐（双人份）",
+      "category": "早餐",
+      "price": "14.00"
+    },
+    {
+      "id": "item-0123",
+      "name": "鲜肉包早餐（三人份）",
+      "category": "早餐",
+      "price": "21.00"
+    },
+    {
+      "id": "item-0124",
+      "name": "鲜肉包早餐（四人份）",
+      "category": "早餐",
+      "price": "28.00"
+    },
+    {
+      "id": "item-0125",
+      "name": "素菜包早餐（单人份）",
+      "category": "早餐",
+      "price": "6.00"
+    },
+    {
+      "id": "item-0126",
+      "name": "素菜包早餐（双人份）",
+      "category": "早餐",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0127",
+      "name": "素菜包早餐（三人份）",
+      "category": "早餐",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0128",
+      "name": "素菜包早餐（四人份）",
+      "category": "早餐",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0129",
+      "name": "豆浆油条早餐（单人份）",
+      "category": "早餐",
+      "price": "8.00"
+    },
+    {
+      "id": "item-0130",
+      "name": "豆浆油条早餐（双人份）",
+      "category": "早餐",
+      "price": "16.00"
+    },
+    {
+      "id": "item-0131",
+      "name": "豆浆油条早餐（三人份）",
+      "category": "早餐",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0132",
+      "name": "豆浆油条早餐（四人份）",
+      "category": "早餐",
+      "price": "32.00"
+    },
+    {
+      "id": "item-0133",
+      "name": "鸡蛋三明治早餐（单人份）",
+      "category": "早餐",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0134",
+      "name": "鸡蛋三明治早餐（双人份）",
+      "category": "早餐",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0135",
+      "name": "鸡蛋三明治早餐（三人份）",
+      "category": "早餐",
+      "price": "36.00"
+    },
+    {
+      "id": "item-0136",
+      "name": "鸡蛋三明治早餐（四人份）",
+      "category": "早餐",
+      "price": "48.00"
+    },
+    {
+      "id": "item-0137",
+      "name": "煎饼果子早餐（单人份）",
+      "category": "早餐",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0138",
+      "name": "煎饼果子早餐（双人份）",
+      "category": "早餐",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0139",
+      "name": "煎饼果子早餐（三人份）",
+      "category": "早餐",
+      "price": "30.00"
+    },
+    {
+      "id": "item-0140",
+      "name": "煎饼果子早餐（四人份）",
+      "category": "早餐",
+      "price": "40.00"
+    },
+    {
+      "id": "item-0141",
+      "name": "牛肉粉早餐（单人份）",
+      "category": "早餐",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0142",
+      "name": "牛肉粉早餐（双人份）",
+      "category": "早餐",
+      "price": "30.00"
+    },
+    {
+      "id": "item-0143",
+      "name": "牛肉粉早餐（三人份）",
+      "category": "早餐",
+      "price": "45.00"
+    },
+    {
+      "id": "item-0144",
+      "name": "牛肉粉早餐（四人份）",
+      "category": "早餐",
+      "price": "60.00"
+    },
+    {
+      "id": "item-0145",
+      "name": "馄饨早餐（单人份）",
+      "category": "早餐",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0146",
+      "name": "馄饨早餐（双人份）",
+      "category": "早餐",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0147",
+      "name": "馄饨早餐（三人份）",
+      "category": "早餐",
+      "price": "36.00"
+    },
+    {
+      "id": "item-0148",
+      "name": "馄饨早餐（四人份）",
+      "category": "早餐",
+      "price": "48.00"
+    },
+    {
+      "id": "item-0149",
+      "name": "鸡蛋饼早餐（单人份）",
+      "category": "早餐",
+      "price": "9.00"
+    },
+    {
+      "id": "item-0150",
+      "name": "鸡蛋饼早餐（双人份）",
+      "category": "早餐",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0151",
+      "name": "鸡蛋饼早餐（三人份）",
+      "category": "早餐",
+      "price": "27.00"
+    },
+    {
+      "id": "item-0152",
+      "name": "鸡蛋饼早餐（四人份）",
+      "category": "早餐",
+      "price": "36.00"
+    },
+    {
+      "id": "item-0153",
+      "name": "烧麦早餐（单人份）",
+      "category": "早餐",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0154",
+      "name": "烧麦早餐（双人份）",
+      "category": "早餐",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0155",
+      "name": "烧麦早餐（三人份）",
+      "category": "早餐",
+      "price": "30.00"
+    },
+    {
+      "id": "item-0156",
+      "name": "烧麦早餐（四人份）",
+      "category": "早餐",
+      "price": "40.00"
+    },
+    {
+      "id": "item-0157",
+      "name": "小米粥鸡蛋早餐（单人份）",
+      "category": "早餐",
+      "price": "8.00"
+    },
+    {
+      "id": "item-0158",
+      "name": "小米粥鸡蛋早餐（双人份）",
+      "category": "早餐",
+      "price": "16.00"
+    },
+    {
+      "id": "item-0159",
+      "name": "小米粥鸡蛋早餐（三人份）",
+      "category": "早餐",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0160",
+      "name": "小米粥鸡蛋早餐（四人份）",
+      "category": "早餐",
+      "price": "32.00"
+    },
+    {
+      "id": "item-0161",
+      "name": "牛肉饭（单人餐）",
+      "category": "正餐",
+      "price": "26.00"
+    },
+    {
+      "id": "item-0162",
+      "name": "牛肉饭（双人餐）",
+      "category": "正餐",
+      "price": "49.40"
+    },
+    {
+      "id": "item-0163",
+      "name": "牛肉饭（三人餐）",
+      "category": "正餐",
+      "price": "72.80"
+    },
+    {
+      "id": "item-0164",
+      "name": "牛肉饭（四人餐）",
+      "category": "正餐",
+      "price": "96.20"
+    },
+    {
+      "id": "item-0165",
+      "name": "咖喱鸡肉饭（单人餐）",
+      "category": "正餐",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0166",
+      "name": "咖喱鸡肉饭（双人餐）",
+      "category": "正餐",
+      "price": "41.80"
+    },
+    {
+      "id": "item-0167",
+      "name": "咖喱鸡肉饭（三人餐）",
+      "category": "正餐",
+      "price": "61.60"
+    },
+    {
+      "id": "item-0168",
+      "name": "咖喱鸡肉饭（四人餐）",
+      "category": "正餐",
+      "price": "81.40"
+    },
+    {
+      "id": "item-0169",
+      "name": "宫保鸡丁饭（单人餐）",
+      "category": "正餐",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0170",
+      "name": "宫保鸡丁饭（双人餐）",
+      "category": "正餐",
+      "price": "38.00"
+    },
+    {
+      "id": "item-0171",
+      "name": "宫保鸡丁饭（三人餐）",
+      "category": "正餐",
+      "price": "56.00"
+    },
+    {
+      "id": "item-0172",
+      "name": "宫保鸡丁饭（四人餐）",
+      "category": "正餐",
+      "price": "74.00"
+    },
+    {
+      "id": "item-0173",
+      "name": "番茄鸡蛋面（单人餐）",
+      "category": "正餐",
+      "price": "16.00"
+    },
+    {
+      "id": "item-0174",
+      "name": "番茄鸡蛋面（双人餐）",
+      "category": "正餐",
+      "price": "30.40"
+    },
+    {
+      "id": "item-0175",
+      "name": "番茄鸡蛋面（三人餐）",
+      "category": "正餐",
+      "price": "44.80"
+    },
+    {
+      "id": "item-0176",
+      "name": "番茄鸡蛋面（四人餐）",
+      "category": "正餐",
+      "price": "59.20"
+    },
+    {
+      "id": "item-0177",
+      "name": "兰州牛肉面（单人餐）",
+      "category": "正餐",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0178",
+      "name": "兰州牛肉面（双人餐）",
+      "category": "正餐",
+      "price": "34.20"
+    },
+    {
+      "id": "item-0179",
+      "name": "兰州牛肉面（三人餐）",
+      "category": "正餐",
+      "price": "50.40"
+    },
+    {
+      "id": "item-0180",
+      "name": "兰州牛肉面（四人餐）",
+      "category": "正餐",
+      "price": "66.60"
+    },
+    {
+      "id": "item-0181",
+      "name": "蔬菜沙拉（单人餐）",
+      "category": "正餐",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0182",
+      "name": "蔬菜沙拉（双人餐）",
+      "category": "正餐",
+      "price": "41.80"
+    },
+    {
+      "id": "item-0183",
+      "name": "蔬菜沙拉（三人餐）",
+      "category": "正餐",
+      "price": "61.60"
+    },
+    {
+      "id": "item-0184",
+      "name": "蔬菜沙拉（四人餐）",
+      "category": "正餐",
+      "price": "81.40"
+    },
+    {
+      "id": "item-0185",
+      "name": "烤鸡腿饭（单人餐）",
+      "category": "正餐",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0186",
+      "name": "烤鸡腿饭（双人餐）",
+      "category": "正餐",
+      "price": "45.60"
+    },
+    {
+      "id": "item-0187",
+      "name": "烤鸡腿饭（三人餐）",
+      "category": "正餐",
+      "price": "67.20"
+    },
+    {
+      "id": "item-0188",
+      "name": "烤鸡腿饭（四人餐）",
+      "category": "正餐",
+      "price": "88.80"
+    },
+    {
+      "id": "item-0189",
+      "name": "照烧鸡排饭（单人餐）",
+      "category": "正餐",
+      "price": "25.00"
+    },
+    {
+      "id": "item-0190",
+      "name": "照烧鸡排饭（双人餐）",
+      "category": "正餐",
+      "price": "47.50"
+    },
+    {
+      "id": "item-0191",
+      "name": "照烧鸡排饭（三人餐）",
+      "category": "正餐",
+      "price": "70.00"
+    },
+    {
+      "id": "item-0192",
+      "name": "照烧鸡排饭（四人餐）",
+      "category": "正餐",
+      "price": "92.50"
+    },
+    {
+      "id": "item-0193",
+      "name": "香菇卤肉饭（单人餐）",
+      "category": "正餐",
+      "price": "23.00"
+    },
+    {
+      "id": "item-0194",
+      "name": "香菇卤肉饭（双人餐）",
+      "category": "正餐",
+      "price": "43.70"
+    },
+    {
+      "id": "item-0195",
+      "name": "香菇卤肉饭（三人餐）",
+      "category": "正餐",
+      "price": "64.40"
+    },
+    {
+      "id": "item-0196",
+      "name": "香菇卤肉饭（四人餐）",
+      "category": "正餐",
+      "price": "85.10"
+    },
+    {
+      "id": "item-0197",
+      "name": "手工水饺（单人餐）",
+      "category": "正餐",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0198",
+      "name": "手工水饺（双人餐）",
+      "category": "正餐",
+      "price": "38.00"
+    },
+    {
+      "id": "item-0199",
+      "name": "手工水饺（三人餐）",
+      "category": "正餐",
+      "price": "56.00"
+    },
+    {
+      "id": "item-0200",
+      "name": "手工水饺（四人餐）",
+      "category": "正餐",
+      "price": "74.00"
+    },
+    {
+      "id": "item-0201",
+      "name": "原味可颂（单个）",
+      "category": "烘焙",
+      "price": "8.00"
+    },
+    {
+      "id": "item-0202",
+      "name": "原味可颂（2个装）",
+      "category": "烘焙",
+      "price": "15.20"
+    },
+    {
+      "id": "item-0203",
+      "name": "原味可颂（4个装）",
+      "category": "烘焙",
+      "price": "28.80"
+    },
+    {
+      "id": "item-0204",
+      "name": "原味可颂（6个装）",
+      "category": "烘焙",
+      "price": "41.60"
+    },
+    {
+      "id": "item-0205",
+      "name": "巧克力可颂（单个）",
+      "category": "烘焙",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0206",
+      "name": "巧克力可颂（2个装）",
+      "category": "烘焙",
+      "price": "22.80"
+    },
+    {
+      "id": "item-0207",
+      "name": "巧克力可颂（4个装）",
+      "category": "烘焙",
+      "price": "43.20"
+    },
+    {
+      "id": "item-0208",
+      "name": "巧克力可颂（6个装）",
+      "category": "烘焙",
+      "price": "62.40"
+    },
+    {
+      "id": "item-0209",
+      "name": "葡式蛋挞（单个）",
+      "category": "烘焙",
+      "price": "5.00"
+    },
+    {
+      "id": "item-0210",
+      "name": "葡式蛋挞（2个装）",
+      "category": "烘焙",
+      "price": "9.50"
+    },
+    {
+      "id": "item-0211",
+      "name": "葡式蛋挞（4个装）",
+      "category": "烘焙",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0212",
+      "name": "葡式蛋挞（6个装）",
+      "category": "烘焙",
+      "price": "26.00"
+    },
+    {
+      "id": "item-0213",
+      "name": "奶油泡芙（单个）",
+      "category": "烘焙",
+      "price": "7.00"
+    },
+    {
+      "id": "item-0214",
+      "name": "奶油泡芙（2个装）",
+      "category": "烘焙",
+      "price": "13.30"
+    },
+    {
+      "id": "item-0215",
+      "name": "奶油泡芙（4个装）",
+      "category": "烘焙",
+      "price": "25.20"
+    },
+    {
+      "id": "item-0216",
+      "name": "奶油泡芙（6个装）",
+      "category": "烘焙",
+      "price": "36.40"
+    },
+    {
+      "id": "item-0217",
+      "name": "肉松小贝（单个）",
+      "category": "烘焙",
+      "price": "6.00"
+    },
+    {
+      "id": "item-0218",
+      "name": "肉松小贝（2个装）",
+      "category": "烘焙",
+      "price": "11.40"
+    },
+    {
+      "id": "item-0219",
+      "name": "肉松小贝（4个装）",
+      "category": "烘焙",
+      "price": "21.60"
+    },
+    {
+      "id": "item-0220",
+      "name": "肉松小贝（6个装）",
+      "category": "烘焙",
+      "price": "31.20"
+    },
+    {
+      "id": "item-0221",
+      "name": "红豆面包（单个）",
+      "category": "烘焙",
+      "price": "7.00"
+    },
+    {
+      "id": "item-0222",
+      "name": "红豆面包（2个装）",
+      "category": "烘焙",
+      "price": "13.30"
+    },
+    {
+      "id": "item-0223",
+      "name": "红豆面包（4个装）",
+      "category": "烘焙",
+      "price": "25.20"
+    },
+    {
+      "id": "item-0224",
+      "name": "红豆面包（6个装）",
+      "category": "烘焙",
+      "price": "36.40"
+    },
+    {
+      "id": "item-0225",
+      "name": "全麦小餐包（单个）",
+      "category": "烘焙",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0226",
+      "name": "全麦小餐包（2个装）",
+      "category": "烘焙",
+      "price": "7.60"
+    },
+    {
+      "id": "item-0227",
+      "name": "全麦小餐包（4个装）",
+      "category": "烘焙",
+      "price": "14.40"
+    },
+    {
+      "id": "item-0228",
+      "name": "全麦小餐包（6个装）",
+      "category": "烘焙",
+      "price": "20.80"
+    },
+    {
+      "id": "item-0229",
+      "name": "肉桂卷（单个）",
+      "category": "烘焙",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0230",
+      "name": "肉桂卷（2个装）",
+      "category": "烘焙",
+      "price": "19.00"
+    },
+    {
+      "id": "item-0231",
+      "name": "肉桂卷（4个装）",
+      "category": "烘焙",
+      "price": "36.00"
+    },
+    {
+      "id": "item-0232",
+      "name": "肉桂卷（6个装）",
+      "category": "烘焙",
+      "price": "52.00"
+    },
+    {
+      "id": "item-0233",
+      "name": "蓝莓麦芬（单个）",
+      "category": "烘焙",
+      "price": "9.00"
+    },
+    {
+      "id": "item-0234",
+      "name": "蓝莓麦芬（2个装）",
+      "category": "烘焙",
+      "price": "17.10"
+    },
+    {
+      "id": "item-0235",
+      "name": "蓝莓麦芬（4个装）",
+      "category": "烘焙",
+      "price": "32.40"
+    },
+    {
+      "id": "item-0236",
+      "name": "蓝莓麦芬（6个装）",
+      "category": "烘焙",
+      "price": "46.80"
+    },
+    {
+      "id": "item-0237",
+      "name": "黄油司康（单个）",
+      "category": "烘焙",
+      "price": "8.00"
+    },
+    {
+      "id": "item-0238",
+      "name": "黄油司康（2个装）",
+      "category": "烘焙",
+      "price": "15.20"
+    },
+    {
+      "id": "item-0239",
+      "name": "黄油司康（4个装）",
+      "category": "烘焙",
+      "price": "28.80"
+    },
+    {
+      "id": "item-0240",
+      "name": "黄油司康（6个装）",
+      "category": "烘焙",
+      "price": "41.60"
+    },
+    {
+      "id": "item-0241",
+      "name": "黄油曲奇（100g装）",
+      "category": "饼干零食",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0242",
+      "name": "黄油曲奇（200g装）",
+      "category": "饼干零食",
+      "price": "20.40"
+    },
+    {
+      "id": "item-0243",
+      "name": "黄油曲奇（400g装）",
+      "category": "饼干零食",
+      "price": "37.20"
+    },
+    {
+      "id": "item-0244",
+      "name": "黄油曲奇（800g装）",
+      "category": "饼干零食",
+      "price": "67.20"
+    },
+    {
+      "id": "item-0245",
+      "name": "苏打饼干（100g装）",
+      "category": "饼干零食",
+      "price": "6.00"
+    },
+    {
+      "id": "item-0246",
+      "name": "苏打饼干（200g装）",
+      "category": "饼干零食",
+      "price": "10.20"
+    },
+    {
+      "id": "item-0247",
+      "name": "苏打饼干（400g装）",
+      "category": "饼干零食",
+      "price": "18.60"
+    },
+    {
+      "id": "item-0248",
+      "name": "苏打饼干（800g装）",
+      "category": "饼干零食",
+      "price": "33.60"
+    },
+    {
+      "id": "item-0249",
+      "name": "全麦饼干（100g装）",
+      "category": "饼干零食",
+      "price": "8.00"
+    },
+    {
+      "id": "item-0250",
+      "name": "全麦饼干（200g装）",
+      "category": "饼干零食",
+      "price": "13.60"
+    },
+    {
+      "id": "item-0251",
+      "name": "全麦饼干（400g装）",
+      "category": "饼干零食",
+      "price": "24.80"
+    },
+    {
+      "id": "item-0252",
+      "name": "全麦饼干（800g装）",
+      "category": "饼干零食",
+      "price": "44.80"
+    },
+    {
+      "id": "item-0253",
+      "name": "巧克力夹心饼干（100g装）",
+      "category": "饼干零食",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0254",
+      "name": "巧克力夹心饼干（200g装）",
+      "category": "饼干零食",
+      "price": "17.00"
+    },
+    {
+      "id": "item-0255",
+      "name": "巧克力夹心饼干（400g装）",
+      "category": "饼干零食",
+      "price": "31.00"
+    },
+    {
+      "id": "item-0256",
+      "name": "巧克力夹心饼干（800g装）",
+      "category": "饼干零食",
+      "price": "56.00"
+    },
+    {
+      "id": "item-0257",
+      "name": "燕麦饼干（100g装）",
+      "category": "饼干零食",
+      "price": "9.00"
+    },
+    {
+      "id": "item-0258",
+      "name": "燕麦饼干（200g装）",
+      "category": "饼干零食",
+      "price": "15.30"
+    },
+    {
+      "id": "item-0259",
+      "name": "燕麦饼干（400g装）",
+      "category": "饼干零食",
+      "price": "27.90"
+    },
+    {
+      "id": "item-0260",
+      "name": "燕麦饼干（800g装）",
+      "category": "饼干零食",
+      "price": "50.40"
+    },
+    {
+      "id": "item-0261",
+      "name": "威化饼干（100g装）",
+      "category": "饼干零食",
+      "price": "8.00"
+    },
+    {
+      "id": "item-0262",
+      "name": "威化饼干（200g装）",
+      "category": "饼干零食",
+      "price": "13.60"
+    },
+    {
+      "id": "item-0263",
+      "name": "威化饼干（400g装）",
+      "category": "饼干零食",
+      "price": "24.80"
+    },
+    {
+      "id": "item-0264",
+      "name": "威化饼干（800g装）",
+      "category": "饼干零食",
+      "price": "44.80"
+    },
+    {
+      "id": "item-0265",
+      "name": "海盐薄脆（100g装）",
+      "category": "饼干零食",
+      "price": "9.00"
+    },
+    {
+      "id": "item-0266",
+      "name": "海盐薄脆（200g装）",
+      "category": "饼干零食",
+      "price": "15.30"
+    },
+    {
+      "id": "item-0267",
+      "name": "海盐薄脆（400g装）",
+      "category": "饼干零食",
+      "price": "27.90"
+    },
+    {
+      "id": "item-0268",
+      "name": "海盐薄脆（800g装）",
+      "category": "饼干零食",
+      "price": "50.40"
+    },
+    {
+      "id": "item-0269",
+      "name": "芝士饼干（100g装）",
+      "category": "饼干零食",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0270",
+      "name": "芝士饼干（200g装）",
+      "category": "饼干零食",
+      "price": "20.40"
+    },
+    {
+      "id": "item-0271",
+      "name": "芝士饼干（400g装）",
+      "category": "饼干零食",
+      "price": "37.20"
+    },
+    {
+      "id": "item-0272",
+      "name": "芝士饼干（800g装）",
+      "category": "饼干零食",
+      "price": "67.20"
+    },
+    {
+      "id": "item-0273",
+      "name": "蔓越莓饼干（100g装）",
+      "category": "饼干零食",
+      "price": "11.00"
+    },
+    {
+      "id": "item-0274",
+      "name": "蔓越莓饼干（200g装）",
+      "category": "饼干零食",
+      "price": "18.70"
+    },
+    {
+      "id": "item-0275",
+      "name": "蔓越莓饼干（400g装）",
+      "category": "饼干零食",
+      "price": "34.10"
+    },
+    {
+      "id": "item-0276",
+      "name": "蔓越莓饼干（800g装）",
+      "category": "饼干零食",
+      "price": "61.60"
+    },
+    {
+      "id": "item-0277",
+      "name": "椰蓉饼干（100g装）",
+      "category": "饼干零食",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0278",
+      "name": "椰蓉饼干（200g装）",
+      "category": "饼干零食",
+      "price": "17.00"
+    },
+    {
+      "id": "item-0279",
+      "name": "椰蓉饼干（400g装）",
+      "category": "饼干零食",
+      "price": "31.00"
+    },
+    {
+      "id": "item-0280",
+      "name": "椰蓉饼干（800g装）",
+      "category": "饼干零食",
+      "price": "56.00"
+    },
+    {
+      "id": "item-0281",
+      "name": "原味花生（50g装）",
+      "category": "坚果果干",
+      "price": "3.00"
+    },
+    {
+      "id": "item-0282",
+      "name": "原味花生（100g装）",
+      "category": "坚果果干",
+      "price": "5.00"
+    },
+    {
+      "id": "item-0283",
+      "name": "原味花生（250g装）",
+      "category": "坚果果干",
+      "price": "11.50"
+    },
+    {
+      "id": "item-0284",
+      "name": "原味花生（500g装）",
+      "category": "坚果果干",
+      "price": "21.50"
+    },
+    {
+      "id": "item-0285",
+      "name": "瓜子仁（50g装）",
+      "category": "坚果果干",
+      "price": "4.20"
+    },
+    {
+      "id": "item-0286",
+      "name": "瓜子仁（100g装）",
+      "category": "坚果果干",
+      "price": "7.00"
+    },
+    {
+      "id": "item-0287",
+      "name": "瓜子仁（250g装）",
+      "category": "坚果果干",
+      "price": "16.10"
+    },
+    {
+      "id": "item-0288",
+      "name": "瓜子仁（500g装）",
+      "category": "坚果果干",
+      "price": "30.10"
+    },
+    {
+      "id": "item-0289",
+      "name": "腰果（50g装）",
+      "category": "坚果果干",
+      "price": "9.60"
+    },
+    {
+      "id": "item-0290",
+      "name": "腰果（100g装）",
+      "category": "坚果果干",
+      "price": "16.00"
+    },
+    {
+      "id": "item-0291",
+      "name": "腰果（250g装）",
+      "category": "坚果果干",
+      "price": "36.80"
+    },
+    {
+      "id": "item-0292",
+      "name": "腰果（500g装）",
+      "category": "坚果果干",
+      "price": "68.80"
+    },
+    {
+      "id": "item-0293",
+      "name": "巴旦木（50g装）",
+      "category": "坚果果干",
+      "price": "8.40"
+    },
+    {
+      "id": "item-0294",
+      "name": "巴旦木（100g装）",
+      "category": "坚果果干",
+      "price": "14.00"
+    },
+    {
+      "id": "item-0295",
+      "name": "巴旦木（250g装）",
+      "category": "坚果果干",
+      "price": "32.20"
+    },
+    {
+      "id": "item-0296",
+      "name": "巴旦木（500g装）",
+      "category": "坚果果干",
+      "price": "60.20"
+    },
+    {
+      "id": "item-0297",
+      "name": "开心果（50g装）",
+      "category": "坚果果干",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0298",
+      "name": "开心果（100g装）",
+      "category": "坚果果干",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0299",
+      "name": "开心果（250g装）",
+      "category": "坚果果干",
+      "price": "46.00"
+    },
+    {
+      "id": "item-0300",
+      "name": "开心果（500g装）",
+      "category": "坚果果干",
+      "price": "86.00"
+    },
+    {
+      "id": "item-0301",
+      "name": "核桃仁（50g装）",
+      "category": "坚果果干",
+      "price": "8.40"
+    },
+    {
+      "id": "item-0302",
+      "name": "核桃仁（100g装）",
+      "category": "坚果果干",
+      "price": "14.00"
+    },
+    {
+      "id": "item-0303",
+      "name": "核桃仁（250g装）",
+      "category": "坚果果干",
+      "price": "32.20"
+    },
+    {
+      "id": "item-0304",
+      "name": "核桃仁（500g装）",
+      "category": "坚果果干",
+      "price": "60.20"
+    },
+    {
+      "id": "item-0305",
+      "name": "夏威夷果（50g装）",
+      "category": "坚果果干",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0306",
+      "name": "夏威夷果（100g装）",
+      "category": "坚果果干",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0307",
+      "name": "夏威夷果（250g装）",
+      "category": "坚果果干",
+      "price": "46.00"
+    },
+    {
+      "id": "item-0308",
+      "name": "夏威夷果（500g装）",
+      "category": "坚果果干",
+      "price": "86.00"
+    },
+    {
+      "id": "item-0309",
+      "name": "葡萄干（50g装）",
+      "category": "坚果果干",
+      "price": "4.20"
+    },
+    {
+      "id": "item-0310",
+      "name": "葡萄干（100g装）",
+      "category": "坚果果干",
+      "price": "7.00"
+    },
+    {
+      "id": "item-0311",
+      "name": "葡萄干（250g装）",
+      "category": "坚果果干",
+      "price": "16.10"
+    },
+    {
+      "id": "item-0312",
+      "name": "葡萄干（500g装）",
+      "category": "坚果果干",
+      "price": "30.10"
+    },
+    {
+      "id": "item-0313",
+      "name": "蔓越莓干（50g装）",
+      "category": "坚果果干",
+      "price": "6.00"
+    },
+    {
+      "id": "item-0314",
+      "name": "蔓越莓干（100g装）",
+      "category": "坚果果干",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0315",
+      "name": "蔓越莓干（250g装）",
+      "category": "坚果果干",
+      "price": "23.00"
+    },
+    {
+      "id": "item-0316",
+      "name": "蔓越莓干（500g装）",
+      "category": "坚果果干",
+      "price": "43.00"
+    },
+    {
+      "id": "item-0317",
+      "name": "芒果干（50g装）",
+      "category": "坚果果干",
+      "price": "7.20"
+    },
+    {
+      "id": "item-0318",
+      "name": "芒果干（100g装）",
+      "category": "坚果果干",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0319",
+      "name": "芒果干（250g装）",
+      "category": "坚果果干",
+      "price": "27.60"
+    },
+    {
+      "id": "item-0320",
+      "name": "芒果干（500g装）",
+      "category": "坚果果干",
+      "price": "51.60"
+    },
+    {
+      "id": "item-0321",
+      "name": "红富士苹果（500g装）",
+      "category": "水果",
+      "price": "6.00"
+    },
+    {
+      "id": "item-0322",
+      "name": "红富士苹果（1kg装）",
+      "category": "水果",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0323",
+      "name": "红富士苹果（2kg装）",
+      "category": "水果",
+      "price": "22.80"
+    },
+    {
+      "id": "item-0324",
+      "name": "红富士苹果（5kg装）",
+      "category": "水果",
+      "price": "54.00"
+    },
+    {
+      "id": "item-0325",
+      "name": "香梨（500g装）",
+      "category": "水果",
+      "price": "7.00"
+    },
+    {
+      "id": "item-0326",
+      "name": "香梨（1kg装）",
+      "category": "水果",
+      "price": "14.00"
+    },
+    {
+      "id": "item-0327",
+      "name": "香梨（2kg装）",
+      "category": "水果",
+      "price": "26.60"
+    },
+    {
+      "id": "item-0328",
+      "name": "香梨（5kg装）",
+      "category": "水果",
+      "price": "63.00"
+    },
+    {
+      "id": "item-0329",
+      "name": "香蕉（500g装）",
+      "category": "水果",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0330",
+      "name": "香蕉（1kg装）",
+      "category": "水果",
+      "price": "8.00"
+    },
+    {
+      "id": "item-0331",
+      "name": "香蕉（2kg装）",
+      "category": "水果",
+      "price": "15.20"
+    },
+    {
+      "id": "item-0332",
+      "name": "香蕉（5kg装）",
+      "category": "水果",
+      "price": "36.00"
+    },
+    {
+      "id": "item-0333",
+      "name": "砂糖橘（500g装）",
+      "category": "水果",
+      "price": "7.00"
+    },
+    {
+      "id": "item-0334",
+      "name": "砂糖橘（1kg装）",
+      "category": "水果",
+      "price": "14.00"
+    },
+    {
+      "id": "item-0335",
+      "name": "砂糖橘（2kg装）",
+      "category": "水果",
+      "price": "26.60"
+    },
+    {
+      "id": "item-0336",
+      "name": "砂糖橘（5kg装）",
+      "category": "水果",
+      "price": "63.00"
+    },
+    {
+      "id": "item-0337",
+      "name": "脐橙（500g装）",
+      "category": "水果",
+      "price": "6.00"
+    },
+    {
+      "id": "item-0338",
+      "name": "脐橙（1kg装）",
+      "category": "水果",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0339",
+      "name": "脐橙（2kg装）",
+      "category": "水果",
+      "price": "22.80"
+    },
+    {
+      "id": "item-0340",
+      "name": "脐橙（5kg装）",
+      "category": "水果",
+      "price": "54.00"
+    },
+    {
+      "id": "item-0341",
+      "name": "猕猴桃（500g装）",
+      "category": "水果",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0342",
+      "name": "猕猴桃（1kg装）",
+      "category": "水果",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0343",
+      "name": "猕猴桃（2kg装）",
+      "category": "水果",
+      "price": "38.00"
+    },
+    {
+      "id": "item-0344",
+      "name": "猕猴桃（5kg装）",
+      "category": "水果",
+      "price": "90.00"
+    },
+    {
+      "id": "item-0345",
+      "name": "蓝莓（500g装）",
+      "category": "水果",
+      "price": "25.00"
+    },
+    {
+      "id": "item-0346",
+      "name": "蓝莓（1kg装）",
+      "category": "水果",
+      "price": "50.00"
+    },
+    {
+      "id": "item-0347",
+      "name": "蓝莓（2kg装）",
+      "category": "水果",
+      "price": "95.00"
+    },
+    {
+      "id": "item-0348",
+      "name": "蓝莓（5kg装）",
+      "category": "水果",
+      "price": "225.00"
+    },
+    {
+      "id": "item-0349",
+      "name": "草莓（500g装）",
+      "category": "水果",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0350",
+      "name": "草莓（1kg装）",
+      "category": "水果",
+      "price": "36.00"
+    },
+    {
+      "id": "item-0351",
+      "name": "草莓（2kg装）",
+      "category": "水果",
+      "price": "68.40"
+    },
+    {
+      "id": "item-0352",
+      "name": "草莓（5kg装）",
+      "category": "水果",
+      "price": "162.00"
+    },
+    {
+      "id": "item-0353",
+      "name": "阳光玫瑰葡萄（500g装）",
+      "category": "水果",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0354",
+      "name": "阳光玫瑰葡萄（1kg装）",
+      "category": "水果",
+      "price": "30.00"
+    },
+    {
+      "id": "item-0355",
+      "name": "阳光玫瑰葡萄（2kg装）",
+      "category": "水果",
+      "price": "57.00"
+    },
+    {
+      "id": "item-0356",
+      "name": "阳光玫瑰葡萄（5kg装）",
+      "category": "水果",
+      "price": "135.00"
+    },
+    {
+      "id": "item-0357",
+      "name": "圣女果（500g装）",
+      "category": "水果",
+      "price": "7.00"
+    },
+    {
+      "id": "item-0358",
+      "name": "圣女果（1kg装）",
+      "category": "水果",
+      "price": "14.00"
+    },
+    {
+      "id": "item-0359",
+      "name": "圣女果（2kg装）",
+      "category": "水果",
+      "price": "26.60"
+    },
+    {
+      "id": "item-0360",
+      "name": "圣女果（5kg装）",
+      "category": "水果",
+      "price": "63.00"
+    },
+    {
+      "id": "item-0361",
+      "name": "黑色中性笔（单支）",
+      "category": "笔类文具",
+      "price": "3.00"
+    },
+    {
+      "id": "item-0362",
+      "name": "黑色中性笔（3支装）",
+      "category": "笔类文具",
+      "price": "8.40"
+    },
+    {
+      "id": "item-0363",
+      "name": "黑色中性笔（6支装）",
+      "category": "笔类文具",
+      "price": "15.90"
+    },
+    {
+      "id": "item-0364",
+      "name": "黑色中性笔（12支装）",
+      "category": "笔类文具",
+      "price": "30.00"
+    },
+    {
+      "id": "item-0365",
+      "name": "蓝色圆珠笔（单支）",
+      "category": "笔类文具",
+      "price": "2.00"
+    },
+    {
+      "id": "item-0366",
+      "name": "蓝色圆珠笔（3支装）",
+      "category": "笔类文具",
+      "price": "5.60"
+    },
+    {
+      "id": "item-0367",
+      "name": "蓝色圆珠笔（6支装）",
+      "category": "笔类文具",
+      "price": "10.60"
+    },
+    {
+      "id": "item-0368",
+      "name": "蓝色圆珠笔（12支装）",
+      "category": "笔类文具",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0369",
+      "name": "2B铅笔（单支）",
+      "category": "笔类文具",
+      "price": "2.00"
+    },
+    {
+      "id": "item-0370",
+      "name": "2B铅笔（3支装）",
+      "category": "笔类文具",
+      "price": "5.60"
+    },
+    {
+      "id": "item-0371",
+      "name": "2B铅笔（6支装）",
+      "category": "笔类文具",
+      "price": "10.60"
+    },
+    {
+      "id": "item-0372",
+      "name": "2B铅笔（12支装）",
+      "category": "笔类文具",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0373",
+      "name": "自动铅笔（单支）",
+      "category": "笔类文具",
+      "price": "6.00"
+    },
+    {
+      "id": "item-0374",
+      "name": "自动铅笔（3支装）",
+      "category": "笔类文具",
+      "price": "16.80"
+    },
+    {
+      "id": "item-0375",
+      "name": "自动铅笔（6支装）",
+      "category": "笔类文具",
+      "price": "31.80"
+    },
+    {
+      "id": "item-0376",
+      "name": "自动铅笔（12支装）",
+      "category": "笔类文具",
+      "price": "60.00"
+    },
+    {
+      "id": "item-0377",
+      "name": "荧光标记笔（单支）",
+      "category": "笔类文具",
+      "price": "5.00"
+    },
+    {
+      "id": "item-0378",
+      "name": "荧光标记笔（3支装）",
+      "category": "笔类文具",
+      "price": "14.00"
+    },
+    {
+      "id": "item-0379",
+      "name": "荧光标记笔（6支装）",
+      "category": "笔类文具",
+      "price": "26.50"
+    },
+    {
+      "id": "item-0380",
+      "name": "荧光标记笔（12支装）",
+      "category": "笔类文具",
+      "price": "50.00"
+    },
+    {
+      "id": "item-0381",
+      "name": "油性记号笔（单支）",
+      "category": "笔类文具",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0382",
+      "name": "油性记号笔（3支装）",
+      "category": "笔类文具",
+      "price": "11.20"
+    },
+    {
+      "id": "item-0383",
+      "name": "油性记号笔（6支装）",
+      "category": "笔类文具",
+      "price": "21.20"
+    },
+    {
+      "id": "item-0384",
+      "name": "油性记号笔（12支装）",
+      "category": "笔类文具",
+      "price": "40.00"
+    },
+    {
+      "id": "item-0385",
+      "name": "白板笔（单支）",
+      "category": "笔类文具",
+      "price": "4.00"
+    },
+    {
+      "id": "item-0386",
+      "name": "白板笔（3支装）",
+      "category": "笔类文具",
+      "price": "11.20"
+    },
+    {
+      "id": "item-0387",
+      "name": "白板笔（6支装）",
+      "category": "笔类文具",
+      "price": "21.20"
+    },
+    {
+      "id": "item-0388",
+      "name": "白板笔（12支装）",
+      "category": "笔类文具",
+      "price": "40.00"
+    },
+    {
+      "id": "item-0389",
+      "name": "练字钢笔（单支）",
+      "category": "笔类文具",
+      "price": "25.00"
+    },
+    {
+      "id": "item-0390",
+      "name": "练字钢笔（3支装）",
+      "category": "笔类文具",
+      "price": "70.00"
+    },
+    {
+      "id": "item-0391",
+      "name": "练字钢笔（6支装）",
+      "category": "笔类文具",
+      "price": "132.50"
+    },
+    {
+      "id": "item-0392",
+      "name": "练字钢笔（12支装）",
+      "category": "笔类文具",
+      "price": "250.00"
+    },
+    {
+      "id": "item-0393",
+      "name": "软头书法笔（单支）",
+      "category": "笔类文具",
+      "price": "9.00"
+    },
+    {
+      "id": "item-0394",
+      "name": "软头书法笔（3支装）",
+      "category": "笔类文具",
+      "price": "25.20"
+    },
+    {
+      "id": "item-0395",
+      "name": "软头书法笔（6支装）",
+      "category": "笔类文具",
+      "price": "47.70"
+    },
+    {
+      "id": "item-0396",
+      "name": "软头书法笔（12支装）",
+      "category": "笔类文具",
+      "price": "90.00"
+    },
+    {
+      "id": "item-0397",
+      "name": "绘图针管笔（单支）",
+      "category": "笔类文具",
+      "price": "8.00"
+    },
+    {
+      "id": "item-0398",
+      "name": "绘图针管笔（3支装）",
+      "category": "笔类文具",
+      "price": "22.40"
+    },
+    {
+      "id": "item-0399",
+      "name": "绘图针管笔（6支装）",
+      "category": "笔类文具",
+      "price": "42.40"
+    },
+    {
+      "id": "item-0400",
+      "name": "绘图针管笔（12支装）",
+      "category": "笔类文具",
+      "price": "80.00"
+    },
+    {
+      "id": "item-0401",
+      "name": "横线笔记本（A6）",
+      "category": "纸本",
+      "price": "7.80"
+    },
+    {
+      "id": "item-0402",
+      "name": "横线笔记本（A5）",
+      "category": "纸本",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0403",
+      "name": "横线笔记本（B5）",
+      "category": "纸本",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0404",
+      "name": "横线笔记本（A4）",
+      "category": "纸本",
+      "price": "25.20"
+    },
+    {
+      "id": "item-0405",
+      "name": "方格笔记本（A6）",
+      "category": "纸本",
+      "price": "8.45"
+    },
+    {
+      "id": "item-0406",
+      "name": "方格笔记本（A5）",
+      "category": "纸本",
+      "price": "13.00"
+    },
+    {
+      "id": "item-0407",
+      "name": "方格笔记本（B5）",
+      "category": "纸本",
+      "price": "19.50"
+    },
+    {
+      "id": "item-0408",
+      "name": "方格笔记本（A4）",
+      "category": "纸本",
+      "price": "27.30"
+    },
+    {
+      "id": "item-0409",
+      "name": "点阵笔记本（A6）",
+      "category": "纸本",
+      "price": "9.75"
+    },
+    {
+      "id": "item-0410",
+      "name": "点阵笔记本（A5）",
+      "category": "纸本",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0411",
+      "name": "点阵笔记本（B5）",
+      "category": "纸本",
+      "price": "22.50"
+    },
+    {
+      "id": "item-0412",
+      "name": "点阵笔记本（A4）",
+      "category": "纸本",
+      "price": "31.50"
+    },
+    {
+      "id": "item-0413",
+      "name": "空白速写本（A6）",
+      "category": "纸本",
+      "price": "10.40"
+    },
+    {
+      "id": "item-0414",
+      "name": "空白速写本（A5）",
+      "category": "纸本",
+      "price": "16.00"
+    },
+    {
+      "id": "item-0415",
+      "name": "空白速写本（B5）",
+      "category": "纸本",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0416",
+      "name": "空白速写本（A4）",
+      "category": "纸本",
+      "price": "33.60"
+    },
+    {
+      "id": "item-0417",
+      "name": "素描本（A6）",
+      "category": "纸本",
+      "price": "11.70"
+    },
+    {
+      "id": "item-0418",
+      "name": "素描本（A5）",
+      "category": "纸本",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0419",
+      "name": "素描本（B5）",
+      "category": "纸本",
+      "price": "27.00"
+    },
+    {
+      "id": "item-0420",
+      "name": "素描本（A4）",
+      "category": "纸本",
+      "price": "37.80"
+    },
+    {
+      "id": "item-0421",
+      "name": "水彩本（A6）",
+      "category": "纸本",
+      "price": "16.25"
+    },
+    {
+      "id": "item-0422",
+      "name": "水彩本（A5）",
+      "category": "纸本",
+      "price": "25.00"
+    },
+    {
+      "id": "item-0423",
+      "name": "水彩本（B5）",
+      "category": "纸本",
+      "price": "37.50"
+    },
+    {
+      "id": "item-0424",
+      "name": "水彩本（A4）",
+      "category": "纸本",
+      "price": "52.50"
+    },
+    {
+      "id": "item-0425",
+      "name": "活页记事本（A6）",
+      "category": "纸本",
+      "price": "14.30"
+    },
+    {
+      "id": "item-0426",
+      "name": "活页记事本（A5）",
+      "category": "纸本",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0427",
+      "name": "活页记事本（B5）",
+      "category": "纸本",
+      "price": "33.00"
+    },
+    {
+      "id": "item-0428",
+      "name": "活页记事本（A4）",
+      "category": "纸本",
+      "price": "46.20"
+    },
+    {
+      "id": "item-0429",
+      "name": "会议记录本（A6）",
+      "category": "纸本",
+      "price": "9.75"
+    },
+    {
+      "id": "item-0430",
+      "name": "会议记录本（A5）",
+      "category": "纸本",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0431",
+      "name": "会议记录本（B5）",
+      "category": "纸本",
+      "price": "22.50"
+    },
+    {
+      "id": "item-0432",
+      "name": "会议记录本（A4）",
+      "category": "纸本",
+      "price": "31.50"
+    },
+    {
+      "id": "item-0433",
+      "name": "错题整理本（A6）",
+      "category": "纸本",
+      "price": "9.10"
+    },
+    {
+      "id": "item-0434",
+      "name": "错题整理本（A5）",
+      "category": "纸本",
+      "price": "14.00"
+    },
+    {
+      "id": "item-0435",
+      "name": "错题整理本（B5）",
+      "category": "纸本",
+      "price": "21.00"
+    },
+    {
+      "id": "item-0436",
+      "name": "错题整理本（A4）",
+      "category": "纸本",
+      "price": "29.40"
+    },
+    {
+      "id": "item-0437",
+      "name": "单词记忆本（A6）",
+      "category": "纸本",
+      "price": "6.50"
+    },
+    {
+      "id": "item-0438",
+      "name": "单词记忆本（A5）",
+      "category": "纸本",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0439",
+      "name": "单词记忆本（B5）",
+      "category": "纸本",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0440",
+      "name": "单词记忆本（A4）",
+      "category": "纸本",
+      "price": "21.00"
+    },
+    {
+      "id": "item-0441",
+      "name": "科幻小说（电子版）",
+      "category": "阅读",
+      "price": "19.00"
+    },
+    {
+      "id": "item-0442",
+      "name": "科幻小说（平装本）",
+      "category": "阅读",
+      "price": "38.00"
+    },
+    {
+      "id": "item-0443",
+      "name": "科幻小说（精装本）",
+      "category": "阅读",
+      "price": "64.60"
+    },
+    {
+      "id": "item-0444",
+      "name": "科幻小说（插图版）",
+      "category": "阅读",
+      "price": "79.80"
+    },
+    {
+      "id": "item-0445",
+      "name": "推理小说（电子版）",
+      "category": "阅读",
+      "price": "17.50"
+    },
+    {
+      "id": "item-0446",
+      "name": "推理小说（平装本）",
+      "category": "阅读",
+      "price": "35.00"
+    },
+    {
+      "id": "item-0447",
+      "name": "推理小说（精装本）",
+      "category": "阅读",
+      "price": "59.50"
+    },
+    {
+      "id": "item-0448",
+      "name": "推理小说（插图版）",
+      "category": "阅读",
+      "price": "73.50"
+    },
+    {
+      "id": "item-0449",
+      "name": "历史读物（电子版）",
+      "category": "阅读",
+      "price": "24.50"
+    },
+    {
+      "id": "item-0450",
+      "name": "历史读物（平装本）",
+      "category": "阅读",
+      "price": "49.00"
+    },
+    {
+      "id": "item-0451",
+      "name": "历史读物（精装本）",
+      "category": "阅读",
+      "price": "83.30"
+    },
+    {
+      "id": "item-0452",
+      "name": "历史读物（插图版）",
+      "category": "阅读",
+      "price": "102.90"
+    },
+    {
+      "id": "item-0453",
+      "name": "哲学入门书（电子版）",
+      "category": "阅读",
+      "price": "22.50"
+    },
+    {
+      "id": "item-0454",
+      "name": "哲学入门书（平装本）",
+      "category": "阅读",
+      "price": "45.00"
+    },
+    {
+      "id": "item-0455",
+      "name": "哲学入门书（精装本）",
+      "category": "阅读",
+      "price": "76.50"
+    },
+    {
+      "id": "item-0456",
+      "name": "哲学入门书（插图版）",
+      "category": "阅读",
+      "price": "94.50"
+    },
+    {
+      "id": "item-0457",
+      "name": "摄影教程（电子版）",
+      "category": "阅读",
+      "price": "32.50"
+    },
+    {
+      "id": "item-0458",
+      "name": "摄影教程（平装本）",
+      "category": "阅读",
+      "price": "65.00"
+    },
+    {
+      "id": "item-0459",
+      "name": "摄影教程（精装本）",
+      "category": "阅读",
+      "price": "110.50"
+    },
+    {
+      "id": "item-0460",
+      "name": "摄影教程（插图版）",
+      "category": "阅读",
+      "price": "136.50"
+    },
+    {
+      "id": "item-0461",
+      "name": "编程入门书（电子版）",
+      "category": "阅读",
+      "price": "39.50"
+    },
+    {
+      "id": "item-0462",
+      "name": "编程入门书（平装本）",
+      "category": "阅读",
+      "price": "79.00"
+    },
+    {
+      "id": "item-0463",
+      "name": "编程入门书（精装本）",
+      "category": "阅读",
+      "price": "134.30"
+    },
+    {
+      "id": "item-0464",
+      "name": "编程入门书（插图版）",
+      "category": "阅读",
+      "price": "165.90"
+    },
+    {
+      "id": "item-0465",
+      "name": "旅行随笔（电子版）",
+      "category": "阅读",
+      "price": "21.00"
+    },
+    {
+      "id": "item-0466",
+      "name": "旅行随笔（平装本）",
+      "category": "阅读",
+      "price": "42.00"
+    },
+    {
+      "id": "item-0467",
+      "name": "旅行随笔（精装本）",
+      "category": "阅读",
+      "price": "71.40"
+    },
+    {
+      "id": "item-0468",
+      "name": "旅行随笔（插图版）",
+      "category": "阅读",
+      "price": "88.20"
+    },
+    {
+      "id": "item-0469",
+      "name": "散文集（电子版）",
+      "category": "阅读",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0470",
+      "name": "散文集（平装本）",
+      "category": "阅读",
+      "price": "36.00"
+    },
+    {
+      "id": "item-0471",
+      "name": "散文集（精装本）",
+      "category": "阅读",
+      "price": "61.20"
+    },
+    {
+      "id": "item-0472",
+      "name": "散文集（插图版）",
+      "category": "阅读",
+      "price": "75.60"
+    },
+    {
+      "id": "item-0473",
+      "name": "自然科普书（电子版）",
+      "category": "阅读",
+      "price": "29.50"
+    },
+    {
+      "id": "item-0474",
+      "name": "自然科普书（平装本）",
+      "category": "阅读",
+      "price": "59.00"
+    },
+    {
+      "id": "item-0475",
+      "name": "自然科普书（精装本）",
+      "category": "阅读",
+      "price": "100.30"
+    },
+    {
+      "id": "item-0476",
+      "name": "自然科普书（插图版）",
+      "category": "阅读",
+      "price": "123.90"
+    },
+    {
+      "id": "item-0477",
+      "name": "烘焙食谱（电子版）",
+      "category": "阅读",
+      "price": "27.50"
+    },
+    {
+      "id": "item-0478",
+      "name": "烘焙食谱（平装本）",
+      "category": "阅读",
+      "price": "55.00"
+    },
+    {
+      "id": "item-0479",
+      "name": "烘焙食谱（精装本）",
+      "category": "阅读",
+      "price": "93.50"
+    },
+    {
+      "id": "item-0480",
+      "name": "烘焙食谱（插图版）",
+      "category": "阅读",
+      "price": "115.50"
+    },
+    {
+      "id": "item-0481",
+      "name": "洗发水（旅行装）",
+      "category": "个护洗护",
+      "price": "17.55"
+    },
+    {
+      "id": "item-0482",
+      "name": "洗发水（标准装）",
+      "category": "个护洗护",
+      "price": "39.00"
+    },
+    {
+      "id": "item-0483",
+      "name": "洗发水（大容量装）",
+      "category": "个护洗护",
+      "price": "62.40"
+    },
+    {
+      "id": "item-0484",
+      "name": "洗发水（双瓶装）",
+      "category": "个护洗护",
+      "price": "72.15"
+    },
+    {
+      "id": "item-0485",
+      "name": "护发素（旅行装）",
+      "category": "个护洗护",
+      "price": "15.75"
+    },
+    {
+      "id": "item-0486",
+      "name": "护发素（标准装）",
+      "category": "个护洗护",
+      "price": "35.00"
+    },
+    {
+      "id": "item-0487",
+      "name": "护发素（大容量装）",
+      "category": "个护洗护",
+      "price": "56.00"
+    },
+    {
+      "id": "item-0488",
+      "name": "护发素（双瓶装）",
+      "category": "个护洗护",
+      "price": "64.75"
+    },
+    {
+      "id": "item-0489",
+      "name": "沐浴露（旅行装）",
+      "category": "个护洗护",
+      "price": "13.05"
+    },
+    {
+      "id": "item-0490",
+      "name": "沐浴露（标准装）",
+      "category": "个护洗护",
+      "price": "29.00"
+    },
+    {
+      "id": "item-0491",
+      "name": "沐浴露（大容量装）",
+      "category": "个护洗护",
+      "price": "46.40"
+    },
+    {
+      "id": "item-0492",
+      "name": "沐浴露（双瓶装）",
+      "category": "个护洗护",
+      "price": "53.65"
+    },
+    {
+      "id": "item-0493",
+      "name": "身体乳（旅行装）",
+      "category": "个护洗护",
+      "price": "20.25"
+    },
+    {
+      "id": "item-0494",
+      "name": "身体乳（标准装）",
+      "category": "个护洗护",
+      "price": "45.00"
+    },
+    {
+      "id": "item-0495",
+      "name": "身体乳（大容量装）",
+      "category": "个护洗护",
+      "price": "72.00"
+    },
+    {
+      "id": "item-0496",
+      "name": "身体乳（双瓶装）",
+      "category": "个护洗护",
+      "price": "83.25"
+    },
+    {
+      "id": "item-0497",
+      "name": "洗手液（旅行装）",
+      "category": "个护洗护",
+      "price": "6.75"
+    },
+    {
+      "id": "item-0498",
+      "name": "洗手液（标准装）",
+      "category": "个护洗护",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0499",
+      "name": "洗手液（大容量装）",
+      "category": "个护洗护",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0500",
+      "name": "洗手液（双瓶装）",
+      "category": "个护洗护",
+      "price": "27.75"
+    },
+    {
+      "id": "item-0501",
+      "name": "护手霜（旅行装）",
+      "category": "个护洗护",
+      "price": "11.25"
+    },
+    {
+      "id": "item-0502",
+      "name": "护手霜（标准装）",
+      "category": "个护洗护",
+      "price": "25.00"
+    },
+    {
+      "id": "item-0503",
+      "name": "护手霜（大容量装）",
+      "category": "个护洗护",
+      "price": "40.00"
+    },
+    {
+      "id": "item-0504",
+      "name": "护手霜（双瓶装）",
+      "category": "个护洗护",
+      "price": "46.25"
+    },
+    {
+      "id": "item-0505",
+      "name": "卸妆水（旅行装）",
+      "category": "个护洗护",
+      "price": "22.05"
+    },
+    {
+      "id": "item-0506",
+      "name": "卸妆水（标准装）",
+      "category": "个护洗护",
+      "price": "49.00"
+    },
+    {
+      "id": "item-0507",
+      "name": "卸妆水（大容量装）",
+      "category": "个护洗护",
+      "price": "78.40"
+    },
+    {
+      "id": "item-0508",
+      "name": "卸妆水（双瓶装）",
+      "category": "个护洗护",
+      "price": "90.65"
+    },
+    {
+      "id": "item-0509",
+      "name": "爽肤水（旅行装）",
+      "category": "个护洗护",
+      "price": "31.05"
+    },
+    {
+      "id": "item-0510",
+      "name": "爽肤水（标准装）",
+      "category": "个护洗护",
+      "price": "69.00"
+    },
+    {
+      "id": "item-0511",
+      "name": "爽肤水（大容量装）",
+      "category": "个护洗护",
+      "price": "110.40"
+    },
+    {
+      "id": "item-0512",
+      "name": "爽肤水（双瓶装）",
+      "category": "个护洗护",
+      "price": "127.65"
+    },
+    {
+      "id": "item-0513",
+      "name": "保湿乳（旅行装）",
+      "category": "个护洗护",
+      "price": "35.55"
+    },
+    {
+      "id": "item-0514",
+      "name": "保湿乳（标准装）",
+      "category": "个护洗护",
+      "price": "79.00"
+    },
+    {
+      "id": "item-0515",
+      "name": "保湿乳（大容量装）",
+      "category": "个护洗护",
+      "price": "126.40"
+    },
+    {
+      "id": "item-0516",
+      "name": "保湿乳（双瓶装）",
+      "category": "个护洗护",
+      "price": "146.15"
+    },
+    {
+      "id": "item-0517",
+      "name": "防晒乳（旅行装）",
+      "category": "个护洗护",
+      "price": "40.05"
+    },
+    {
+      "id": "item-0518",
+      "name": "防晒乳（标准装）",
+      "category": "个护洗护",
+      "price": "89.00"
+    },
+    {
+      "id": "item-0519",
+      "name": "防晒乳（大容量装）",
+      "category": "个护洗护",
+      "price": "142.40"
+    },
+    {
+      "id": "item-0520",
+      "name": "防晒乳（双瓶装）",
+      "category": "个护洗护",
+      "price": "164.65"
+    },
+    {
+      "id": "item-0521",
+      "name": "洗衣液（500mL装）",
+      "category": "家居清洁",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0522",
+      "name": "洗衣液（1L装）",
+      "category": "家居清洁",
+      "price": "25.50"
+    },
+    {
+      "id": "item-0523",
+      "name": "洗衣液（2L装）",
+      "category": "家居清洁",
+      "price": "45.00"
+    },
+    {
+      "id": "item-0524",
+      "name": "洗衣液（4L装）",
+      "category": "家居清洁",
+      "price": "82.50"
+    },
+    {
+      "id": "item-0525",
+      "name": "衣物柔顺剂（500mL装）",
+      "category": "家居清洁",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0526",
+      "name": "衣物柔顺剂（1L装）",
+      "category": "家居清洁",
+      "price": "30.60"
+    },
+    {
+      "id": "item-0527",
+      "name": "衣物柔顺剂（2L装）",
+      "category": "家居清洁",
+      "price": "54.00"
+    },
+    {
+      "id": "item-0528",
+      "name": "衣物柔顺剂（4L装）",
+      "category": "家居清洁",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0529",
+      "name": "餐具洗洁精（500mL装）",
+      "category": "家居清洁",
+      "price": "8.00"
+    },
+    {
+      "id": "item-0530",
+      "name": "餐具洗洁精（1L装）",
+      "category": "家居清洁",
+      "price": "13.60"
+    },
+    {
+      "id": "item-0531",
+      "name": "餐具洗洁精（2L装）",
+      "category": "家居清洁",
+      "price": "24.00"
+    },
+    {
+      "id": "item-0532",
+      "name": "餐具洗洁精（4L装）",
+      "category": "家居清洁",
+      "price": "44.00"
+    },
+    {
+      "id": "item-0533",
+      "name": "多用途清洁剂（500mL装）",
+      "category": "家居清洁",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0534",
+      "name": "多用途清洁剂（1L装）",
+      "category": "家居清洁",
+      "price": "25.50"
+    },
+    {
+      "id": "item-0535",
+      "name": "多用途清洁剂（2L装）",
+      "category": "家居清洁",
+      "price": "45.00"
+    },
+    {
+      "id": "item-0536",
+      "name": "多用途清洁剂（4L装）",
+      "category": "家居清洁",
+      "price": "82.50"
+    },
+    {
+      "id": "item-0537",
+      "name": "玻璃清洁剂（500mL装）",
+      "category": "家居清洁",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0538",
+      "name": "玻璃清洁剂（1L装）",
+      "category": "家居清洁",
+      "price": "20.40"
+    },
+    {
+      "id": "item-0539",
+      "name": "玻璃清洁剂（2L装）",
+      "category": "家居清洁",
+      "price": "36.00"
+    },
+    {
+      "id": "item-0540",
+      "name": "玻璃清洁剂（4L装）",
+      "category": "家居清洁",
+      "price": "66.00"
+    },
+    {
+      "id": "item-0541",
+      "name": "厨房去油剂（500mL装）",
+      "category": "家居清洁",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0542",
+      "name": "厨房去油剂（1L装）",
+      "category": "家居清洁",
+      "price": "30.60"
+    },
+    {
+      "id": "item-0543",
+      "name": "厨房去油剂（2L装）",
+      "category": "家居清洁",
+      "price": "54.00"
+    },
+    {
+      "id": "item-0544",
+      "name": "厨房去油剂（4L装）",
+      "category": "家居清洁",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0545",
+      "name": "地板清洁剂（500mL装）",
+      "category": "家居清洁",
+      "price": "16.00"
+    },
+    {
+      "id": "item-0546",
+      "name": "地板清洁剂（1L装）",
+      "category": "家居清洁",
+      "price": "27.20"
+    },
+    {
+      "id": "item-0547",
+      "name": "地板清洁剂（2L装）",
+      "category": "家居清洁",
+      "price": "48.00"
+    },
+    {
+      "id": "item-0548",
+      "name": "地板清洁剂（4L装）",
+      "category": "家居清洁",
+      "price": "88.00"
+    },
+    {
+      "id": "item-0549",
+      "name": "浴室清洁剂（500mL装）",
+      "category": "家居清洁",
+      "price": "20.00"
+    },
+    {
+      "id": "item-0550",
+      "name": "浴室清洁剂（1L装）",
+      "category": "家居清洁",
+      "price": "34.00"
+    },
+    {
+      "id": "item-0551",
+      "name": "浴室清洁剂（2L装）",
+      "category": "家居清洁",
+      "price": "60.00"
+    },
+    {
+      "id": "item-0552",
+      "name": "浴室清洁剂（4L装）",
+      "category": "家居清洁",
+      "price": "110.00"
+    },
+    {
+      "id": "item-0553",
+      "name": "衣物除菌液（500mL装）",
+      "category": "家居清洁",
+      "price": "22.00"
+    },
+    {
+      "id": "item-0554",
+      "name": "衣物除菌液（1L装）",
+      "category": "家居清洁",
+      "price": "37.40"
+    },
+    {
+      "id": "item-0555",
+      "name": "衣物除菌液（2L装）",
+      "category": "家居清洁",
+      "price": "66.00"
+    },
+    {
+      "id": "item-0556",
+      "name": "衣物除菌液（4L装）",
+      "category": "家居清洁",
+      "price": "121.00"
+    },
+    {
+      "id": "item-0557",
+      "name": "洁厕液（500mL装）",
+      "category": "家居清洁",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0558",
+      "name": "洁厕液（1L装）",
+      "category": "家居清洁",
+      "price": "17.00"
+    },
+    {
+      "id": "item-0559",
+      "name": "洁厕液（2L装）",
+      "category": "家居清洁",
+      "price": "30.00"
+    },
+    {
+      "id": "item-0560",
+      "name": "洁厕液（4L装）",
+      "category": "家居清洁",
+      "price": "55.00"
+    },
+    {
+      "id": "item-0561",
+      "name": "陶瓷饭碗（单件）",
+      "category": "餐具杯碟",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0562",
+      "name": "陶瓷饭碗（两件套）",
+      "category": "餐具杯碟",
+      "price": "22.80"
+    },
+    {
+      "id": "item-0563",
+      "name": "陶瓷饭碗（四件套）",
+      "category": "餐具杯碟",
+      "price": "42.00"
+    },
+    {
+      "id": "item-0564",
+      "name": "陶瓷饭碗（六件套）",
+      "category": "餐具杯碟",
+      "price": "60.00"
+    },
+    {
+      "id": "item-0565",
+      "name": "陶瓷汤碗（单件）",
+      "category": "餐具杯碟",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0566",
+      "name": "陶瓷汤碗（两件套）",
+      "category": "餐具杯碟",
+      "price": "34.20"
+    },
+    {
+      "id": "item-0567",
+      "name": "陶瓷汤碗（四件套）",
+      "category": "餐具杯碟",
+      "price": "63.00"
+    },
+    {
+      "id": "item-0568",
+      "name": "陶瓷汤碗（六件套）",
+      "category": "餐具杯碟",
+      "price": "90.00"
+    },
+    {
+      "id": "item-0569",
+      "name": "玻璃水杯（单件）",
+      "category": "餐具杯碟",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0570",
+      "name": "玻璃水杯（两件套）",
+      "category": "餐具杯碟",
+      "price": "28.50"
+    },
+    {
+      "id": "item-0571",
+      "name": "玻璃水杯（四件套）",
+      "category": "餐具杯碟",
+      "price": "52.50"
+    },
+    {
+      "id": "item-0572",
+      "name": "玻璃水杯（六件套）",
+      "category": "餐具杯碟",
+      "price": "75.00"
+    },
+    {
+      "id": "item-0573",
+      "name": "不锈钢餐盘（单件）",
+      "category": "餐具杯碟",
+      "price": "25.00"
+    },
+    {
+      "id": "item-0574",
+      "name": "不锈钢餐盘（两件套）",
+      "category": "餐具杯碟",
+      "price": "47.50"
+    },
+    {
+      "id": "item-0575",
+      "name": "不锈钢餐盘（四件套）",
+      "category": "餐具杯碟",
+      "price": "87.50"
+    },
+    {
+      "id": "item-0576",
+      "name": "不锈钢餐盘（六件套）",
+      "category": "餐具杯碟",
+      "price": "125.00"
+    },
+    {
+      "id": "item-0577",
+      "name": "木质筷子（单件）",
+      "category": "餐具杯碟",
+      "price": "5.00"
+    },
+    {
+      "id": "item-0578",
+      "name": "木质筷子（两件套）",
+      "category": "餐具杯碟",
+      "price": "9.50"
+    },
+    {
+      "id": "item-0579",
+      "name": "木质筷子（四件套）",
+      "category": "餐具杯碟",
+      "price": "17.50"
+    },
+    {
+      "id": "item-0580",
+      "name": "木质筷子（六件套）",
+      "category": "餐具杯碟",
+      "price": "25.00"
+    },
+    {
+      "id": "item-0581",
+      "name": "不锈钢餐勺（单件）",
+      "category": "餐具杯碟",
+      "price": "8.00"
+    },
+    {
+      "id": "item-0582",
+      "name": "不锈钢餐勺（两件套）",
+      "category": "餐具杯碟",
+      "price": "15.20"
+    },
+    {
+      "id": "item-0583",
+      "name": "不锈钢餐勺（四件套）",
+      "category": "餐具杯碟",
+      "price": "28.00"
+    },
+    {
+      "id": "item-0584",
+      "name": "不锈钢餐勺（六件套）",
+      "category": "餐具杯碟",
+      "price": "40.00"
+    },
+    {
+      "id": "item-0585",
+      "name": "陶瓷咖啡杯（单件）",
+      "category": "餐具杯碟",
+      "price": "28.00"
+    },
+    {
+      "id": "item-0586",
+      "name": "陶瓷咖啡杯（两件套）",
+      "category": "餐具杯碟",
+      "price": "53.20"
+    },
+    {
+      "id": "item-0587",
+      "name": "陶瓷咖啡杯（四件套）",
+      "category": "餐具杯碟",
+      "price": "98.00"
+    },
+    {
+      "id": "item-0588",
+      "name": "陶瓷咖啡杯（六件套）",
+      "category": "餐具杯碟",
+      "price": "140.00"
+    },
+    {
+      "id": "item-0589",
+      "name": "玻璃甜品碗（单件）",
+      "category": "餐具杯碟",
+      "price": "16.00"
+    },
+    {
+      "id": "item-0590",
+      "name": "玻璃甜品碗（两件套）",
+      "category": "餐具杯碟",
+      "price": "30.40"
+    },
+    {
+      "id": "item-0591",
+      "name": "玻璃甜品碗（四件套）",
+      "category": "餐具杯碟",
+      "price": "56.00"
+    },
+    {
+      "id": "item-0592",
+      "name": "玻璃甜品碗（六件套）",
+      "category": "餐具杯碟",
+      "price": "80.00"
+    },
+    {
+      "id": "item-0593",
+      "name": "陶瓷小碟（单件）",
+      "category": "餐具杯碟",
+      "price": "10.00"
+    },
+    {
+      "id": "item-0594",
+      "name": "陶瓷小碟（两件套）",
+      "category": "餐具杯碟",
+      "price": "19.00"
+    },
+    {
+      "id": "item-0595",
+      "name": "陶瓷小碟（四件套）",
+      "category": "餐具杯碟",
+      "price": "35.00"
+    },
+    {
+      "id": "item-0596",
+      "name": "陶瓷小碟（六件套）",
+      "category": "餐具杯碟",
+      "price": "50.00"
+    },
+    {
+      "id": "item-0597",
+      "name": "耐热玻璃饭盒（单件）",
+      "category": "餐具杯碟",
+      "price": "29.00"
+    },
+    {
+      "id": "item-0598",
+      "name": "耐热玻璃饭盒（两件套）",
+      "category": "餐具杯碟",
+      "price": "55.10"
+    },
+    {
+      "id": "item-0599",
+      "name": "耐热玻璃饭盒（四件套）",
+      "category": "餐具杯碟",
+      "price": "101.50"
+    },
+    {
+      "id": "item-0600",
+      "name": "耐热玻璃饭盒（六件套）",
+      "category": "餐具杯碟",
+      "price": "145.00"
+    },
+    {
+      "id": "item-0601",
+      "name": "桌面收纳盒（小号）",
+      "category": "收纳整理",
+      "price": "10.50"
+    },
+    {
+      "id": "item-0602",
+      "name": "桌面收纳盒（中号）",
+      "category": "收纳整理",
+      "price": "15.00"
+    },
+    {
+      "id": "item-0603",
+      "name": "桌面收纳盒（大号）",
+      "category": "收纳整理",
+      "price": "22.50"
+    },
+    {
+      "id": "item-0604",
+      "name": "桌面收纳盒（三件套）",
+      "category": "收纳整理",
+      "price": "39.00"
+    },
+    {
+      "id": "item-0605",
+      "name": "抽屉分隔盒（小号）",
+      "category": "收纳整理",
+      "price": "8.40"
+    },
+    {
+      "id": "item-0606",
+      "name": "抽屉分隔盒（中号）",
+      "category": "收纳整理",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0607",
+      "name": "抽屉分隔盒（大号）",
+      "category": "收纳整理",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0608",
+      "name": "抽屉分隔盒（三件套）",
+      "category": "收纳整理",
+      "price": "31.20"
+    },
+    {
+      "id": "item-0609",
+      "name": "衣柜收纳箱（小号）",
+      "category": "收纳整理",
+      "price": "27.30"
+    },
+    {
+      "id": "item-0610",
+      "name": "衣柜收纳箱（中号）",
+      "category": "收纳整理",
+      "price": "39.00"
+    },
+    {
+      "id": "item-0611",
+      "name": "衣柜收纳箱（大号）",
+      "category": "收纳整理",
+      "price": "58.50"
+    },
+    {
+      "id": "item-0612",
+      "name": "衣柜收纳箱（三件套）",
+      "category": "收纳整理",
+      "price": "101.40"
+    },
+    {
+      "id": "item-0613",
+      "name": "床底收纳箱（小号）",
+      "category": "收纳整理",
+      "price": "31.50"
+    },
+    {
+      "id": "item-0614",
+      "name": "床底收纳箱（中号）",
+      "category": "收纳整理",
+      "price": "45.00"
+    },
+    {
+      "id": "item-0615",
+      "name": "床底收纳箱（大号）",
+      "category": "收纳整理",
+      "price": "67.50"
+    },
+    {
+      "id": "item-0616",
+      "name": "床底收纳箱（三件套）",
+      "category": "收纳整理",
+      "price": "117.00"
+    },
+    {
+      "id": "item-0617",
+      "name": "旅行收纳包（小号）",
+      "category": "收纳整理",
+      "price": "20.30"
+    },
+    {
+      "id": "item-0618",
+      "name": "旅行收纳包（中号）",
+      "category": "收纳整理",
+      "price": "29.00"
+    },
+    {
+      "id": "item-0619",
+      "name": "旅行收纳包（大号）",
+      "category": "收纳整理",
+      "price": "43.50"
+    },
+    {
+      "id": "item-0620",
+      "name": "旅行收纳包（三件套）",
+      "category": "收纳整理",
+      "price": "75.40"
+    },
+    {
+      "id": "item-0621",
+      "name": "透明整理箱（小号）",
+      "category": "收纳整理",
+      "price": "24.50"
+    },
+    {
+      "id": "item-0622",
+      "name": "透明整理箱（中号）",
+      "category": "收纳整理",
+      "price": "35.00"
+    },
+    {
+      "id": "item-0623",
+      "name": "透明整理箱（大号）",
+      "category": "收纳整理",
+      "price": "52.50"
+    },
+    {
+      "id": "item-0624",
+      "name": "透明整理箱（三件套）",
+      "category": "收纳整理",
+      "price": "91.00"
+    },
+    {
+      "id": "item-0625",
+      "name": "带盖储物筐（小号）",
+      "category": "收纳整理",
+      "price": "17.50"
+    },
+    {
+      "id": "item-0626",
+      "name": "带盖储物筐（中号）",
+      "category": "收纳整理",
+      "price": "25.00"
+    },
+    {
+      "id": "item-0627",
+      "name": "带盖储物筐（大号）",
+      "category": "收纳整理",
+      "price": "37.50"
+    },
+    {
+      "id": "item-0628",
+      "name": "带盖储物筐（三件套）",
+      "category": "收纳整理",
+      "price": "65.00"
+    },
+    {
+      "id": "item-0629",
+      "name": "玩具收纳篮（小号）",
+      "category": "收纳整理",
+      "price": "20.30"
+    },
+    {
+      "id": "item-0630",
+      "name": "玩具收纳篮（中号）",
+      "category": "收纳整理",
+      "price": "29.00"
+    },
+    {
+      "id": "item-0631",
+      "name": "玩具收纳篮（大号）",
+      "category": "收纳整理",
+      "price": "43.50"
+    },
+    {
+      "id": "item-0632",
+      "name": "玩具收纳篮（三件套）",
+      "category": "收纳整理",
+      "price": "75.40"
+    },
+    {
+      "id": "item-0633",
+      "name": "文件收纳盒（小号）",
+      "category": "收纳整理",
+      "price": "12.60"
+    },
+    {
+      "id": "item-0634",
+      "name": "文件收纳盒（中号）",
+      "category": "收纳整理",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0635",
+      "name": "文件收纳盒（大号）",
+      "category": "收纳整理",
+      "price": "27.00"
+    },
+    {
+      "id": "item-0636",
+      "name": "文件收纳盒（三件套）",
+      "category": "收纳整理",
+      "price": "46.80"
+    },
+    {
+      "id": "item-0637",
+      "name": "数据线收纳盒（小号）",
+      "category": "收纳整理",
+      "price": "8.40"
+    },
+    {
+      "id": "item-0638",
+      "name": "数据线收纳盒（中号）",
+      "category": "收纳整理",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0639",
+      "name": "数据线收纳盒（大号）",
+      "category": "收纳整理",
+      "price": "18.00"
+    },
+    {
+      "id": "item-0640",
+      "name": "数据线收纳盒（三件套）",
+      "category": "收纳整理",
+      "price": "31.20"
+    },
+    {
+      "id": "item-0641",
+      "name": "纯棉毛巾（基础款）",
+      "category": "家纺",
+      "price": "19.00"
+    },
+    {
+      "id": "item-0642",
+      "name": "纯棉毛巾（加厚款）",
+      "category": "家纺",
+      "price": "26.60"
+    },
+    {
+      "id": "item-0643",
+      "name": "纯棉毛巾（亲肤款）",
+      "category": "家纺",
+      "price": "34.20"
+    },
+    {
+      "id": "item-0644",
+      "name": "纯棉毛巾（礼盒装）",
+      "category": "家纺",
+      "price": "47.50"
+    },
+    {
+      "id": "item-0645",
+      "name": "纯棉浴巾（基础款）",
+      "category": "家纺",
+      "price": "59.00"
+    },
+    {
+      "id": "item-0646",
+      "name": "纯棉浴巾（加厚款）",
+      "category": "家纺",
+      "price": "82.60"
+    },
+    {
+      "id": "item-0647",
+      "name": "纯棉浴巾（亲肤款）",
+      "category": "家纺",
+      "price": "106.20"
+    },
+    {
+      "id": "item-0648",
+      "name": "纯棉浴巾（礼盒装）",
+      "category": "家纺",
+      "price": "147.50"
+    },
+    {
+      "id": "item-0649",
+      "name": "纯棉枕套（基础款）",
+      "category": "家纺",
+      "price": "29.00"
+    },
+    {
+      "id": "item-0650",
+      "name": "纯棉枕套（加厚款）",
+      "category": "家纺",
+      "price": "40.60"
+    },
+    {
+      "id": "item-0651",
+      "name": "纯棉枕套（亲肤款）",
+      "category": "家纺",
+      "price": "52.20"
+    },
+    {
+      "id": "item-0652",
+      "name": "纯棉枕套（礼盒装）",
+      "category": "家纺",
+      "price": "72.50"
+    },
+    {
+      "id": "item-0653",
+      "name": "床笠（基础款）",
+      "category": "家纺",
+      "price": "89.00"
+    },
+    {
+      "id": "item-0654",
+      "name": "床笠（加厚款）",
+      "category": "家纺",
+      "price": "124.60"
+    },
+    {
+      "id": "item-0655",
+      "name": "床笠（亲肤款）",
+      "category": "家纺",
+      "price": "160.20"
+    },
+    {
+      "id": "item-0656",
+      "name": "床笠（礼盒装）",
+      "category": "家纺",
+      "price": "222.50"
+    },
+    {
+      "id": "item-0657",
+      "name": "夏凉被（基础款）",
+      "category": "家纺",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0658",
+      "name": "夏凉被（加厚款）",
+      "category": "家纺",
+      "price": "180.60"
+    },
+    {
+      "id": "item-0659",
+      "name": "夏凉被（亲肤款）",
+      "category": "家纺",
+      "price": "232.20"
+    },
+    {
+      "id": "item-0660",
+      "name": "夏凉被（礼盒装）",
+      "category": "家纺",
+      "price": "322.50"
+    },
+    {
+      "id": "item-0661",
+      "name": "抱枕（基础款）",
+      "category": "家纺",
+      "price": "39.00"
+    },
+    {
+      "id": "item-0662",
+      "name": "抱枕（加厚款）",
+      "category": "家纺",
+      "price": "54.60"
+    },
+    {
+      "id": "item-0663",
+      "name": "抱枕（亲肤款）",
+      "category": "家纺",
+      "price": "70.20"
+    },
+    {
+      "id": "item-0664",
+      "name": "抱枕（礼盒装）",
+      "category": "家纺",
+      "price": "97.50"
+    },
+    {
+      "id": "item-0665",
+      "name": "沙发毯（基础款）",
+      "category": "家纺",
+      "price": "69.00"
+    },
+    {
+      "id": "item-0666",
+      "name": "沙发毯（加厚款）",
+      "category": "家纺",
+      "price": "96.60"
+    },
+    {
+      "id": "item-0667",
+      "name": "沙发毯（亲肤款）",
+      "category": "家纺",
+      "price": "124.20"
+    },
+    {
+      "id": "item-0668",
+      "name": "沙发毯（礼盒装）",
+      "category": "家纺",
+      "price": "172.50"
+    },
+    {
+      "id": "item-0669",
+      "name": "午睡毯（基础款）",
+      "category": "家纺",
+      "price": "49.00"
+    },
+    {
+      "id": "item-0670",
+      "name": "午睡毯（加厚款）",
+      "category": "家纺",
+      "price": "68.60"
+    },
+    {
+      "id": "item-0671",
+      "name": "午睡毯（亲肤款）",
+      "category": "家纺",
+      "price": "88.20"
+    },
+    {
+      "id": "item-0672",
+      "name": "午睡毯（礼盒装）",
+      "category": "家纺",
+      "price": "122.50"
+    },
+    {
+      "id": "item-0673",
+      "name": "擦手巾（基础款）",
+      "category": "家纺",
+      "price": "12.00"
+    },
+    {
+      "id": "item-0674",
+      "name": "擦手巾（加厚款）",
+      "category": "家纺",
+      "price": "16.80"
+    },
+    {
+      "id": "item-0675",
+      "name": "擦手巾（亲肤款）",
+      "category": "家纺",
+      "price": "21.60"
+    },
+    {
+      "id": "item-0676",
+      "name": "擦手巾（礼盒装）",
+      "category": "家纺",
+      "price": "30.00"
+    },
+    {
+      "id": "item-0677",
+      "name": "厨房擦巾（基础款）",
+      "category": "家纺",
+      "price": "9.00"
+    },
+    {
+      "id": "item-0678",
+      "name": "厨房擦巾（加厚款）",
+      "category": "家纺",
+      "price": "12.60"
+    },
+    {
+      "id": "item-0679",
+      "name": "厨房擦巾（亲肤款）",
+      "category": "家纺",
+      "price": "16.20"
+    },
+    {
+      "id": "item-0680",
+      "name": "厨房擦巾（礼盒装）",
+      "category": "家纺",
+      "price": "22.50"
+    },
+    {
+      "id": "item-0681",
+      "name": "护眼台灯（入门款）",
+      "category": "灯具",
+      "price": "69.30"
+    },
+    {
+      "id": "item-0682",
+      "name": "护眼台灯（标准款）",
+      "category": "灯具",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0683",
+      "name": "护眼台灯（升级款）",
+      "category": "灯具",
+      "price": "148.50"
+    },
+    {
+      "id": "item-0684",
+      "name": "护眼台灯（高配款）",
+      "category": "灯具",
+      "price": "217.80"
+    },
+    {
+      "id": "item-0685",
+      "name": "夹式阅读灯（入门款）",
+      "category": "灯具",
+      "price": "27.30"
+    },
+    {
+      "id": "item-0686",
+      "name": "夹式阅读灯（标准款）",
+      "category": "灯具",
+      "price": "39.00"
+    },
+    {
+      "id": "item-0687",
+      "name": "夹式阅读灯（升级款）",
+      "category": "灯具",
+      "price": "58.50"
+    },
+    {
+      "id": "item-0688",
+      "name": "夹式阅读灯（高配款）",
+      "category": "灯具",
+      "price": "85.80"
+    },
+    {
+      "id": "item-0689",
+      "name": "充电小夜灯（入门款）",
+      "category": "灯具",
+      "price": "20.30"
+    },
+    {
+      "id": "item-0690",
+      "name": "充电小夜灯（标准款）",
+      "category": "灯具",
+      "price": "29.00"
+    },
+    {
+      "id": "item-0691",
+      "name": "充电小夜灯（升级款）",
+      "category": "灯具",
+      "price": "43.50"
+    },
+    {
+      "id": "item-0692",
+      "name": "充电小夜灯（高配款）",
+      "category": "灯具",
+      "price": "63.80"
+    },
+    {
+      "id": "item-0693",
+      "name": "桌面氛围灯（入门款）",
+      "category": "灯具",
+      "price": "48.30"
+    },
+    {
+      "id": "item-0694",
+      "name": "桌面氛围灯（标准款）",
+      "category": "灯具",
+      "price": "69.00"
+    },
+    {
+      "id": "item-0695",
+      "name": "桌面氛围灯（升级款）",
+      "category": "灯具",
+      "price": "103.50"
+    },
+    {
+      "id": "item-0696",
+      "name": "桌面氛围灯（高配款）",
+      "category": "灯具",
+      "price": "151.80"
+    },
+    {
+      "id": "item-0697",
+      "name": "磁吸阅读灯（入门款）",
+      "category": "灯具",
+      "price": "34.30"
+    },
+    {
+      "id": "item-0698",
+      "name": "磁吸阅读灯（标准款）",
+      "category": "灯具",
+      "price": "49.00"
+    },
+    {
+      "id": "item-0699",
+      "name": "磁吸阅读灯（升级款）",
+      "category": "灯具",
+      "price": "73.50"
+    },
+    {
+      "id": "item-0700",
+      "name": "磁吸阅读灯（高配款）",
+      "category": "灯具",
+      "price": "107.80"
+    },
+    {
+      "id": "item-0701",
+      "name": "橱柜感应灯（入门款）",
+      "category": "灯具",
+      "price": "24.50"
+    },
+    {
+      "id": "item-0702",
+      "name": "橱柜感应灯（标准款）",
+      "category": "灯具",
+      "price": "35.00"
+    },
+    {
+      "id": "item-0703",
+      "name": "橱柜感应灯（升级款）",
+      "category": "灯具",
+      "price": "52.50"
+    },
+    {
+      "id": "item-0704",
+      "name": "橱柜感应灯（高配款）",
+      "category": "灯具",
+      "price": "77.00"
+    },
+    {
+      "id": "item-0705",
+      "name": "床头壁灯（入门款）",
+      "category": "灯具",
+      "price": "55.30"
+    },
+    {
+      "id": "item-0706",
+      "name": "床头壁灯（标准款）",
+      "category": "灯具",
+      "price": "79.00"
+    },
+    {
+      "id": "item-0707",
+      "name": "床头壁灯（升级款）",
+      "category": "灯具",
+      "price": "118.50"
+    },
+    {
+      "id": "item-0708",
+      "name": "床头壁灯（高配款）",
+      "category": "灯具",
+      "price": "173.80"
+    },
+    {
+      "id": "item-0709",
+      "name": "露营灯（入门款）",
+      "category": "灯具",
+      "price": "62.30"
+    },
+    {
+      "id": "item-0710",
+      "name": "露营灯（标准款）",
+      "category": "灯具",
+      "price": "89.00"
+    },
+    {
+      "id": "item-0711",
+      "name": "露营灯（升级款）",
+      "category": "灯具",
+      "price": "133.50"
+    },
+    {
+      "id": "item-0712",
+      "name": "露营灯（高配款）",
+      "category": "灯具",
+      "price": "195.80"
+    },
+    {
+      "id": "item-0713",
+      "name": "星空投影灯（入门款）",
+      "category": "灯具",
+      "price": "90.30"
+    },
+    {
+      "id": "item-0714",
+      "name": "星空投影灯（标准款）",
+      "category": "灯具",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0715",
+      "name": "星空投影灯（升级款）",
+      "category": "灯具",
+      "price": "193.50"
+    },
+    {
+      "id": "item-0716",
+      "name": "星空投影灯（高配款）",
+      "category": "灯具",
+      "price": "283.80"
+    },
+    {
+      "id": "item-0717",
+      "name": "便携手电筒（入门款）",
+      "category": "灯具",
+      "price": "27.30"
+    },
+    {
+      "id": "item-0718",
+      "name": "便携手电筒（标准款）",
+      "category": "灯具",
+      "price": "39.00"
+    },
+    {
+      "id": "item-0719",
+      "name": "便携手电筒（升级款）",
+      "category": "灯具",
+      "price": "58.50"
+    },
+    {
+      "id": "item-0720",
+      "name": "便携手电筒（高配款）",
+      "category": "灯具",
+      "price": "85.80"
+    },
+    {
+      "id": "item-0721",
+      "name": "电热水壶（入门款）",
+      "category": "厨房小电器",
+      "price": "59.25"
+    },
+    {
+      "id": "item-0722",
+      "name": "电热水壶（标准款）",
+      "category": "厨房小电器",
+      "price": "79.00"
+    },
+    {
+      "id": "item-0723",
+      "name": "电热水壶（升级款）",
+      "category": "厨房小电器",
+      "price": "118.50"
+    },
+    {
+      "id": "item-0724",
+      "name": "电热水壶（高配款）",
+      "category": "厨房小电器",
+      "price": "173.80"
+    },
+    {
+      "id": "item-0725",
+      "name": "迷你电饭煲（入门款）",
+      "category": "厨房小电器",
+      "price": "119.25"
+    },
+    {
+      "id": "item-0726",
+      "name": "迷你电饭煲（标准款）",
+      "category": "厨房小电器",
+      "price": "159.00"
+    },
+    {
+      "id": "item-0727",
+      "name": "迷你电饭煲（升级款）",
+      "category": "厨房小电器",
+      "price": "238.50"
+    },
+    {
+      "id": "item-0728",
+      "name": "迷你电饭煲（高配款）",
+      "category": "厨房小电器",
+      "price": "349.80"
+    },
+    {
+      "id": "item-0729",
+      "name": "空气炸锅（入门款）",
+      "category": "厨房小电器",
+      "price": "186.75"
+    },
+    {
+      "id": "item-0730",
+      "name": "空气炸锅（标准款）",
+      "category": "厨房小电器",
+      "price": "249.00"
+    },
+    {
+      "id": "item-0731",
+      "name": "空气炸锅（升级款）",
+      "category": "厨房小电器",
+      "price": "373.50"
+    },
+    {
+      "id": "item-0732",
+      "name": "空气炸锅（高配款）",
+      "category": "厨房小电器",
+      "price": "547.80"
+    },
+    {
+      "id": "item-0733",
+      "name": "电蒸锅（入门款）",
+      "category": "厨房小电器",
+      "price": "149.25"
+    },
+    {
+      "id": "item-0734",
+      "name": "电蒸锅（标准款）",
+      "category": "厨房小电器",
+      "price": "199.00"
+    },
+    {
+      "id": "item-0735",
+      "name": "电蒸锅（升级款）",
+      "category": "厨房小电器",
+      "price": "298.50"
+    },
+    {
+      "id": "item-0736",
+      "name": "电蒸锅（高配款）",
+      "category": "厨房小电器",
+      "price": "437.80"
+    },
+    {
+      "id": "item-0737",
+      "name": "多功能煮锅（入门款）",
+      "category": "厨房小电器",
+      "price": "96.75"
+    },
+    {
+      "id": "item-0738",
+      "name": "多功能煮锅（标准款）",
+      "category": "厨房小电器",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0739",
+      "name": "多功能煮锅（升级款）",
+      "category": "厨房小电器",
+      "price": "193.50"
+    },
+    {
+      "id": "item-0740",
+      "name": "多功能煮锅（高配款）",
+      "category": "厨房小电器",
+      "price": "283.80"
+    },
+    {
+      "id": "item-0741",
+      "name": "三明治机（入门款）",
+      "category": "厨房小电器",
+      "price": "74.25"
+    },
+    {
+      "id": "item-0742",
+      "name": "三明治机（标准款）",
+      "category": "厨房小电器",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0743",
+      "name": "三明治机（升级款）",
+      "category": "厨房小电器",
+      "price": "148.50"
+    },
+    {
+      "id": "item-0744",
+      "name": "三明治机（高配款）",
+      "category": "厨房小电器",
+      "price": "217.80"
+    },
+    {
+      "id": "item-0745",
+      "name": "电烤盘（入门款）",
+      "category": "厨房小电器",
+      "price": "134.25"
+    },
+    {
+      "id": "item-0746",
+      "name": "电烤盘（标准款）",
+      "category": "厨房小电器",
+      "price": "179.00"
+    },
+    {
+      "id": "item-0747",
+      "name": "电烤盘（升级款）",
+      "category": "厨房小电器",
+      "price": "268.50"
+    },
+    {
+      "id": "item-0748",
+      "name": "电烤盘（高配款）",
+      "category": "厨房小电器",
+      "price": "393.80"
+    },
+    {
+      "id": "item-0749",
+      "name": "豆浆机（入门款）",
+      "category": "厨房小电器",
+      "price": "179.25"
+    },
+    {
+      "id": "item-0750",
+      "name": "豆浆机（标准款）",
+      "category": "厨房小电器",
+      "price": "239.00"
+    },
+    {
+      "id": "item-0751",
+      "name": "豆浆机（升级款）",
+      "category": "厨房小电器",
+      "price": "358.50"
+    },
+    {
+      "id": "item-0752",
+      "name": "豆浆机（高配款）",
+      "category": "厨房小电器",
+      "price": "525.80"
+    },
+    {
+      "id": "item-0753",
+      "name": "破壁机（入门款）",
+      "category": "厨房小电器",
+      "price": "299.25"
+    },
+    {
+      "id": "item-0754",
+      "name": "破壁机（标准款）",
+      "category": "厨房小电器",
+      "price": "399.00"
+    },
+    {
+      "id": "item-0755",
+      "name": "破壁机（升级款）",
+      "category": "厨房小电器",
+      "price": "598.50"
+    },
+    {
+      "id": "item-0756",
+      "name": "破壁机（高配款）",
+      "category": "厨房小电器",
+      "price": "877.80"
+    },
+    {
+      "id": "item-0757",
+      "name": "咖啡机（入门款）",
+      "category": "厨房小电器",
+      "price": "599.25"
+    },
+    {
+      "id": "item-0758",
+      "name": "咖啡机（标准款）",
+      "category": "厨房小电器",
+      "price": "799.00"
+    },
+    {
+      "id": "item-0759",
+      "name": "咖啡机（升级款）",
+      "category": "厨房小电器",
+      "price": "1198.50"
+    },
+    {
+      "id": "item-0760",
+      "name": "咖啡机（高配款）",
+      "category": "厨房小电器",
+      "price": "1757.80"
+    },
+    {
+      "id": "item-0761",
+      "name": "无线鼠标（基础款）",
+      "category": "电脑外设",
+      "price": "55.30"
+    },
+    {
+      "id": "item-0762",
+      "name": "无线鼠标（标准款）",
+      "category": "电脑外设",
+      "price": "79.00"
+    },
+    {
+      "id": "item-0763",
+      "name": "无线鼠标（升级款）",
+      "category": "电脑外设",
+      "price": "126.40"
+    },
+    {
+      "id": "item-0764",
+      "name": "无线鼠标（专业款）",
+      "category": "电脑外设",
+      "price": "189.60"
+    },
+    {
+      "id": "item-0765",
+      "name": "机械键盘（基础款）",
+      "category": "电脑外设",
+      "price": "174.30"
+    },
+    {
+      "id": "item-0766",
+      "name": "机械键盘（标准款）",
+      "category": "电脑外设",
+      "price": "249.00"
+    },
+    {
+      "id": "item-0767",
+      "name": "机械键盘（升级款）",
+      "category": "电脑外设",
+      "price": "398.40"
+    },
+    {
+      "id": "item-0768",
+      "name": "机械键盘（专业款）",
+      "category": "电脑外设",
+      "price": "597.60"
+    },
+    {
+      "id": "item-0769",
+      "name": "薄膜键盘（基础款）",
+      "category": "电脑外设",
+      "price": "41.30"
+    },
+    {
+      "id": "item-0770",
+      "name": "薄膜键盘（标准款）",
+      "category": "电脑外设",
+      "price": "59.00"
+    },
+    {
+      "id": "item-0771",
+      "name": "薄膜键盘（升级款）",
+      "category": "电脑外设",
+      "price": "94.40"
+    },
+    {
+      "id": "item-0772",
+      "name": "薄膜键盘（专业款）",
+      "category": "电脑外设",
+      "price": "141.60"
+    },
+    {
+      "id": "item-0773",
+      "name": "游戏手柄（基础款）",
+      "category": "电脑外设",
+      "price": "139.30"
+    },
+    {
+      "id": "item-0774",
+      "name": "游戏手柄（标准款）",
+      "category": "电脑外设",
+      "price": "199.00"
+    },
+    {
+      "id": "item-0775",
+      "name": "游戏手柄（升级款）",
+      "category": "电脑外设",
+      "price": "318.40"
+    },
+    {
+      "id": "item-0776",
+      "name": "游戏手柄（专业款）",
+      "category": "电脑外设",
+      "price": "477.60"
+    },
+    {
+      "id": "item-0777",
+      "name": "USB麦克风（基础款）",
+      "category": "电脑外设",
+      "price": "139.30"
+    },
+    {
+      "id": "item-0778",
+      "name": "USB麦克风（标准款）",
+      "category": "电脑外设",
+      "price": "199.00"
+    },
+    {
+      "id": "item-0779",
+      "name": "USB麦克风（升级款）",
+      "category": "电脑外设",
+      "price": "318.40"
+    },
+    {
+      "id": "item-0780",
+      "name": "USB麦克风（专业款）",
+      "category": "电脑外设",
+      "price": "477.60"
+    },
+    {
+      "id": "item-0781",
+      "name": "高清摄像头（基础款）",
+      "category": "电脑外设",
+      "price": "111.30"
+    },
+    {
+      "id": "item-0782",
+      "name": "高清摄像头（标准款）",
+      "category": "电脑外设",
+      "price": "159.00"
+    },
+    {
+      "id": "item-0783",
+      "name": "高清摄像头（升级款）",
+      "category": "电脑外设",
+      "price": "254.40"
+    },
+    {
+      "id": "item-0784",
+      "name": "高清摄像头（专业款）",
+      "category": "电脑外设",
+      "price": "381.60"
+    },
+    {
+      "id": "item-0785",
+      "name": "桌面音箱（基础款）",
+      "category": "电脑外设",
+      "price": "90.30"
+    },
+    {
+      "id": "item-0786",
+      "name": "桌面音箱（标准款）",
+      "category": "电脑外设",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0787",
+      "name": "桌面音箱（升级款）",
+      "category": "电脑外设",
+      "price": "206.40"
+    },
+    {
+      "id": "item-0788",
+      "name": "桌面音箱（专业款）",
+      "category": "电脑外设",
+      "price": "309.60"
+    },
+    {
+      "id": "item-0789",
+      "name": "笔记本支架（基础款）",
+      "category": "电脑外设",
+      "price": "41.30"
+    },
+    {
+      "id": "item-0790",
+      "name": "笔记本支架（标准款）",
+      "category": "电脑外设",
+      "price": "59.00"
+    },
+    {
+      "id": "item-0791",
+      "name": "笔记本支架（升级款）",
+      "category": "电脑外设",
+      "price": "94.40"
+    },
+    {
+      "id": "item-0792",
+      "name": "笔记本支架（专业款）",
+      "category": "电脑外设",
+      "price": "141.60"
+    },
+    {
+      "id": "item-0793",
+      "name": "USB扩展坞（基础款）",
+      "category": "电脑外设",
+      "price": "90.30"
+    },
+    {
+      "id": "item-0794",
+      "name": "USB扩展坞（标准款）",
+      "category": "电脑外设",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0795",
+      "name": "USB扩展坞（升级款）",
+      "category": "电脑外设",
+      "price": "206.40"
+    },
+    {
+      "id": "item-0796",
+      "name": "USB扩展坞（专业款）",
+      "category": "电脑外设",
+      "price": "309.60"
+    },
+    {
+      "id": "item-0797",
+      "name": "显示器挂灯（基础款）",
+      "category": "电脑外设",
+      "price": "139.30"
+    },
+    {
+      "id": "item-0798",
+      "name": "显示器挂灯（标准款）",
+      "category": "电脑外设",
+      "price": "199.00"
+    },
+    {
+      "id": "item-0799",
+      "name": "显示器挂灯（升级款）",
+      "category": "电脑外设",
+      "price": "318.40"
+    },
+    {
+      "id": "item-0800",
+      "name": "显示器挂灯（专业款）",
+      "category": "电脑外设",
+      "price": "477.60"
+    },
+    {
+      "id": "item-0801",
+      "name": "常规U盘（64GB）",
+      "category": "存储配件",
+      "price": "25.35"
+    },
+    {
+      "id": "item-0802",
+      "name": "常规U盘（128GB）",
+      "category": "存储配件",
+      "price": "39.00"
+    },
+    {
+      "id": "item-0803",
+      "name": "常规U盘（256GB）",
+      "category": "存储配件",
+      "price": "66.30"
+    },
+    {
+      "id": "item-0804",
+      "name": "常规U盘（512GB）",
+      "category": "存储配件",
+      "price": "117.00"
+    },
+    {
+      "id": "item-0805",
+      "name": "高速U盘（64GB）",
+      "category": "存储配件",
+      "price": "38.35"
+    },
+    {
+      "id": "item-0806",
+      "name": "高速U盘（128GB）",
+      "category": "存储配件",
+      "price": "59.00"
+    },
+    {
+      "id": "item-0807",
+      "name": "高速U盘（256GB）",
+      "category": "存储配件",
+      "price": "100.30"
+    },
+    {
+      "id": "item-0808",
+      "name": "高速U盘（512GB）",
+      "category": "存储配件",
+      "price": "177.00"
+    },
+    {
+      "id": "item-0809",
+      "name": "金属U盘（64GB）",
+      "category": "存储配件",
+      "price": "31.85"
+    },
+    {
+      "id": "item-0810",
+      "name": "金属U盘（128GB）",
+      "category": "存储配件",
+      "price": "49.00"
+    },
+    {
+      "id": "item-0811",
+      "name": "金属U盘（256GB）",
+      "category": "存储配件",
+      "price": "83.30"
+    },
+    {
+      "id": "item-0812",
+      "name": "金属U盘（512GB）",
+      "category": "存储配件",
+      "price": "147.00"
+    },
+    {
+      "id": "item-0813",
+      "name": "双接口U盘（64GB）",
+      "category": "存储配件",
+      "price": "44.85"
+    },
+    {
+      "id": "item-0814",
+      "name": "双接口U盘（128GB）",
+      "category": "存储配件",
+      "price": "69.00"
+    },
+    {
+      "id": "item-0815",
+      "name": "双接口U盘（256GB）",
+      "category": "存储配件",
+      "price": "117.30"
+    },
+    {
+      "id": "item-0816",
+      "name": "双接口U盘（512GB）",
+      "category": "存储配件",
+      "price": "207.00"
+    },
+    {
+      "id": "item-0817",
+      "name": "迷你U盘（64GB）",
+      "category": "存储配件",
+      "price": "29.25"
+    },
+    {
+      "id": "item-0818",
+      "name": "迷你U盘（128GB）",
+      "category": "存储配件",
+      "price": "45.00"
+    },
+    {
+      "id": "item-0819",
+      "name": "迷你U盘（256GB）",
+      "category": "存储配件",
+      "price": "76.50"
+    },
+    {
+      "id": "item-0820",
+      "name": "迷你U盘（512GB）",
+      "category": "存储配件",
+      "price": "135.00"
+    },
+    {
+      "id": "item-0821",
+      "name": "SD存储卡（64GB）",
+      "category": "存储配件",
+      "price": "44.85"
+    },
+    {
+      "id": "item-0822",
+      "name": "SD存储卡（128GB）",
+      "category": "存储配件",
+      "price": "69.00"
+    },
+    {
+      "id": "item-0823",
+      "name": "SD存储卡（256GB）",
+      "category": "存储配件",
+      "price": "117.30"
+    },
+    {
+      "id": "item-0824",
+      "name": "SD存储卡（512GB）",
+      "category": "存储配件",
+      "price": "207.00"
+    },
+    {
+      "id": "item-0825",
+      "name": "microSD存储卡（64GB）",
+      "category": "存储配件",
+      "price": "31.85"
+    },
+    {
+      "id": "item-0826",
+      "name": "microSD存储卡（128GB）",
+      "category": "存储配件",
+      "price": "49.00"
+    },
+    {
+      "id": "item-0827",
+      "name": "microSD存储卡（256GB）",
+      "category": "存储配件",
+      "price": "83.30"
+    },
+    {
+      "id": "item-0828",
+      "name": "microSD存储卡（512GB）",
+      "category": "存储配件",
+      "price": "147.00"
+    },
+    {
+      "id": "item-0829",
+      "name": "带读卡器存储卡套装（64GB）",
+      "category": "存储配件",
+      "price": "51.35"
+    },
+    {
+      "id": "item-0830",
+      "name": "带读卡器存储卡套装（128GB）",
+      "category": "存储配件",
+      "price": "79.00"
+    },
+    {
+      "id": "item-0831",
+      "name": "带读卡器存储卡套装（256GB）",
+      "category": "存储配件",
+      "price": "134.30"
+    },
+    {
+      "id": "item-0832",
+      "name": "带读卡器存储卡套装（512GB）",
+      "category": "存储配件",
+      "price": "237.00"
+    },
+    {
+      "id": "item-0833",
+      "name": "相机专用SD卡（64GB）",
+      "category": "存储配件",
+      "price": "64.35"
+    },
+    {
+      "id": "item-0834",
+      "name": "相机专用SD卡（128GB）",
+      "category": "存储配件",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0835",
+      "name": "相机专用SD卡（256GB）",
+      "category": "存储配件",
+      "price": "168.30"
+    },
+    {
+      "id": "item-0836",
+      "name": "相机专用SD卡（512GB）",
+      "category": "存储配件",
+      "price": "297.00"
+    },
+    {
+      "id": "item-0837",
+      "name": "运动相机存储卡（64GB）",
+      "category": "存储配件",
+      "price": "57.85"
+    },
+    {
+      "id": "item-0838",
+      "name": "运动相机存储卡（128GB）",
+      "category": "存储配件",
+      "price": "89.00"
+    },
+    {
+      "id": "item-0839",
+      "name": "运动相机存储卡（256GB）",
+      "category": "存储配件",
+      "price": "151.30"
+    },
+    {
+      "id": "item-0840",
+      "name": "运动相机存储卡（512GB）",
+      "category": "存储配件",
+      "price": "267.00"
+    },
+    {
+      "id": "item-0841",
+      "name": "USB-C充电器（20W）",
+      "category": "充电配件",
+      "price": "35.40"
+    },
+    {
+      "id": "item-0842",
+      "name": "USB-C充电器（30W）",
+      "category": "充电配件",
+      "price": "47.20"
+    },
+    {
+      "id": "item-0843",
+      "name": "USB-C充电器（45W）",
+      "category": "充电配件",
+      "price": "59.00"
+    },
+    {
+      "id": "item-0844",
+      "name": "USB-C充电器（65W）",
+      "category": "充电配件",
+      "price": "82.60"
+    },
+    {
+      "id": "item-0845",
+      "name": "双口充电器（20W）",
+      "category": "充电配件",
+      "price": "47.40"
+    },
+    {
+      "id": "item-0846",
+      "name": "双口充电器（30W）",
+      "category": "充电配件",
+      "price": "63.20"
+    },
+    {
+      "id": "item-0847",
+      "name": "双口充电器（45W）",
+      "category": "充电配件",
+      "price": "79.00"
+    },
+    {
+      "id": "item-0848",
+      "name": "双口充电器（65W）",
+      "category": "充电配件",
+      "price": "110.60"
+    },
+    {
+      "id": "item-0849",
+      "name": "三口充电器（20W）",
+      "category": "充电配件",
+      "price": "59.40"
+    },
+    {
+      "id": "item-0850",
+      "name": "三口充电器（30W）",
+      "category": "充电配件",
+      "price": "79.20"
+    },
+    {
+      "id": "item-0851",
+      "name": "三口充电器（45W）",
+      "category": "充电配件",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0852",
+      "name": "三口充电器（65W）",
+      "category": "充电配件",
+      "price": "138.60"
+    },
+    {
+      "id": "item-0853",
+      "name": "氮化镓充电器（20W）",
+      "category": "充电配件",
+      "price": "65.40"
+    },
+    {
+      "id": "item-0854",
+      "name": "氮化镓充电器（30W）",
+      "category": "充电配件",
+      "price": "87.20"
+    },
+    {
+      "id": "item-0855",
+      "name": "氮化镓充电器（45W）",
+      "category": "充电配件",
+      "price": "109.00"
+    },
+    {
+      "id": "item-0856",
+      "name": "氮化镓充电器（65W）",
+      "category": "充电配件",
+      "price": "152.60"
+    },
+    {
+      "id": "item-0857",
+      "name": "快充头与线套装（20W）",
+      "category": "充电配件",
+      "price": "41.40"
+    },
+    {
+      "id": "item-0858",
+      "name": "快充头与线套装（30W）",
+      "category": "充电配件",
+      "price": "55.20"
+    },
+    {
+      "id": "item-0859",
+      "name": "快充头与线套装（45W）",
+      "category": "充电配件",
+      "price": "69.00"
+    },
+    {
+      "id": "item-0860",
+      "name": "快充头与线套装（65W）",
+      "category": "充电配件",
+      "price": "96.60"
+    },
+    {
+      "id": "item-0861",
+      "name": "车载充电器（20W）",
+      "category": "充电配件",
+      "price": "29.40"
+    },
+    {
+      "id": "item-0862",
+      "name": "车载充电器（30W）",
+      "category": "充电配件",
+      "price": "39.20"
+    },
+    {
+      "id": "item-0863",
+      "name": "车载充电器（45W）",
+      "category": "充电配件",
+      "price": "49.00"
+    },
+    {
+      "id": "item-0864",
+      "name": "车载充电器（65W）",
+      "category": "充电配件",
+      "price": "68.60"
+    },
+    {
+      "id": "item-0865",
+      "name": "桌面充电站（20W）",
+      "category": "充电配件",
+      "price": "77.40"
+    },
+    {
+      "id": "item-0866",
+      "name": "桌面充电站（30W）",
+      "category": "充电配件",
+      "price": "103.20"
+    },
+    {
+      "id": "item-0867",
+      "name": "桌面充电站（45W）",
+      "category": "充电配件",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0868",
+      "name": "桌面充电站（65W）",
+      "category": "充电配件",
+      "price": "180.60"
+    },
+    {
+      "id": "item-0869",
+      "name": "旅行充电插座（20W）",
+      "category": "充电配件",
+      "price": "59.40"
+    },
+    {
+      "id": "item-0870",
+      "name": "旅行充电插座（30W）",
+      "category": "充电配件",
+      "price": "79.20"
+    },
+    {
+      "id": "item-0871",
+      "name": "旅行充电插座（45W）",
+      "category": "充电配件",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0872",
+      "name": "旅行充电插座（65W）",
+      "category": "充电配件",
+      "price": "138.60"
+    },
+    {
+      "id": "item-0873",
+      "name": "多口充电插线板（20W）",
+      "category": "充电配件",
+      "price": "53.40"
+    },
+    {
+      "id": "item-0874",
+      "name": "多口充电插线板（30W）",
+      "category": "充电配件",
+      "price": "71.20"
+    },
+    {
+      "id": "item-0875",
+      "name": "多口充电插线板（45W）",
+      "category": "充电配件",
+      "price": "89.00"
+    },
+    {
+      "id": "item-0876",
+      "name": "多口充电插线板（65W）",
+      "category": "充电配件",
+      "price": "124.60"
+    },
+    {
+      "id": "item-0877",
+      "name": "折叠插脚充电器（20W）",
+      "category": "充电配件",
+      "price": "47.40"
+    },
+    {
+      "id": "item-0878",
+      "name": "折叠插脚充电器（30W）",
+      "category": "充电配件",
+      "price": "63.20"
+    },
+    {
+      "id": "item-0879",
+      "name": "折叠插脚充电器（45W）",
+      "category": "充电配件",
+      "price": "79.00"
+    },
+    {
+      "id": "item-0880",
+      "name": "折叠插脚充电器（65W）",
+      "category": "充电配件",
+      "price": "110.60"
+    },
+    {
+      "id": "item-0881",
+      "name": "入耳式有线耳机（基础款）",
+      "category": "耳机音频",
+      "price": "27.30"
+    },
+    {
+      "id": "item-0882",
+      "name": "入耳式有线耳机（标准款）",
+      "category": "耳机音频",
+      "price": "39.00"
+    },
+    {
+      "id": "item-0883",
+      "name": "入耳式有线耳机（升级款）",
+      "category": "耳机音频",
+      "price": "62.40"
+    },
+    {
+      "id": "item-0884",
+      "name": "入耳式有线耳机（旗舰款）",
+      "category": "耳机音频",
+      "price": "93.60"
+    },
+    {
+      "id": "item-0885",
+      "name": "半入耳有线耳机（基础款）",
+      "category": "耳机音频",
+      "price": "20.30"
+    },
+    {
+      "id": "item-0886",
+      "name": "半入耳有线耳机（标准款）",
+      "category": "耳机音频",
+      "price": "29.00"
+    },
+    {
+      "id": "item-0887",
+      "name": "半入耳有线耳机（升级款）",
+      "category": "耳机音频",
+      "price": "46.40"
+    },
+    {
+      "id": "item-0888",
+      "name": "半入耳有线耳机（旗舰款）",
+      "category": "耳机音频",
+      "price": "69.60"
+    },
+    {
+      "id": "item-0889",
+      "name": "头戴式有线耳机（基础款）",
+      "category": "耳机音频",
+      "price": "90.30"
+    },
+    {
+      "id": "item-0890",
+      "name": "头戴式有线耳机（标准款）",
+      "category": "耳机音频",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0891",
+      "name": "头戴式有线耳机（升级款）",
+      "category": "耳机音频",
+      "price": "206.40"
+    },
+    {
+      "id": "item-0892",
+      "name": "头戴式有线耳机（旗舰款）",
+      "category": "耳机音频",
+      "price": "309.60"
+    },
+    {
+      "id": "item-0893",
+      "name": "颈挂式蓝牙耳机（基础款）",
+      "category": "耳机音频",
+      "price": "69.30"
+    },
+    {
+      "id": "item-0894",
+      "name": "颈挂式蓝牙耳机（标准款）",
+      "category": "耳机音频",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0895",
+      "name": "颈挂式蓝牙耳机（升级款）",
+      "category": "耳机音频",
+      "price": "158.40"
+    },
+    {
+      "id": "item-0896",
+      "name": "颈挂式蓝牙耳机（旗舰款）",
+      "category": "耳机音频",
+      "price": "237.60"
+    },
+    {
+      "id": "item-0897",
+      "name": "真无线耳机（基础款）",
+      "category": "耳机音频",
+      "price": "139.30"
+    },
+    {
+      "id": "item-0898",
+      "name": "真无线耳机（标准款）",
+      "category": "耳机音频",
+      "price": "199.00"
+    },
+    {
+      "id": "item-0899",
+      "name": "真无线耳机（升级款）",
+      "category": "耳机音频",
+      "price": "318.40"
+    },
+    {
+      "id": "item-0900",
+      "name": "真无线耳机（旗舰款）",
+      "category": "耳机音频",
+      "price": "477.60"
+    },
+    {
+      "id": "item-0901",
+      "name": "运动蓝牙耳机（基础款）",
+      "category": "耳机音频",
+      "price": "111.30"
+    },
+    {
+      "id": "item-0902",
+      "name": "运动蓝牙耳机（标准款）",
+      "category": "耳机音频",
+      "price": "159.00"
+    },
+    {
+      "id": "item-0903",
+      "name": "运动蓝牙耳机（升级款）",
+      "category": "耳机音频",
+      "price": "254.40"
+    },
+    {
+      "id": "item-0904",
+      "name": "运动蓝牙耳机（旗舰款）",
+      "category": "耳机音频",
+      "price": "381.60"
+    },
+    {
+      "id": "item-0905",
+      "name": "骨传导耳机（基础款）",
+      "category": "耳机音频",
+      "price": "209.30"
+    },
+    {
+      "id": "item-0906",
+      "name": "骨传导耳机（标准款）",
+      "category": "耳机音频",
+      "price": "299.00"
+    },
+    {
+      "id": "item-0907",
+      "name": "骨传导耳机（升级款）",
+      "category": "耳机音频",
+      "price": "478.40"
+    },
+    {
+      "id": "item-0908",
+      "name": "骨传导耳机（旗舰款）",
+      "category": "耳机音频",
+      "price": "717.60"
+    },
+    {
+      "id": "item-0909",
+      "name": "开放式耳机（基础款）",
+      "category": "耳机音频",
+      "price": "174.30"
+    },
+    {
+      "id": "item-0910",
+      "name": "开放式耳机（标准款）",
+      "category": "耳机音频",
+      "price": "249.00"
+    },
+    {
+      "id": "item-0911",
+      "name": "开放式耳机（升级款）",
+      "category": "耳机音频",
+      "price": "398.40"
+    },
+    {
+      "id": "item-0912",
+      "name": "开放式耳机（旗舰款）",
+      "category": "耳机音频",
+      "price": "597.60"
+    },
+    {
+      "id": "item-0913",
+      "name": "头戴式降噪耳机（基础款）",
+      "category": "耳机音频",
+      "price": "349.30"
+    },
+    {
+      "id": "item-0914",
+      "name": "头戴式降噪耳机（标准款）",
+      "category": "耳机音频",
+      "price": "499.00"
+    },
+    {
+      "id": "item-0915",
+      "name": "头戴式降噪耳机（升级款）",
+      "category": "耳机音频",
+      "price": "798.40"
+    },
+    {
+      "id": "item-0916",
+      "name": "头戴式降噪耳机（旗舰款）",
+      "category": "耳机音频",
+      "price": "1197.60"
+    },
+    {
+      "id": "item-0917",
+      "name": "游戏耳麦（基础款）",
+      "category": "耳机音频",
+      "price": "139.30"
+    },
+    {
+      "id": "item-0918",
+      "name": "游戏耳麦（标准款）",
+      "category": "耳机音频",
+      "price": "199.00"
+    },
+    {
+      "id": "item-0919",
+      "name": "游戏耳麦（升级款）",
+      "category": "耳机音频",
+      "price": "318.40"
+    },
+    {
+      "id": "item-0920",
+      "name": "游戏耳麦（旗舰款）",
+      "category": "耳机音频",
+      "price": "477.60"
+    },
+    {
+      "id": "item-0921",
+      "name": "日常跑步鞋（日常款）",
+      "category": "鞋靴",
+      "price": "159.20"
+    },
+    {
+      "id": "item-0922",
+      "name": "日常跑步鞋（轻量款）",
+      "category": "鞋靴",
+      "price": "199.00"
+    },
+    {
+      "id": "item-0923",
+      "name": "日常跑步鞋（舒适款）",
+      "category": "鞋靴",
+      "price": "258.70"
+    },
+    {
+      "id": "item-0924",
+      "name": "日常跑步鞋（进阶款）",
+      "category": "鞋靴",
+      "price": "358.20"
+    },
+    {
+      "id": "item-0925",
+      "name": "休闲板鞋（日常款）",
+      "category": "鞋靴",
+      "price": "127.20"
+    },
+    {
+      "id": "item-0926",
+      "name": "休闲板鞋（轻量款）",
+      "category": "鞋靴",
+      "price": "159.00"
+    },
+    {
+      "id": "item-0927",
+      "name": "休闲板鞋（舒适款）",
+      "category": "鞋靴",
+      "price": "206.70"
+    },
+    {
+      "id": "item-0928",
+      "name": "休闲板鞋（进阶款）",
+      "category": "鞋靴",
+      "price": "286.20"
+    },
+    {
+      "id": "item-0929",
+      "name": "帆布鞋（日常款）",
+      "category": "鞋靴",
+      "price": "79.20"
+    },
+    {
+      "id": "item-0930",
+      "name": "帆布鞋（轻量款）",
+      "category": "鞋靴",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0931",
+      "name": "帆布鞋（舒适款）",
+      "category": "鞋靴",
+      "price": "128.70"
+    },
+    {
+      "id": "item-0932",
+      "name": "帆布鞋（进阶款）",
+      "category": "鞋靴",
+      "price": "178.20"
+    },
+    {
+      "id": "item-0933",
+      "name": "徒步鞋（日常款）",
+      "category": "鞋靴",
+      "price": "239.20"
+    },
+    {
+      "id": "item-0934",
+      "name": "徒步鞋（轻量款）",
+      "category": "鞋靴",
+      "price": "299.00"
+    },
+    {
+      "id": "item-0935",
+      "name": "徒步鞋（舒适款）",
+      "category": "鞋靴",
+      "price": "388.70"
+    },
+    {
+      "id": "item-0936",
+      "name": "徒步鞋（进阶款）",
+      "category": "鞋靴",
+      "price": "538.20"
+    },
+    {
+      "id": "item-0937",
+      "name": "凉鞋（日常款）",
+      "category": "鞋靴",
+      "price": "103.20"
+    },
+    {
+      "id": "item-0938",
+      "name": "凉鞋（轻量款）",
+      "category": "鞋靴",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0939",
+      "name": "凉鞋（舒适款）",
+      "category": "鞋靴",
+      "price": "167.70"
+    },
+    {
+      "id": "item-0940",
+      "name": "凉鞋（进阶款）",
+      "category": "鞋靴",
+      "price": "232.20"
+    },
+    {
+      "id": "item-0941",
+      "name": "家居拖鞋（日常款）",
+      "category": "鞋靴",
+      "price": "23.20"
+    },
+    {
+      "id": "item-0942",
+      "name": "家居拖鞋（轻量款）",
+      "category": "鞋靴",
+      "price": "29.00"
+    },
+    {
+      "id": "item-0943",
+      "name": "家居拖鞋（舒适款）",
+      "category": "鞋靴",
+      "price": "37.70"
+    },
+    {
+      "id": "item-0944",
+      "name": "家居拖鞋（进阶款）",
+      "category": "鞋靴",
+      "price": "52.20"
+    },
+    {
+      "id": "item-0945",
+      "name": "休闲皮鞋（日常款）",
+      "category": "鞋靴",
+      "price": "199.20"
+    },
+    {
+      "id": "item-0946",
+      "name": "休闲皮鞋（轻量款）",
+      "category": "鞋靴",
+      "price": "249.00"
+    },
+    {
+      "id": "item-0947",
+      "name": "休闲皮鞋（舒适款）",
+      "category": "鞋靴",
+      "price": "323.70"
+    },
+    {
+      "id": "item-0948",
+      "name": "休闲皮鞋（进阶款）",
+      "category": "鞋靴",
+      "price": "448.20"
+    },
+    {
+      "id": "item-0949",
+      "name": "短筒雨靴（日常款）",
+      "category": "鞋靴",
+      "price": "63.20"
+    },
+    {
+      "id": "item-0950",
+      "name": "短筒雨靴（轻量款）",
+      "category": "鞋靴",
+      "price": "79.00"
+    },
+    {
+      "id": "item-0951",
+      "name": "短筒雨靴（舒适款）",
+      "category": "鞋靴",
+      "price": "102.70"
+    },
+    {
+      "id": "item-0952",
+      "name": "短筒雨靴（进阶款）",
+      "category": "鞋靴",
+      "price": "142.20"
+    },
+    {
+      "id": "item-0953",
+      "name": "保暖短靴（日常款）",
+      "category": "鞋靴",
+      "price": "239.20"
+    },
+    {
+      "id": "item-0954",
+      "name": "保暖短靴（轻量款）",
+      "category": "鞋靴",
+      "price": "299.00"
+    },
+    {
+      "id": "item-0955",
+      "name": "保暖短靴（舒适款）",
+      "category": "鞋靴",
+      "price": "388.70"
+    },
+    {
+      "id": "item-0956",
+      "name": "保暖短靴（进阶款）",
+      "category": "鞋靴",
+      "price": "538.20"
+    },
+    {
+      "id": "item-0957",
+      "name": "篮球鞋（日常款）",
+      "category": "鞋靴",
+      "price": "319.20"
+    },
+    {
+      "id": "item-0958",
+      "name": "篮球鞋（轻量款）",
+      "category": "鞋靴",
+      "price": "399.00"
+    },
+    {
+      "id": "item-0959",
+      "name": "篮球鞋（舒适款）",
+      "category": "鞋靴",
+      "price": "518.70"
+    },
+    {
+      "id": "item-0960",
+      "name": "篮球鞋（进阶款）",
+      "category": "鞋靴",
+      "price": "718.20"
+    },
+    {
+      "id": "item-0961",
+      "name": "纯棉T恤（S码）",
+      "category": "服饰",
+      "price": "49.00"
+    },
+    {
+      "id": "item-0962",
+      "name": "纯棉T恤（M码）",
+      "category": "服饰",
+      "price": "49.00"
+    },
+    {
+      "id": "item-0963",
+      "name": "纯棉T恤（L码）",
+      "category": "服饰",
+      "price": "49.00"
+    },
+    {
+      "id": "item-0964",
+      "name": "纯棉T恤（XL码）",
+      "category": "服饰",
+      "price": "49.00"
+    },
+    {
+      "id": "item-0965",
+      "name": "速干T恤（S码）",
+      "category": "服饰",
+      "price": "69.00"
+    },
+    {
+      "id": "item-0966",
+      "name": "速干T恤（M码）",
+      "category": "服饰",
+      "price": "69.00"
+    },
+    {
+      "id": "item-0967",
+      "name": "速干T恤（L码）",
+      "category": "服饰",
+      "price": "69.00"
+    },
+    {
+      "id": "item-0968",
+      "name": "速干T恤（XL码）",
+      "category": "服饰",
+      "price": "69.00"
+    },
+    {
+      "id": "item-0969",
+      "name": "运动卫衣（S码）",
+      "category": "服饰",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0970",
+      "name": "运动卫衣（M码）",
+      "category": "服饰",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0971",
+      "name": "运动卫衣（L码）",
+      "category": "服饰",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0972",
+      "name": "运动卫衣（XL码）",
+      "category": "服饰",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0973",
+      "name": "休闲衬衫（S码）",
+      "category": "服饰",
+      "price": "119.00"
+    },
+    {
+      "id": "item-0974",
+      "name": "休闲衬衫（M码）",
+      "category": "服饰",
+      "price": "119.00"
+    },
+    {
+      "id": "item-0975",
+      "name": "休闲衬衫（L码）",
+      "category": "服饰",
+      "price": "119.00"
+    },
+    {
+      "id": "item-0976",
+      "name": "休闲衬衫（XL码）",
+      "category": "服饰",
+      "price": "119.00"
+    },
+    {
+      "id": "item-0977",
+      "name": "针织开衫（S码）",
+      "category": "服饰",
+      "price": "159.00"
+    },
+    {
+      "id": "item-0978",
+      "name": "针织开衫（M码）",
+      "category": "服饰",
+      "price": "159.00"
+    },
+    {
+      "id": "item-0979",
+      "name": "针织开衫（L码）",
+      "category": "服饰",
+      "price": "159.00"
+    },
+    {
+      "id": "item-0980",
+      "name": "针织开衫（XL码）",
+      "category": "服饰",
+      "price": "159.00"
+    },
+    {
+      "id": "item-0981",
+      "name": "运动长裤（S码）",
+      "category": "服饰",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0982",
+      "name": "运动长裤（M码）",
+      "category": "服饰",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0983",
+      "name": "运动长裤（L码）",
+      "category": "服饰",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0984",
+      "name": "运动长裤（XL码）",
+      "category": "服饰",
+      "price": "99.00"
+    },
+    {
+      "id": "item-0985",
+      "name": "直筒牛仔裤（S码）",
+      "category": "服饰",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0986",
+      "name": "直筒牛仔裤（M码）",
+      "category": "服饰",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0987",
+      "name": "直筒牛仔裤（L码）",
+      "category": "服饰",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0988",
+      "name": "直筒牛仔裤（XL码）",
+      "category": "服饰",
+      "price": "129.00"
+    },
+    {
+      "id": "item-0989",
+      "name": "轻薄防晒衣（S码）",
+      "category": "服饰",
+      "price": "149.00"
+    },
+    {
+      "id": "item-0990",
+      "name": "轻薄防晒衣（M码）",
+      "category": "服饰",
+      "price": "149.00"
+    },
+    {
+      "id": "item-0991",
+      "name": "轻薄防晒衣（L码）",
+      "category": "服饰",
+      "price": "149.00"
+    },
+    {
+      "id": "item-0992",
+      "name": "轻薄防晒衣（XL码）",
+      "category": "服饰",
+      "price": "149.00"
+    },
+    {
+      "id": "item-0993",
+      "name": "休闲外套（S码）",
+      "category": "服饰",
+      "price": "199.00"
+    },
+    {
+      "id": "item-0994",
+      "name": "休闲外套（M码）",
+      "category": "服饰",
+      "price": "199.00"
+    },
+    {
+      "id": "item-0995",
+      "name": "休闲外套（L码）",
+      "category": "服饰",
+      "price": "199.00"
+    },
+    {
+      "id": "item-0996",
+      "name": "休闲外套（XL码）",
+      "category": "服饰",
+      "price": "199.00"
+    },
+    {
+      "id": "item-0997",
+      "name": "保暖夹克（S码）",
+      "category": "服饰",
+      "price": "299.00"
+    },
+    {
+      "id": "item-0998",
+      "name": "保暖夹克（M码）",
+      "category": "服饰",
+      "price": "299.00"
+    },
+    {
+      "id": "item-0999",
+      "name": "保暖夹克（L码）",
+      "category": "服饰",
+      "price": "299.00"
+    },
+    {
+      "id": "item-1000",
+      "name": "保暖夹克（XL码）",
+      "category": "服饰",
+      "price": "299.00"
+    },
+    {
+      "id": "item-1001",
+      "name": "瑜伽垫（入门款）",
+      "category": "室内运动",
+      "price": "38.35"
+    },
+    {
+      "id": "item-1002",
+      "name": "瑜伽垫（标准款）",
+      "category": "室内运动",
+      "price": "59.00"
+    },
+    {
+      "id": "item-1003",
+      "name": "瑜伽垫（加强款）",
+      "category": "室内运动",
+      "price": "88.50"
+    },
+    {
+      "id": "item-1004",
+      "name": "瑜伽垫（专业款）",
+      "category": "室内运动",
+      "price": "135.70"
+    },
+    {
+      "id": "item-1005",
+      "name": "弹力带套装（入门款）",
+      "category": "室内运动",
+      "price": "25.35"
+    },
+    {
+      "id": "item-1006",
+      "name": "弹力带套装（标准款）",
+      "category": "室内运动",
+      "price": "39.00"
+    },
+    {
+      "id": "item-1007",
+      "name": "弹力带套装（加强款）",
+      "category": "室内运动",
+      "price": "58.50"
+    },
+    {
+      "id": "item-1008",
+      "name": "弹力带套装（专业款）",
+      "category": "室内运动",
+      "price": "89.70"
+    },
+    {
+      "id": "item-1009",
+      "name": "跳绳（入门款）",
+      "category": "室内运动",
+      "price": "18.85"
+    },
+    {
+      "id": "item-1010",
+      "name": "跳绳（标准款）",
+      "category": "室内运动",
+      "price": "29.00"
+    },
+    {
+      "id": "item-1011",
+      "name": "跳绳（加强款）",
+      "category": "室内运动",
+      "price": "43.50"
+    },
+    {
+      "id": "item-1012",
+      "name": "跳绳（专业款）",
+      "category": "室内运动",
+      "price": "66.70"
+    },
+    {
+      "id": "item-1013",
+      "name": "握力器（入门款）",
+      "category": "室内运动",
+      "price": "16.25"
+    },
+    {
+      "id": "item-1014",
+      "name": "握力器（标准款）",
+      "category": "室内运动",
+      "price": "25.00"
+    },
+    {
+      "id": "item-1015",
+      "name": "握力器（加强款）",
+      "category": "室内运动",
+      "price": "37.50"
+    },
+    {
+      "id": "item-1016",
+      "name": "握力器（专业款）",
+      "category": "室内运动",
+      "price": "57.50"
+    },
+    {
+      "id": "item-1017",
+      "name": "瑜伽砖（入门款）",
+      "category": "室内运动",
+      "price": "12.35"
+    },
+    {
+      "id": "item-1018",
+      "name": "瑜伽砖（标准款）",
+      "category": "室内运动",
+      "price": "19.00"
+    },
+    {
+      "id": "item-1019",
+      "name": "瑜伽砖（加强款）",
+      "category": "室内运动",
+      "price": "28.50"
+    },
+    {
+      "id": "item-1020",
+      "name": "瑜伽砖（专业款）",
+      "category": "室内运动",
+      "price": "43.70"
+    },
+    {
+      "id": "item-1021",
+      "name": "泡沫轴（入门款）",
+      "category": "室内运动",
+      "price": "31.85"
+    },
+    {
+      "id": "item-1022",
+      "name": "泡沫轴（标准款）",
+      "category": "室内运动",
+      "price": "49.00"
+    },
+    {
+      "id": "item-1023",
+      "name": "泡沫轴（加强款）",
+      "category": "室内运动",
+      "price": "73.50"
+    },
+    {
+      "id": "item-1024",
+      "name": "泡沫轴（专业款）",
+      "category": "室内运动",
+      "price": "112.70"
+    },
+    {
+      "id": "item-1025",
+      "name": "平衡垫（入门款）",
+      "category": "室内运动",
+      "price": "44.85"
+    },
+    {
+      "id": "item-1026",
+      "name": "平衡垫（标准款）",
+      "category": "室内运动",
+      "price": "69.00"
+    },
+    {
+      "id": "item-1027",
+      "name": "平衡垫（加强款）",
+      "category": "室内运动",
+      "price": "103.50"
+    },
+    {
+      "id": "item-1028",
+      "name": "平衡垫（专业款）",
+      "category": "室内运动",
+      "price": "158.70"
+    },
+    {
+      "id": "item-1029",
+      "name": "俯卧撑支架（入门款）",
+      "category": "室内运动",
+      "price": "25.35"
+    },
+    {
+      "id": "item-1030",
+      "name": "俯卧撑支架（标准款）",
+      "category": "室内运动",
+      "price": "39.00"
+    },
+    {
+      "id": "item-1031",
+      "name": "俯卧撑支架（加强款）",
+      "category": "室内运动",
+      "price": "58.50"
+    },
+    {
+      "id": "item-1032",
+      "name": "俯卧撑支架（专业款）",
+      "category": "室内运动",
+      "price": "89.70"
+    },
+    {
+      "id": "item-1033",
+      "name": "健腹轮（入门款）",
+      "category": "室内运动",
+      "price": "31.85"
+    },
+    {
+      "id": "item-1034",
+      "name": "健腹轮（标准款）",
+      "category": "室内运动",
+      "price": "49.00"
+    },
+    {
+      "id": "item-1035",
+      "name": "健腹轮（加强款）",
+      "category": "室内运动",
+      "price": "73.50"
+    },
+    {
+      "id": "item-1036",
+      "name": "健腹轮（专业款）",
+      "category": "室内运动",
+      "price": "112.70"
+    },
+    {
+      "id": "item-1037",
+      "name": "运动水壶（入门款）",
+      "category": "室内运动",
+      "price": "22.75"
+    },
+    {
+      "id": "item-1038",
+      "name": "运动水壶（标准款）",
+      "category": "室内运动",
+      "price": "35.00"
+    },
+    {
+      "id": "item-1039",
+      "name": "运动水壶（加强款）",
+      "category": "室内运动",
+      "price": "52.50"
+    },
+    {
+      "id": "item-1040",
+      "name": "运动水壶（专业款）",
+      "category": "室内运动",
+      "price": "80.50"
+    },
+    {
+      "id": "item-1041",
+      "name": "折叠露营椅（入门款）",
+      "category": "户外露营",
+      "price": "90.30"
+    },
+    {
+      "id": "item-1042",
+      "name": "折叠露营椅（标准款）",
+      "category": "户外露营",
+      "price": "129.00"
+    },
+    {
+      "id": "item-1043",
+      "name": "折叠露营椅（升级款）",
+      "category": "户外露营",
+      "price": "206.40"
+    },
+    {
+      "id": "item-1044",
+      "name": "折叠露营椅（高配款）",
+      "category": "户外露营",
+      "price": "309.60"
+    },
+    {
+      "id": "item-1045",
+      "name": "户外折叠桌（入门款）",
+      "category": "户外露营",
+      "price": "139.30"
+    },
+    {
+      "id": "item-1046",
+      "name": "户外折叠桌（标准款）",
+      "category": "户外露营",
+      "price": "199.00"
+    },
+    {
+      "id": "item-1047",
+      "name": "户外折叠桌（升级款）",
+      "category": "户外露营",
+      "price": "318.40"
+    },
+    {
+      "id": "item-1048",
+      "name": "户外折叠桌（高配款）",
+      "category": "户外露营",
+      "price": "477.60"
+    },
+    {
+      "id": "item-1049",
+      "name": "野餐垫（入门款）",
+      "category": "户外露营",
+      "price": "41.30"
+    },
+    {
+      "id": "item-1050",
+      "name": "野餐垫（标准款）",
+      "category": "户外露营",
+      "price": "59.00"
+    },
+    {
+      "id": "item-1051",
+      "name": "野餐垫（升级款）",
+      "category": "户外露营",
+      "price": "94.40"
+    },
+    {
+      "id": "item-1052",
+      "name": "野餐垫（高配款）",
+      "category": "户外露营",
+      "price": "141.60"
+    },
+    {
+      "id": "item-1053",
+      "name": "露营天幕（入门款）",
+      "category": "户外露营",
+      "price": "209.30"
+    },
+    {
+      "id": "item-1054",
+      "name": "露营天幕（标准款）",
+      "category": "户外露营",
+      "price": "299.00"
+    },
+    {
+      "id": "item-1055",
+      "name": "露营天幕（升级款）",
+      "category": "户外露营",
+      "price": "478.40"
+    },
+    {
+      "id": "item-1056",
+      "name": "露营天幕（高配款）",
+      "category": "户外露营",
+      "price": "717.60"
+    },
+    {
+      "id": "item-1057",
+      "name": "双人帐篷（入门款）",
+      "category": "户外露营",
+      "price": "349.30"
+    },
+    {
+      "id": "item-1058",
+      "name": "双人帐篷（标准款）",
+      "category": "户外露营",
+      "price": "499.00"
+    },
+    {
+      "id": "item-1059",
+      "name": "双人帐篷（升级款）",
+      "category": "户外露营",
+      "price": "798.40"
+    },
+    {
+      "id": "item-1060",
+      "name": "双人帐篷（高配款）",
+      "category": "户外露营",
+      "price": "1197.60"
+    },
+    {
+      "id": "item-1061",
+      "name": "户外睡袋（入门款）",
+      "category": "户外露营",
+      "price": "139.30"
+    },
+    {
+      "id": "item-1062",
+      "name": "户外睡袋（标准款）",
+      "category": "户外露营",
+      "price": "199.00"
+    },
+    {
+      "id": "item-1063",
+      "name": "户外睡袋（升级款）",
+      "category": "户外露营",
+      "price": "318.40"
+    },
+    {
+      "id": "item-1064",
+      "name": "户外睡袋（高配款）",
+      "category": "户外露营",
+      "price": "477.60"
+    },
+    {
+      "id": "item-1065",
+      "name": "折叠防潮垫（入门款）",
+      "category": "户外露营",
+      "price": "62.30"
+    },
+    {
+      "id": "item-1066",
+      "name": "折叠防潮垫（标准款）",
+      "category": "户外露营",
+      "price": "89.00"
+    },
+    {
+      "id": "item-1067",
+      "name": "折叠防潮垫（升级款）",
+      "category": "户外露营",
+      "price": "142.40"
+    },
+    {
+      "id": "item-1068",
+      "name": "折叠防潮垫（高配款）",
+      "category": "户外露营",
+      "price": "213.60"
+    },
+    {
+      "id": "item-1069",
+      "name": "登山杖（入门款）",
+      "category": "户外露营",
+      "price": "69.30"
+    },
+    {
+      "id": "item-1070",
+      "name": "登山杖（标准款）",
+      "category": "户外露营",
+      "price": "99.00"
+    },
+    {
+      "id": "item-1071",
+      "name": "登山杖（升级款）",
+      "category": "户外露营",
+      "price": "158.40"
+    },
+    {
+      "id": "item-1072",
+      "name": "登山杖（高配款）",
+      "category": "户外露营",
+      "price": "237.60"
+    },
+    {
+      "id": "item-1073",
+      "name": "徒步背包（入门款）",
+      "category": "户外露营",
+      "price": "167.30"
+    },
+    {
+      "id": "item-1074",
+      "name": "徒步背包（标准款）",
+      "category": "户外露营",
+      "price": "239.00"
+    },
+    {
+      "id": "item-1075",
+      "name": "徒步背包（升级款）",
+      "category": "户外露营",
+      "price": "382.40"
+    },
+    {
+      "id": "item-1076",
+      "name": "徒步背包（高配款）",
+      "category": "户外露营",
+      "price": "573.60"
+    },
+    {
+      "id": "item-1077",
+      "name": "户外保温箱（入门款）",
+      "category": "户外露营",
+      "price": "209.30"
+    },
+    {
+      "id": "item-1078",
+      "name": "户外保温箱（标准款）",
+      "category": "户外露营",
+      "price": "299.00"
+    },
+    {
+      "id": "item-1079",
+      "name": "户外保温箱（升级款）",
+      "category": "户外露营",
+      "price": "478.40"
+    },
+    {
+      "id": "item-1080",
+      "name": "户外保温箱（高配款）",
+      "category": "户外露营",
+      "price": "717.60"
+    },
+    {
+      "id": "item-1081",
+      "name": "积木跑车（迷你套装）",
+      "category": "积木玩具",
+      "price": "26.95"
+    },
+    {
+      "id": "item-1082",
+      "name": "积木跑车（标准套装）",
+      "category": "积木玩具",
+      "price": "49.00"
+    },
+    {
+      "id": "item-1083",
+      "name": "积木跑车（扩展套装）",
+      "category": "积木玩具",
+      "price": "93.10"
+    },
+    {
+      "id": "item-1084",
+      "name": "积木跑车（大型套装）",
+      "category": "积木玩具",
+      "price": "176.40"
+    },
+    {
+      "id": "item-1085",
+      "name": "积木机甲（迷你套装）",
+      "category": "积木玩具",
+      "price": "32.45"
+    },
+    {
+      "id": "item-1086",
+      "name": "积木机甲（标准套装）",
+      "category": "积木玩具",
+      "price": "59.00"
+    },
+    {
+      "id": "item-1087",
+      "name": "积木机甲（扩展套装）",
+      "category": "积木玩具",
+      "price": "112.10"
+    },
+    {
+      "id": "item-1088",
+      "name": "积木机甲（大型套装）",
+      "category": "积木玩具",
+      "price": "212.40"
+    },
+    {
+      "id": "item-1089",
+      "name": "积木花束（迷你套装）",
+      "category": "积木玩具",
+      "price": "32.45"
+    },
+    {
+      "id": "item-1090",
+      "name": "积木花束（标准套装）",
+      "category": "积木玩具",
+      "price": "59.00"
+    },
+    {
+      "id": "item-1091",
+      "name": "积木花束（扩展套装）",
+      "category": "积木玩具",
+      "price": "112.10"
+    },
+    {
+      "id": "item-1092",
+      "name": "积木花束（大型套装）",
+      "category": "积木玩具",
+      "price": "212.40"
+    },
+    {
+      "id": "item-1093",
+      "name": "积木小屋（迷你套装）",
+      "category": "积木玩具",
+      "price": "37.95"
+    },
+    {
+      "id": "item-1094",
+      "name": "积木小屋（标准套装）",
+      "category": "积木玩具",
+      "price": "69.00"
+    },
+    {
+      "id": "item-1095",
+      "name": "积木小屋（扩展套装）",
+      "category": "积木玩具",
+      "price": "131.10"
+    },
+    {
+      "id": "item-1096",
+      "name": "积木小屋（大型套装）",
+      "category": "积木玩具",
+      "price": "248.40"
+    },
+    {
+      "id": "item-1097",
+      "name": "积木城堡（迷你套装）",
+      "category": "积木玩具",
+      "price": "43.45"
+    },
+    {
+      "id": "item-1098",
+      "name": "积木城堡（标准套装）",
+      "category": "积木玩具",
+      "price": "79.00"
+    },
+    {
+      "id": "item-1099",
+      "name": "积木城堡（扩展套装）",
+      "category": "积木玩具",
+      "price": "150.10"
+    },
+    {
+      "id": "item-1100",
+      "name": "积木城堡（大型套装）",
+      "category": "积木玩具",
+      "price": "284.40"
+    },
+    {
+      "id": "item-1101",
+      "name": "积木帆船（迷你套装）",
+      "category": "积木玩具",
+      "price": "32.45"
+    },
+    {
+      "id": "item-1102",
+      "name": "积木帆船（标准套装）",
+      "category": "积木玩具",
+      "price": "59.00"
+    },
+    {
+      "id": "item-1103",
+      "name": "积木帆船（扩展套装）",
+      "category": "积木玩具",
+      "price": "112.10"
+    },
+    {
+      "id": "item-1104",
+      "name": "积木帆船（大型套装）",
+      "category": "积木玩具",
+      "price": "212.40"
+    },
+    {
+      "id": "item-1105",
+      "name": "积木火车（迷你套装）",
+      "category": "积木玩具",
+      "price": "37.95"
+    },
+    {
+      "id": "item-1106",
+      "name": "积木火车（标准套装）",
+      "category": "积木玩具",
+      "price": "69.00"
+    },
+    {
+      "id": "item-1107",
+      "name": "积木火车（扩展套装）",
+      "category": "积木玩具",
+      "price": "131.10"
+    },
+    {
+      "id": "item-1108",
+      "name": "积木火车（大型套装）",
+      "category": "积木玩具",
+      "price": "248.40"
+    },
+    {
+      "id": "item-1109",
+      "name": "积木直升机（迷你套装）",
+      "category": "积木玩具",
+      "price": "26.95"
+    },
+    {
+      "id": "item-1110",
+      "name": "积木直升机（标准套装）",
+      "category": "积木玩具",
+      "price": "49.00"
+    },
+    {
+      "id": "item-1111",
+      "name": "积木直升机（扩展套装）",
+      "category": "积木玩具",
+      "price": "93.10"
+    },
+    {
+      "id": "item-1112",
+      "name": "积木直升机（大型套装）",
+      "category": "积木玩具",
+      "price": "176.40"
+    },
+    {
+      "id": "item-1113",
+      "name": "积木空间站（迷你套装）",
+      "category": "积木玩具",
+      "price": "48.95"
+    },
+    {
+      "id": "item-1114",
+      "name": "积木空间站（标准套装）",
+      "category": "积木玩具",
+      "price": "89.00"
+    },
+    {
+      "id": "item-1115",
+      "name": "积木空间站（扩展套装）",
+      "category": "积木玩具",
+      "price": "169.10"
+    },
+    {
+      "id": "item-1116",
+      "name": "积木空间站（大型套装）",
+      "category": "积木玩具",
+      "price": "320.40"
+    },
+    {
+      "id": "item-1117",
+      "name": "积木恐龙（迷你套装）",
+      "category": "积木玩具",
+      "price": "32.45"
+    },
+    {
+      "id": "item-1118",
+      "name": "积木恐龙（标准套装）",
+      "category": "积木玩具",
+      "price": "59.00"
+    },
+    {
+      "id": "item-1119",
+      "name": "积木恐龙（扩展套装）",
+      "category": "积木玩具",
+      "price": "112.10"
+    },
+    {
+      "id": "item-1120",
+      "name": "积木恐龙（大型套装）",
+      "category": "积木玩具",
+      "price": "212.40"
+    },
+    {
+      "id": "item-1121",
+      "name": "风景拼图（入门套装）",
+      "category": "手工兴趣",
+      "price": "23.40"
+    },
+    {
+      "id": "item-1122",
+      "name": "风景拼图（标准套装）",
+      "category": "手工兴趣",
+      "price": "39.00"
+    },
+    {
+      "id": "item-1123",
+      "name": "风景拼图（进阶套装）",
+      "category": "手工兴趣",
+      "price": "70.20"
+    },
+    {
+      "id": "item-1124",
+      "name": "风景拼图（专业套装）",
+      "category": "手工兴趣",
+      "price": "117.00"
+    },
+    {
+      "id": "item-1125",
+      "name": "钻石画材料包（入门套装）",
+      "category": "手工兴趣",
+      "price": "17.40"
+    },
+    {
+      "id": "item-1126",
+      "name": "钻石画材料包（标准套装）",
+      "category": "手工兴趣",
+      "price": "29.00"
+    },
+    {
+      "id": "item-1127",
+      "name": "钻石画材料包（进阶套装）",
+      "category": "手工兴趣",
+      "price": "52.20"
+    },
+    {
+      "id": "item-1128",
+      "name": "钻石画材料包（专业套装）",
+      "category": "手工兴趣",
+      "price": "87.00"
+    },
+    {
+      "id": "item-1129",
+      "name": "油画棒套装（入门套装）",
+      "category": "手工兴趣",
+      "price": "21.00"
+    },
+    {
+      "id": "item-1130",
+      "name": "油画棒套装（标准套装）",
+      "category": "手工兴趣",
+      "price": "35.00"
+    },
+    {
+      "id": "item-1131",
+      "name": "油画棒套装（进阶套装）",
+      "category": "手工兴趣",
+      "price": "63.00"
+    },
+    {
+      "id": "item-1132",
+      "name": "油画棒套装（专业套装）",
+      "category": "手工兴趣",
+      "price": "105.00"
+    },
+    {
+      "id": "item-1133",
+      "name": "马克笔套装（入门套装）",
+      "category": "手工兴趣",
+      "price": "29.40"
+    },
+    {
+      "id": "item-1134",
+      "name": "马克笔套装（标准套装）",
+      "category": "手工兴趣",
+      "price": "49.00"
+    },
+    {
+      "id": "item-1135",
+      "name": "马克笔套装（进阶套装）",
+      "category": "手工兴趣",
+      "price": "88.20"
+    },
+    {
+      "id": "item-1136",
+      "name": "马克笔套装（专业套装）",
+      "category": "手工兴趣",
+      "price": "147.00"
+    },
+    {
+      "id": "item-1137",
+      "name": "水彩颜料套装（入门套装）",
+      "category": "手工兴趣",
+      "price": "35.40"
+    },
+    {
+      "id": "item-1138",
+      "name": "水彩颜料套装（标准套装）",
+      "category": "手工兴趣",
+      "price": "59.00"
+    },
+    {
+      "id": "item-1139",
+      "name": "水彩颜料套装（进阶套装）",
+      "category": "手工兴趣",
+      "price": "106.20"
+    },
+    {
+      "id": "item-1140",
+      "name": "水彩颜料套装（专业套装）",
+      "category": "手工兴趣",
+      "price": "177.00"
+    },
+    {
+      "id": "item-1141",
+      "name": "彩色铅笔套装（入门套装）",
+      "category": "手工兴趣",
+      "price": "23.40"
+    },
+    {
+      "id": "item-1142",
+      "name": "彩色铅笔套装（标准套装）",
+      "category": "手工兴趣",
+      "price": "39.00"
+    },
+    {
+      "id": "item-1143",
+      "name": "彩色铅笔套装（进阶套装）",
+      "category": "手工兴趣",
+      "price": "70.20"
+    },
+    {
+      "id": "item-1144",
+      "name": "彩色铅笔套装（专业套装）",
+      "category": "手工兴趣",
+      "price": "117.00"
+    },
+    {
+      "id": "item-1145",
+      "name": "手账素材包（入门套装）",
+      "category": "手工兴趣",
+      "price": "15.00"
+    },
+    {
+      "id": "item-1146",
+      "name": "手账素材包（标准套装）",
+      "category": "手工兴趣",
+      "price": "25.00"
+    },
+    {
+      "id": "item-1147",
+      "name": "手账素材包（进阶套装）",
+      "category": "手工兴趣",
+      "price": "45.00"
+    },
+    {
+      "id": "item-1148",
+      "name": "手账素材包（专业套装）",
+      "category": "手工兴趣",
+      "price": "75.00"
+    },
+    {
+      "id": "item-1149",
+      "name": "刺绣材料包（入门套装）",
+      "category": "手工兴趣",
+      "price": "21.00"
+    },
+    {
+      "id": "item-1150",
+      "name": "刺绣材料包（标准套装）",
+      "category": "手工兴趣",
+      "price": "35.00"
+    },
+    {
+      "id": "item-1151",
+      "name": "刺绣材料包（进阶套装）",
+      "category": "手工兴趣",
+      "price": "63.00"
+    },
+    {
+      "id": "item-1152",
+      "name": "刺绣材料包（专业套装）",
+      "category": "手工兴趣",
+      "price": "105.00"
+    },
+    {
+      "id": "item-1153",
+      "name": "羊毛毡材料包（入门套装）",
+      "category": "手工兴趣",
+      "price": "17.40"
+    },
+    {
+      "id": "item-1154",
+      "name": "羊毛毡材料包（标准套装）",
+      "category": "手工兴趣",
+      "price": "29.00"
+    },
+    {
+      "id": "item-1155",
+      "name": "羊毛毡材料包（进阶套装）",
+      "category": "手工兴趣",
+      "price": "52.20"
+    },
+    {
+      "id": "item-1156",
+      "name": "羊毛毡材料包（专业套装）",
+      "category": "手工兴趣",
+      "price": "87.00"
+    },
+    {
+      "id": "item-1157",
+      "name": "软陶工具套装（入门套装）",
+      "category": "手工兴趣",
+      "price": "29.40"
+    },
+    {
+      "id": "item-1158",
+      "name": "软陶工具套装（标准套装）",
+      "category": "手工兴趣",
+      "price": "49.00"
+    },
+    {
+      "id": "item-1159",
+      "name": "软陶工具套装（进阶套装）",
+      "category": "手工兴趣",
+      "price": "88.20"
+    },
+    {
+      "id": "item-1160",
+      "name": "软陶工具套装（专业套装）",
+      "category": "手工兴趣",
+      "price": "147.00"
+    },
+    {
+      "id": "item-1161",
+      "name": "桌面小风扇（基础款）",
+      "category": "生活电器",
+      "price": "41.30"
+    },
+    {
+      "id": "item-1162",
+      "name": "桌面小风扇（标准款）",
+      "category": "生活电器",
+      "price": "59.00"
+    },
+    {
+      "id": "item-1163",
+      "name": "桌面小风扇（升级款）",
+      "category": "生活电器",
+      "price": "94.40"
+    },
+    {
+      "id": "item-1164",
+      "name": "桌面小风扇（高配款）",
+      "category": "生活电器",
+      "price": "135.70"
+    },
+    {
+      "id": "item-1165",
+      "name": "空气循环扇（基础款）",
+      "category": "生活电器",
+      "price": "139.30"
+    },
+    {
+      "id": "item-1166",
+      "name": "空气循环扇（标准款）",
+      "category": "生活电器",
+      "price": "199.00"
+    },
+    {
+      "id": "item-1167",
+      "name": "空气循环扇（升级款）",
+      "category": "生活电器",
+      "price": "318.40"
+    },
+    {
+      "id": "item-1168",
+      "name": "空气循环扇（高配款）",
+      "category": "生活电器",
+      "price": "457.70"
+    },
+    {
+      "id": "item-1169",
+      "name": "加湿器（基础款）",
+      "category": "生活电器",
+      "price": "104.30"
+    },
+    {
+      "id": "item-1170",
+      "name": "加湿器（标准款）",
+      "category": "生活电器",
+      "price": "149.00"
+    },
+    {
+      "id": "item-1171",
+      "name": "加湿器（升级款）",
+      "category": "生活电器",
+      "price": "238.40"
+    },
+    {
+      "id": "item-1172",
+      "name": "加湿器（高配款）",
+      "category": "生活电器",
+      "price": "342.70"
+    },
+    {
+      "id": "item-1173",
+      "name": "家用除湿机（基础款）",
+      "category": "生活电器",
+      "price": "699.30"
+    },
+    {
+      "id": "item-1174",
+      "name": "家用除湿机（标准款）",
+      "category": "生活电器",
+      "price": "999.00"
+    },
+    {
+      "id": "item-1175",
+      "name": "家用除湿机（升级款）",
+      "category": "生活电器",
+      "price": "1598.40"
+    },
+    {
+      "id": "item-1176",
+      "name": "家用除湿机（高配款）",
+      "category": "生活电器",
+      "price": "2297.70"
+    },
+    {
+      "id": "item-1177",
+      "name": "空气净化器（基础款）",
+      "category": "生活电器",
+      "price": "629.30"
+    },
+    {
+      "id": "item-1178",
+      "name": "空气净化器（标准款）",
+      "category": "生活电器",
+      "price": "899.00"
+    },
+    {
+      "id": "item-1179",
+      "name": "空气净化器（升级款）",
+      "category": "生活电器",
+      "price": "1438.40"
+    },
+    {
+      "id": "item-1180",
+      "name": "空气净化器（高配款）",
+      "category": "生活电器",
+      "price": "2067.70"
+    },
+    {
+      "id": "item-1181",
+      "name": "无线吸尘器（基础款）",
+      "category": "生活电器",
+      "price": "489.30"
+    },
+    {
+      "id": "item-1182",
+      "name": "无线吸尘器（标准款）",
+      "category": "生活电器",
+      "price": "699.00"
+    },
+    {
+      "id": "item-1183",
+      "name": "无线吸尘器（升级款）",
+      "category": "生活电器",
+      "price": "1118.40"
+    },
+    {
+      "id": "item-1184",
+      "name": "无线吸尘器（高配款）",
+      "category": "生活电器",
+      "price": "1607.70"
+    },
+    {
+      "id": "item-1185",
+      "name": "扫地机器人（基础款）",
+      "category": "生活电器",
+      "price": "1329.30"
+    },
+    {
+      "id": "item-1186",
+      "name": "扫地机器人（标准款）",
+      "category": "生活电器",
+      "price": "1899.00"
+    },
+    {
+      "id": "item-1187",
+      "name": "扫地机器人（升级款）",
+      "category": "生活电器",
+      "price": "3038.40"
+    },
+    {
+      "id": "item-1188",
+      "name": "扫地机器人（高配款）",
+      "category": "生活电器",
+      "price": "4367.70"
+    },
+    {
+      "id": "item-1189",
+      "name": "吹风机（基础款）",
+      "category": "生活电器",
+      "price": "139.30"
+    },
+    {
+      "id": "item-1190",
+      "name": "吹风机（标准款）",
+      "category": "生活电器",
+      "price": "199.00"
+    },
+    {
+      "id": "item-1191",
+      "name": "吹风机（升级款）",
+      "category": "生活电器",
+      "price": "318.40"
+    },
+    {
+      "id": "item-1192",
+      "name": "吹风机（高配款）",
+      "category": "生活电器",
+      "price": "457.70"
+    },
+    {
+      "id": "item-1193",
+      "name": "电动牙刷（基础款）",
+      "category": "生活电器",
+      "price": "139.30"
+    },
+    {
+      "id": "item-1194",
+      "name": "电动牙刷（标准款）",
+      "category": "生活电器",
+      "price": "199.00"
+    },
+    {
+      "id": "item-1195",
+      "name": "电动牙刷（升级款）",
+      "category": "生活电器",
+      "price": "318.40"
+    },
+    {
+      "id": "item-1196",
+      "name": "电动牙刷（高配款）",
+      "category": "生活电器",
+      "price": "457.70"
+    },
+    {
+      "id": "item-1197",
+      "name": "颈部按摩仪（基础款）",
+      "category": "生活电器",
+      "price": "209.30"
+    },
+    {
+      "id": "item-1198",
+      "name": "颈部按摩仪（标准款）",
+      "category": "生活电器",
+      "price": "299.00"
+    },
+    {
+      "id": "item-1199",
+      "name": "颈部按摩仪（升级款）",
+      "category": "生活电器",
+      "price": "478.40"
+    },
+    {
+      "id": "item-1200",
+      "name": "颈部按摩仪（高配款）",
+      "category": "生活电器",
+      "price": "687.70"
+    },
+    {
+      "id": "item-1201",
+      "name": "掌上游戏机（入门配置）",
+      "category": "数码大件",
+      "price": "1049.30"
+    },
+    {
+      "id": "item-1202",
+      "name": "掌上游戏机（标准配置）",
+      "category": "数码大件",
+      "price": "1499.00"
+    },
+    {
+      "id": "item-1203",
+      "name": "掌上游戏机（升级配置）",
+      "category": "数码大件",
+      "price": "2098.60"
+    },
+    {
+      "id": "item-1204",
+      "name": "掌上游戏机（高配配置）",
+      "category": "数码大件",
+      "price": "2848.10"
+    },
+    {
+      "id": "item-1205",
+      "name": "便携投影仪（入门配置）",
+      "category": "数码大件",
+      "price": "1399.30"
+    },
+    {
+      "id": "item-1206",
+      "name": "便携投影仪（标准配置）",
+      "category": "数码大件",
+      "price": "1999.00"
+    },
+    {
+      "id": "item-1207",
+      "name": "便携投影仪（升级配置）",
+      "category": "数码大件",
+      "price": "2798.60"
+    },
+    {
+      "id": "item-1208",
+      "name": "便携投影仪（高配配置）",
+      "category": "数码大件",
+      "price": "3798.10"
+    },
+    {
+      "id": "item-1209",
+      "name": "平板电脑（入门配置）",
+      "category": "数码大件",
+      "price": "1749.30"
+    },
+    {
+      "id": "item-1210",
+      "name": "平板电脑（标准配置）",
+      "category": "数码大件",
+      "price": "2499.00"
+    },
+    {
+      "id": "item-1211",
+      "name": "平板电脑（升级配置）",
+      "category": "数码大件",
+      "price": "3498.60"
+    },
+    {
+      "id": "item-1212",
+      "name": "平板电脑（高配配置）",
+      "category": "数码大件",
+      "price": "4748.10"
+    },
+    {
+      "id": "item-1213",
+      "name": "电子书阅读器（入门配置）",
+      "category": "数码大件",
+      "price": "699.30"
+    },
+    {
+      "id": "item-1214",
+      "name": "电子书阅读器（标准配置）",
+      "category": "数码大件",
+      "price": "999.00"
+    },
+    {
+      "id": "item-1215",
+      "name": "电子书阅读器（升级配置）",
+      "category": "数码大件",
+      "price": "1398.60"
+    },
+    {
+      "id": "item-1216",
+      "name": "电子书阅读器（高配配置）",
+      "category": "数码大件",
+      "price": "1898.10"
+    },
+    {
+      "id": "item-1217",
+      "name": "智能手表（入门配置）",
+      "category": "数码大件",
+      "price": "699.30"
+    },
+    {
+      "id": "item-1218",
+      "name": "智能手表（标准配置）",
+      "category": "数码大件",
+      "price": "999.00"
+    },
+    {
+      "id": "item-1219",
+      "name": "智能手表（升级配置）",
+      "category": "数码大件",
+      "price": "1398.60"
+    },
+    {
+      "id": "item-1220",
+      "name": "智能手表（高配配置）",
+      "category": "数码大件",
+      "price": "1898.10"
+    },
+    {
+      "id": "item-1221",
+      "name": "运动手环（入门配置）",
+      "category": "数码大件",
+      "price": "174.30"
+    },
+    {
+      "id": "item-1222",
+      "name": "运动手环（标准配置）",
+      "category": "数码大件",
+      "price": "249.00"
+    },
+    {
+      "id": "item-1223",
+      "name": "运动手环（升级配置）",
+      "category": "数码大件",
+      "price": "348.60"
+    },
+    {
+      "id": "item-1224",
+      "name": "运动手环（高配配置）",
+      "category": "数码大件",
+      "price": "473.10"
+    },
+    {
+      "id": "item-1225",
+      "name": "便携数码相机（入门配置）",
+      "category": "数码大件",
+      "price": "2099.30"
+    },
+    {
+      "id": "item-1226",
+      "name": "便携数码相机（标准配置）",
+      "category": "数码大件",
+      "price": "2999.00"
+    },
+    {
+      "id": "item-1227",
+      "name": "便携数码相机（升级配置）",
+      "category": "数码大件",
+      "price": "4198.60"
+    },
+    {
+      "id": "item-1228",
+      "name": "便携数码相机（高配配置）",
+      "category": "数码大件",
+      "price": "5698.10"
+    },
+    {
+      "id": "item-1229",
+      "name": "桌面显示器（入门配置）",
+      "category": "数码大件",
+      "price": "909.30"
+    },
+    {
+      "id": "item-1230",
+      "name": "桌面显示器（标准配置）",
+      "category": "数码大件",
+      "price": "1299.00"
+    },
+    {
+      "id": "item-1231",
+      "name": "桌面显示器（升级配置）",
+      "category": "数码大件",
+      "price": "1818.60"
+    },
+    {
+      "id": "item-1232",
+      "name": "桌面显示器（高配配置）",
+      "category": "数码大件",
+      "price": "2468.10"
+    },
+    {
+      "id": "item-1233",
+      "name": "迷你电脑主机（入门配置）",
+      "category": "数码大件",
+      "price": "1749.30"
+    },
+    {
+      "id": "item-1234",
+      "name": "迷你电脑主机（标准配置）",
+      "category": "数码大件",
+      "price": "2499.00"
+    },
+    {
+      "id": "item-1235",
+      "name": "迷你电脑主机（升级配置）",
+      "category": "数码大件",
+      "price": "3498.60"
+    },
+    {
+      "id": "item-1236",
+      "name": "迷你电脑主机（高配配置）",
+      "category": "数码大件",
+      "price": "4748.10"
+    },
+    {
+      "id": "item-1237",
+      "name": "轻薄笔记本电脑（入门配置）",
+      "category": "数码大件",
+      "price": "3499.30"
+    },
+    {
+      "id": "item-1238",
+      "name": "轻薄笔记本电脑（标准配置）",
+      "category": "数码大件",
+      "price": "4999.00"
+    },
+    {
+      "id": "item-1239",
+      "name": "轻薄笔记本电脑（升级配置）",
+      "category": "数码大件",
+      "price": "6998.60"
+    },
+    {
+      "id": "item-1240",
+      "name": "轻薄笔记本电脑（高配配置）",
+      "category": "数码大件",
+      "price": "9498.10"
+    },
+    {
+      "id": "item-1241",
+      "name": "相机三脚架（入门款）",
+      "category": "摄影配件",
+      "price": "129.35"
+    },
+    {
+      "id": "item-1242",
+      "name": "相机三脚架（标准款）",
+      "category": "摄影配件",
+      "price": "199.00"
+    },
+    {
+      "id": "item-1243",
+      "name": "相机三脚架（进阶款）",
+      "category": "摄影配件",
+      "price": "318.40"
+    },
+    {
+      "id": "item-1244",
+      "name": "相机三脚架（专业款）",
+      "category": "摄影配件",
+      "price": "477.60"
+    },
+    {
+      "id": "item-1245",
+      "name": "手机三脚架（入门款）",
+      "category": "摄影配件",
+      "price": "38.35"
+    },
+    {
+      "id": "item-1246",
+      "name": "手机三脚架（标准款）",
+      "category": "摄影配件",
+      "price": "59.00"
+    },
+    {
+      "id": "item-1247",
+      "name": "手机三脚架（进阶款）",
+      "category": "摄影配件",
+      "price": "94.40"
+    },
+    {
+      "id": "item-1248",
+      "name": "手机三脚架（专业款）",
+      "category": "摄影配件",
+      "price": "141.60"
+    },
+    {
+      "id": "item-1249",
+      "name": "柔光补光灯（入门款）",
+      "category": "摄影配件",
+      "price": "83.85"
+    },
+    {
+      "id": "item-1250",
+      "name": "柔光补光灯（标准款）",
+      "category": "摄影配件",
+      "price": "129.00"
+    },
+    {
+      "id": "item-1251",
+      "name": "柔光补光灯（进阶款）",
+      "category": "摄影配件",
+      "price": "206.40"
+    },
+    {
+      "id": "item-1252",
+      "name": "柔光补光灯（专业款）",
+      "category": "摄影配件",
+      "price": "309.60"
+    },
+    {
+      "id": "item-1253",
+      "name": "摄影反光板（入门款）",
+      "category": "摄影配件",
+      "price": "31.85"
+    },
+    {
+      "id": "item-1254",
+      "name": "摄影反光板（标准款）",
+      "category": "摄影配件",
+      "price": "49.00"
+    },
+    {
+      "id": "item-1255",
+      "name": "摄影反光板（进阶款）",
+      "category": "摄影配件",
+      "price": "78.40"
+    },
+    {
+      "id": "item-1256",
+      "name": "摄影反光板（专业款）",
+      "category": "摄影配件",
+      "price": "117.60"
+    },
+    {
+      "id": "item-1257",
+      "name": "相机收纳包（入门款）",
+      "category": "摄影配件",
+      "price": "103.35"
+    },
+    {
+      "id": "item-1258",
+      "name": "相机收纳包（标准款）",
+      "category": "摄影配件",
+      "price": "159.00"
+    },
+    {
+      "id": "item-1259",
+      "name": "相机收纳包（进阶款）",
+      "category": "摄影配件",
+      "price": "254.40"
+    },
+    {
+      "id": "item-1260",
+      "name": "相机收纳包（专业款）",
+      "category": "摄影配件",
+      "price": "381.60"
+    },
+    {
+      "id": "item-1261",
+      "name": "快装云台（入门款）",
+      "category": "摄影配件",
+      "price": "129.35"
+    },
+    {
+      "id": "item-1262",
+      "name": "快装云台（标准款）",
+      "category": "摄影配件",
+      "price": "199.00"
+    },
+    {
+      "id": "item-1263",
+      "name": "快装云台（进阶款）",
+      "category": "摄影配件",
+      "price": "318.40"
+    },
+    {
+      "id": "item-1264",
+      "name": "快装云台（专业款）",
+      "category": "摄影配件",
+      "price": "477.60"
+    },
+    {
+      "id": "item-1265",
+      "name": "相机肩带（入门款）",
+      "category": "摄影配件",
+      "price": "44.85"
+    },
+    {
+      "id": "item-1266",
+      "name": "相机肩带（标准款）",
+      "category": "摄影配件",
+      "price": "69.00"
+    },
+    {
+      "id": "item-1267",
+      "name": "相机肩带（进阶款）",
+      "category": "摄影配件",
+      "price": "110.40"
+    },
+    {
+      "id": "item-1268",
+      "name": "相机肩带（专业款）",
+      "category": "摄影配件",
+      "price": "165.60"
+    },
+    {
+      "id": "item-1269",
+      "name": "镜头清洁套装（入门款）",
+      "category": "摄影配件",
+      "price": "25.35"
+    },
+    {
+      "id": "item-1270",
+      "name": "镜头清洁套装（标准款）",
+      "category": "摄影配件",
+      "price": "39.00"
+    },
+    {
+      "id": "item-1271",
+      "name": "镜头清洁套装（进阶款）",
+      "category": "摄影配件",
+      "price": "62.40"
+    },
+    {
+      "id": "item-1272",
+      "name": "镜头清洁套装（专业款）",
+      "category": "摄影配件",
+      "price": "93.60"
+    },
+    {
+      "id": "item-1273",
+      "name": "桌面俯拍支架（入门款）",
+      "category": "摄影配件",
+      "price": "83.85"
+    },
+    {
+      "id": "item-1274",
+      "name": "桌面俯拍支架（标准款）",
+      "category": "摄影配件",
+      "price": "129.00"
+    },
+    {
+      "id": "item-1275",
+      "name": "桌面俯拍支架（进阶款）",
+      "category": "摄影配件",
+      "price": "206.40"
+    },
+    {
+      "id": "item-1276",
+      "name": "桌面俯拍支架（专业款）",
+      "category": "摄影配件",
+      "price": "309.60"
+    },
+    {
+      "id": "item-1277",
+      "name": "无线领夹麦克风（入门款）",
+      "category": "摄影配件",
+      "price": "194.35"
+    },
+    {
+      "id": "item-1278",
+      "name": "无线领夹麦克风（标准款）",
+      "category": "摄影配件",
+      "price": "299.00"
+    },
+    {
+      "id": "item-1279",
+      "name": "无线领夹麦克风（进阶款）",
+      "category": "摄影配件",
+      "price": "478.40"
+    },
+    {
+      "id": "item-1280",
+      "name": "无线领夹麦克风（专业款）",
+      "category": "摄影配件",
+      "price": "717.60"
+    }
+  ]
+}
