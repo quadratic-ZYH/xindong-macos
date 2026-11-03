@@ -3,18 +3,23 @@ import calendar
 import datetime as dt
 import json
 import os
+import sys
 from decimal import Decimal, InvalidOperation
+import math
 from pathlib import Path
 from typing import NamedTuple
 
 from .themes import DEFAULT_THEME, THEMES
+from .holidays import HolidayCalendar
 
 CONFIG_HOME = (
     Path(os.environ.get("APPDATA", Path.home()))
     if os.name == "nt"
-    else Path(os.environ.get("XDG_CONFIG_HOME", Path.home() / ".config"))
+    else Path(os.environ.get("XDG_CONFIG_HOME", Path.home() / "Library" / "Application Support"
+                             if sys.platform == "darwin" else Path.home() / ".config"))
 )
 CONFIG = CONFIG_HOME / "salary-motivator" / "settings.json"
+HOLIDAYS = HolidayCalendar(CONFIG.parent / "holidays")
 AUTOSTART_NAME = "salary-motivator.desktop"
 DEFAULTS = dict(
     monthly="10000",
@@ -26,6 +31,7 @@ DEFAULTS = dict(
     opacity=90,
     minimize_to_tray=True,
     theme=DEFAULT_THEME,
+    auto_holidays=True,
 )
 
 
@@ -48,6 +54,10 @@ def is_workday(day, settings):
     override = settings["overrides"].get(day.isoformat())
     if override is not None:
         return override
+    if settings.get("auto_holidays", True):
+        official = HOLIDAYS.workday(day)
+        if official is not None:
+            return official
     if settings["rest"] == "双休":
         return day.weekday() < 5
     return day.weekday() != settings["single_rest"]
@@ -65,6 +75,20 @@ class Earnings(NamedTuple):
     daily_target: Decimal
     working_days: int
     progress: float
+
+
+class ShiftCountdown(NamedTuple):
+    seconds: int
+    label: str
+
+
+def shift_countdown(now, settings):
+    if not is_workday(now.date(), settings):
+        return ShiftCountdown(0, "今日休息")
+    end = now.replace(hour=minutes(settings["end"]) // 60,
+                      minute=minutes(settings["end"]) % 60, second=0, microsecond=0)
+    seconds = max(0, math.ceil((end - now).total_seconds()))
+    return ShiftCountdown(seconds, f"下班 {seconds:,}秒" if seconds else "已下班")
 
 
 def earnings(now, settings):
@@ -101,6 +125,8 @@ def load_settings():
 
 
 def validate(settings):
+    if type(settings.get("auto_holidays", True)) is not bool:
+        raise ValueError("自动调休设置无效。")
     if settings["theme"] not in THEMES:
         raise ValueError("请选择有效的配色方案。")
     if type(settings["opacity"]) is not int or not 65 <= settings["opacity"] <= 100:

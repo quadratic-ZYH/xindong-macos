@@ -3,25 +3,36 @@
 import datetime as dt
 import os
 import queue
+import sys
 from pathlib import Path
 import time
 import tkinter as tk
 from tkinter import ttk
 
 from .ui.preferences import PreferencesDialog
-from .model import earnings, is_workday, load_settings, minutes
+from .model import earnings, is_workday, load_settings, minutes, shift_countdown, HOLIDAYS, CONFIG
+from .goals import GoalTracker
 from .themes import THEMES
 from .platform import tray, window_chrome
 from .platform.single_instance import acquire_instance, release_instance
 
 
 class SalaryWidget:
-    def __init__(self):
+    WIDTH, HEIGHT = 420, 520
+
+    def __init__(self, background=None, sync_calendar=True):
         self.config = load_settings()
+        self.goals = GoalTracker(CONFIG.parent / "goals.json", dt.datetime.now())
+        self.calendar = HOLIDAYS
+        self.sync_calendar = sync_calendar
+        self.next_calendar_check = 0
+        self.background = sys.platform == "darwin" if background is None else background
         self.theme = THEMES[self.config["theme"]]
         self.controls = []
         self.root = tk.Tk(className="SalaryMotivator")
         self.root.withdraw()
+        if sys.platform == "darwin":
+            window_chrome.undecorate(self.root)
         self.root.title("上班鼓励器")
         self.window_icon = tk.PhotoImage(
             master=self.root,
@@ -33,7 +44,7 @@ class SalaryWidget:
             self.window_icon.subsample(4),
             self.window_icon.subsample(8),
         )
-        self.root.geometry("420x286")
+        self.root.geometry(f"{self.WIDTH}x{self.HEIGHT}")
         self.root.resizable(False, False)
         self.root.configure(bg=self.theme.background)
         self.root.attributes("-topmost", True)
@@ -43,8 +54,22 @@ class SalaryWidget:
         self.tray_pending = None
         self.events = queue.Queue()
         self.tray = tray.Tray(self.events)
-        self.font = "Microsoft YaHei UI" if os.name == "nt" else "Noto Sans CJK SC"
-        self.number_font = "Consolas" if os.name == "nt" else "DejaVu Sans Mono"
+        if sys.platform == "darwin":
+            self.font, self.number_font = "PingFang SC", "Menlo"
+            self.root.createcommand("::tk::mac::Quit", self.quit)
+            self.root.createcommand("::tk::mac::ReopenApplication", self.show)
+            self.root.createcommand("::tk::mac::ShowPreferences", self.settings)
+            self.root.bind_all("<Command-comma>", lambda event: self.settings())
+            self.root.bind_all("<Command-q>", lambda event: self.quit())
+            menu = tk.Menu(self.root)
+            apple = tk.Menu(menu, name="apple", tearoff=False)
+            apple.add_command(label="关于薪动", command=lambda:
+                              self.root.tk.call("tk::mac::standardAboutPanel"))
+            menu.add_cascade(label="薪动", menu=apple)
+            self.root.configure(menu=menu)
+        else:
+            self.font = "Microsoft YaHei UI" if os.name == "nt" else "Noto Sans CJK SC"
+            self.number_font = "Consolas" if os.name == "nt" else "DejaVu Sans Mono"
         self.setup_style()
         self.build_card()
         self.root.bind("<Escape>", lambda event: self.hide_to_tray())
@@ -55,10 +80,15 @@ class SalaryWidget:
         self.refresh_chrome()
         self.apply_opacity(self.config["opacity"])
         left, top, right, bottom = window_chrome.work_area(self.root)
-        x = max(left, right - 420 - 20)
-        y = max(top, bottom - 286 - 20)
-        self.root.geometry(f"420x286+{x}+{y}")
-        self.root.deiconify()
+        x = max(left, right - self.WIDTH - 20)
+        y = max(top, bottom - self.HEIGHT - 20)
+        self.root.geometry(f"{self.WIDTH}x{self.HEIGHT}+{x}+{y}")
+        if self.background and self.tray.native is not None:
+            self.hidden_to_tray = True
+        else:
+            self.root.deiconify()
+            if sys.platform == "darwin":
+                self.root.after_idle(self.show)
         if os.name == "nt":
             icon = Path(__file__).parent / "assets/icon.ico"
             if icon.exists():
@@ -69,14 +99,14 @@ class SalaryWidget:
     def build_card(self):
         canvas = self.canvas = tk.Canvas(
             self.root,
-            width=420,
-            height=286,
+            width=self.WIDTH,
+            height=self.HEIGHT,
             bg=self.theme.background,
             highlightthickness=0,
         )
         canvas.pack()
         canvas.create_rectangle(
-            0, 0, 419, 285, outline=self.theme.border, tags=("outline:border",)
+            0, 0, self.WIDTH - 1, self.HEIGHT - 1, outline=self.theme.border, tags=("outline:border",)
         )
         canvas.create_oval(
             23, 24, 29, 30, fill=self.theme.accent, outline="", tags=("fill:accent",)
@@ -125,6 +155,24 @@ class SalaryWidget:
             font=(self.font, 8),
             tags=("fill:muted",),
         )
+        canvas.create_line(24, 294, 396, 294, fill=self.theme.border, tags=("fill:border",))
+        self.label(24, 314, "距离今日下班", size=9, color="muted")
+        self.countdown_id = self.label(22, 343, "", size=22, weight="bold", numeric=True)
+        self.shift_state_id = self.label(270, 343, "", size=9, color="muted")
+        canvas.create_line(24, 367, 396, 367, fill=self.theme.border, tags=("fill:border",))
+        self.label(24, 389, "下一个小目标", size=9, color="muted")
+        self.goal_category_id = canvas.create_text(
+            396, 389, text="", anchor="e", fill=self.theme.muted,
+            font=(self.font, 8), tags=("fill:muted",))
+        self.goal_name_id = self.label(24, 414, "", size=12, weight="bold")
+        self.goal_price_id = self.label(24, 438, "", size=9, color="muted")
+        self.goal_eta_id = self.label(24, 461, "", size=11, color="positive")
+        canvas.create_line(26, 483, 394, 483, fill=self.theme.track, width=4,
+                           capstyle="round", tags=("fill:track",))
+        self.goal_progress_id = canvas.create_line(
+            26, 483, 26, 483, fill=self.theme.accent, width=4, capstyle="round",
+            state="hidden", tags=("fill:accent",))
+        self.goal_footer_id = self.label(24, 505, "", size=8, color="muted")
         self.control(280, "设置", self.settings, width=42)
         self.control(330, "−", self.minimize, width=22)
         self.control(360, "▾", self.hide_to_tray, width=22)
@@ -287,12 +335,15 @@ class SalaryWidget:
 
     def on_destroy(self, event):
         if event.widget == self.root and not self.closed:
+            self.goals.save()
             self.closed = True
             self.tray.stop()
 
     def quit(self):
         if self.closed:
             return
+        self.goals.advance(dt.datetime.now(), self.config)
+        self.goals.save()
         self.closed = True
         if hasattr(self, "_chrome_after"):
             self.root.after_cancel(self._chrome_after)
@@ -304,7 +355,7 @@ class SalaryWidget:
         self.root.destroy()
 
     def minimize(self):
-        if self.config["minimize_to_tray"]:
+        if sys.platform == "darwin" or self.config["minimize_to_tray"]:
             self.hide_to_tray()
         else:
             self.minimize_taskbar()
@@ -330,7 +381,15 @@ class SalaryWidget:
     def show(self):
         self.tray_pending = None
         self.hidden_to_tray = False
+        if sys.platform == "darwin" and self.tray.native is not None:
+            x, y = self.tray.native.panel_position(self.WIDTH, self.HEIGHT)
+            self.root.geometry(f"{self.WIDTH}x{self.HEIGHT}{x:+d}{y:+d}")
         self.root.deiconify()
+        if sys.platform == "darwin":
+            from .platform.macos import activate
+
+            activate(self.root)
+            self.root.focus_force()
         self.root.lift()
         self.root.attributes("-topmost", True)
         self.apply_opacity(self.config["opacity"])
@@ -343,6 +402,11 @@ class SalaryWidget:
                 command = self.events.get_nowait()
             except queue.Empty:
                 break
+            if isinstance(command, tuple) and command[0] == "calendar":
+                self.calendar.accept(command)
+                if self.dialog and self.dialog.winfo_exists():
+                    self.dialog.render_calendar()
+                continue
             if command == "ready":
                 self.tray.ready = True
             elif command == "unavailable":
@@ -351,6 +415,14 @@ class SalaryWidget:
                     self.show()
             elif command == "show":
                 self.show()
+            elif command == "toggle":
+                if self.hidden_to_tray or self.root.state() != "normal":
+                    self.show()
+                else:
+                    self.hide_to_tray()
+            elif command == "dismiss":
+                if not (self.dialog and self.dialog.winfo_exists()):
+                    self.hide_to_tray()
             elif command == "settings":
                 self.show()
                 self.settings()
@@ -377,11 +449,19 @@ class SalaryWidget:
             )
 
     def tick(self):
-        self.render_earnings(dt.datetime.now())
+        now = dt.datetime.now()
+        self.goals.advance(now, self.config)
+        self.render_earnings(now)
+        if self.sync_calendar and self.config.get("auto_holidays", True) and time.monotonic() >= self.next_calendar_check:
+            self.calendar.request(now.year, self.events)
+            self.next_calendar_check = time.monotonic() + 60
         self._tick_after = self.root.after(100, self.tick)
 
     def render_earnings(self, now):
         income = earnings(now, self.config)
+        if self.tray.native is not None:
+            self.tray.native.update_income(income.amount, self.income_status(now, income),
+                                          shift_countdown(now, self.config).label)
         canvas = self.canvas
         amount_text = f"¥{income.amount:,.4f}"
         font_size = 34 if len(amount_text) <= 13 else 25
@@ -402,10 +482,46 @@ class SalaryWidget:
             text=f"{now:%m.%d}  /  {self.config['start']} — {self.config['end']}",
         )
         canvas.itemconfigure(self.percent_id, text=f"{income.progress:.1%}")
+        self.render_goals(now, income)
+
+    def render_goals(self, now, income):
+        countdown = shift_countdown(now, self.config)
+        seconds_text = f"{countdown.seconds:,} 秒" if countdown.seconds else countdown.label
+        self.canvas.itemconfigure(self.countdown_id, text=seconds_text)
+        working = is_workday(now.date(), self.config) and 0 < income.progress < 1
+        if not is_workday(now.date(), self.config):
+            shift_state = "休息日"
+        elif income.progress >= 1:
+            shift_state = "今日已收工"
+        elif income.progress <= 0:
+            shift_state = "等待开工"
+        else:
+            shift_state = "计薪进行中"
+        self.canvas.itemconfigure(self.shift_state_id, text=shift_state)
+        goal = self.goals
+        self.canvas.itemconfigure(self.goal_name_id, text=goal.item.name)
+        self.canvas.itemconfigure(self.goal_category_id, text=goal.item.category)
+        self.canvas.itemconfigure(self.goal_price_id,
+                                  text=f"参考价 ¥{goal.item.price:,.2f}   ·   已攒 ¥{goal.balance:,.2f}")
+        remaining = goal.seconds_remaining(now, self.config)
+        if remaining is None:
+            eta = "本月暂无计薪日，等待排班"
+        elif remaining == 0:
+            eta = "已攒够，正在切换下一件…"
+        else:
+            eta = f"还需 {remaining:,} 计薪秒" + ("" if working else " · 暂停中")
+        self.canvas.itemconfigure(self.goal_eta_id, text=eta)
+        self.canvas.coords(self.goal_progress_id, 26, 483, 26 + 368 * goal.progress, 483)
+        self.canvas.itemconfigure(self.goal_progress_id, state="normal" if goal.progress > 0 else "hidden")
+        self.canvas.itemconfigure(self.goal_footer_id,
+                                  text=f"{len(goal.items):,} 件参考目标 · 已达成 {goal.completed:,} 件 · 攒够自动换")
 
     def income_status(self, now, income):
         if not is_workday(now.date(), self.config):
-            return "今日休息 · 生活也值得投入"
+            if now.date().isoformat() in self.config["overrides"]:
+                return "今日休息 · 手动安排"
+            detail = self.calendar.description(now.date()) if self.config.get("auto_holidays", True) else ""
+            return detail or "今日休息 · 生活也值得投入"
         if income.progress >= 1:
             return "今日目标达成 · 下班快乐"
         if income.progress <= 0:
@@ -421,6 +537,17 @@ class SalaryWidget:
             self.dialog.reveal()
         else:
             self.dialog = PreferencesDialog(self)
+        if sys.platform == "darwin":
+            self.dialog.update_idletasks()
+            # Keep the large settings panel inside the usable desktop, even
+            # when the counter sits against the bottom-right corner.
+            left, top, right, bottom = window_chrome.work_area(self.root)
+            width = self.dialog.winfo_reqwidth()
+            height = self.dialog.winfo_reqheight()
+            self.dialog.geometry(f"+{max(left, (left + right - width) // 2)}"
+                                 f"+{max(top, (top + bottom - height) // 2)}")
+            self.dialog.lift()
+            self.dialog.focus_force()
 
     def run(self):
         self.root.mainloop()
