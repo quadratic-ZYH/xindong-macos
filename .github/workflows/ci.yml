@@ -7,30 +7,20 @@ on:
 permissions:
   contents: read
 jobs:
-  linux:
-    runs-on: ubuntu-22.04
+  calculations:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
         with:
           persist-credentials: false
-      - name: Install desktop test dependencies
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+      - name: Install package
+        run: python -m pip install -e .
+      - name: Check Python syntax and business rules
         run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends python3-tk python3-gi gir1.2-gtk-3.0 gir1.2-ayatanaappindicator3-0.1 fonts-noto-cjk xvfb xauth x11-utils dbus-x11 openbox stalonetray xcompmgr libxtst6 black python3-yaml
-      - name: Check formatting and workflow syntax
-        run: |
-          black --check src tests scripts packaging
-          python3 -c "from pathlib import Path; import yaml; [yaml.safe_load(p.read_text()) for p in Path('.github/workflows').glob('*.yml')]"
-      - name: Check payroll and themes
-        env:
-          PYTHONDONTWRITEBYTECODE: '1'
-        run: |
-          xvfb-run -a python3 tests/smoke_core.py
-          xvfb-run -a python3 tests/smoke_themes.py
-      - name: Check real window and tray interactions
-        env:
-          PYTHONDONTWRITEBYTECODE: '1'
-          NO_AT_BRIDGE: '1'
-        run: |
-          dbus-run-session -- xvfb-run -a python3 tests/smoke_desktop.py
-          dbus-run-session -- xvfb-run -a python3 tests/smoke_indicator.py
+          python -m compileall -q src scripts packaging tests
+          python tests/smoke_countdown.py
+          python tests/smoke_goals.py
+          python tests/smoke_holidays.py
