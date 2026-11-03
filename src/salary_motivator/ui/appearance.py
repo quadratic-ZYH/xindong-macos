@@ -1,5 +1,6 @@
 """Appearance controls and palette previews, separate from payroll/calendar UI."""
 import tkinter as tk
+import sys
 from tkinter import ttk
 from typing import Callable, Dict
 
@@ -47,9 +48,12 @@ class AppearancePanel(ttk.Frame):
         ttk.Checkbutton(self, text="登录电脑后自动启动", variable=self.autostart).grid(
             row=4, column=0, columnspan=2, sticky="w", pady=(20, 8)
         )
-        ttk.Checkbutton(self, text="最小化时收起到托盘", variable=self.minimize_to_tray).grid(
-            row=5, column=0, columnspan=2, sticky="w"
-        )
+        if sys.platform == "darwin":
+            ttk.Label(self, text="后台运行 · 单击菜单栏金额展开或收起面板").grid(
+                row=5, column=0, columnspan=2, sticky="w")
+        else:
+            ttk.Checkbutton(self, text="最小化时收起到托盘", variable=self.minimize_to_tray).grid(
+                row=5, column=0, columnspan=2, sticky="w")
         ttk.Label(
             self,
             text="切换配色和透明度可实时预览；点击保存后记住选择。",
@@ -74,16 +78,16 @@ class AppearancePanel(ttk.Frame):
         card.grid(row=index // 2, column=index % 2, sticky="nsew", padx=4, pady=4)
         parent.columnconfigure(index % 2, weight=1)
         choose = lambda: self.theme_key.set(theme.key)
-        title = tk.Button(
+        style_name = f"Palette.{theme.key}.TButton"
+        style = ttk.Style(self)
+        style.configure(style_name, background=theme.background,
+                        foreground=theme.foreground, anchor="w", padding=(2, 2))
+        style.map(style_name, background=[("active", theme.surface)],
+                  foreground=[("active", theme.foreground)])
+        title = ttk.Button(
             card,
             text=theme.name,
-            bg=theme.background,
-            fg=theme.foreground,
-            activebackground=theme.surface,
-            activeforeground=theme.foreground,
-            relief="flat",
-            borderwidth=0,
-            anchor="w",
+            style=style_name,
             cursor="hand2",
             command=choose,
         )

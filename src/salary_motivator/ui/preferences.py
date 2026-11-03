@@ -1,6 +1,7 @@
 """Settings dialog: calendar editing and appearance preview with explicit save/cancel."""
 import calendar
 import datetime as dt
+import sys
 from decimal import InvalidOperation
 import tkinter as tk
 from tkinter import messagebox, ttk
@@ -34,6 +35,8 @@ class PreferencesDialog(tk.Toplevel):
         self.single_rest = tk.StringVar(value=WEEKDAYS[app.config["single_rest"]])
         self.calendar_title = tk.StringVar()
         self.calendar_summary = tk.StringVar()
+        self.auto_holidays = tk.BooleanVar(value=app.config.get("auto_holidays", True))
+        self.holiday_status = tk.StringVar()
 
         container = ttk.Frame(self, padding=14)
         container.pack(fill="both", expand=True)
@@ -113,14 +116,18 @@ class PreferencesDialog(tk.Toplevel):
         ttk.Label(self.calendar_page, textvariable=self.calendar_summary).grid(
             row=7, column=0, columnspan=2, pady=(8, 2)
         )
-        ttk.Label(
-            self.calendar_page,
-            text="点击日期切换班/休，* 表示手动调整。\n" "法定节假日、调休请手动标记。\n" "日薪 = 月薪 ÷ 当月工作日，班内连续线性增长。",
-            style="Muted.TLabel",
-        ).grid(row=8, column=0, columnspan=2, pady=6)
-        ttk.Button(self.calendar_page, text="重置本月调休", command=self.reset_month).grid(
-            row=9, column=0, columnspan=2, sticky="w", pady=(8, 0)
-        )
+        options = ttk.Frame(self.calendar_page)
+        options.grid(row=8, column=0, columnspan=2, sticky="ew", pady=(6, 0))
+        ttk.Checkbutton(options, text="自动同步中国法定节假日与调休",
+                        variable=self.auto_holidays, command=self.toggle_auto_holidays).pack(anchor="w")
+        ttk.Label(options, textvariable=self.holiday_status, style="Muted.TLabel",
+                  wraplength=390).pack(anchor="w", pady=(4, 0))
+        ttk.Label(options, text="点击日期改班/休；* 手动，· 国家安排。",
+                  style="Muted.TLabel").pack(anchor="w", pady=4)
+        actions = ttk.Frame(self.calendar_page)
+        actions.grid(row=9, column=0, columnspan=2, sticky="ew", pady=(6, 0))
+        ttk.Button(actions, text="清除本月手动修改", command=self.reset_month).pack(side="left")
+        ttk.Button(actions, text="更新调休", command=lambda: self.refresh_holidays(True)).pack(side="right")
 
     def calendar_settings(self):
         return dict(
@@ -128,13 +135,25 @@ class PreferencesDialog(tk.Toplevel):
             **{key: value.get() for key, value in self.form.items()},
             single_rest=WEEKDAYS.index(self.single_rest.get()),
             overrides=self.overrides,
+            auto_holidays=self.auto_holidays.get(),
         )
 
     def render_calendar(self, *_):
         for widget in self.calendar_grid.winfo_children():
             widget.destroy()
         settings = self.calendar_settings()
+        self.holiday_status.set(self.app.calendar.status(self.year) if self.auto_holidays.get()
+                                else "已关闭自动调休 · 按单双休与手动日期计算")
         theme = self.app.theme
+        style = self.app.style
+        for name, background, foreground, hover in (
+            ("Workday.TButton", theme.work_background, theme.work_foreground, theme.work_hover),
+            ("Restday.TButton", theme.surface, theme.muted, theme.hover),
+        ):
+            style.configure(name, background=background, foreground=foreground,
+                            padding=(5, 6))
+            style.map(name, background=[("active", hover)],
+                      foreground=[("active", foreground)])
         self.calendar_title.set(f"{self.year} 年 {self.month} 月")
         for column, name in enumerate("一二三四五六日"):
             ttk.Label(self.calendar_grid, text=name, anchor="center").grid(
@@ -147,22 +166,14 @@ class PreferencesDialog(tk.Toplevel):
                 day = dt.date(self.year, self.month, number)
                 working = payroll.is_workday(day, settings)
                 manually_set = day.isoformat() in self.overrides
-                caption = (
-                    f"{number}{'班' if working else '休'}{'*' if manually_set else ''}"
-                )
-                tk.Button(
+                official = self.auto_holidays.get() and self.app.calendar.workday(day) is not None
+                marker = "*" if manually_set else "·" if official else ""
+                caption = f"{number}{'班' if working else '休'}{marker}"
+                ttk.Button(
                     self.calendar_grid,
                     text=caption,
                     width=5,
-                    bg=theme.work_background if working else theme.surface,
-                    fg=theme.work_foreground if working else theme.muted,
-                    activebackground=theme.work_hover if working else theme.hover,
-                    activeforeground=theme.work_foreground
-                    if working
-                    else theme.foreground,
-                    relief="flat",
-                    borderwidth=0,
-                    pady=6,
+                    style="Workday.TButton" if working else "Restday.TButton",
                     cursor="hand2",
                     command=lambda chosen_day=day: self.toggle_workday(chosen_day),
                 ).grid(row=row, column=column, padx=1, pady=1)
@@ -184,6 +195,17 @@ class PreferencesDialog(tk.Toplevel):
         year, month = divmod(index, 12)
         if 1 <= year <= 9999:
             self.year, self.month = year, month + 1
+            self.render_calendar()
+            self.refresh_holidays()
+
+    def toggle_auto_holidays(self):
+        self.render_calendar()
+        if self.auto_holidays.get():
+            self.refresh_holidays()
+
+    def refresh_holidays(self, force=False):
+        if self.app.sync_calendar:
+            self.app.calendar.request(self.year, self.app.events, force=force)
             self.render_calendar()
 
     def reset_month(self):
@@ -209,6 +231,8 @@ class PreferencesDialog(tk.Toplevel):
         self.app.apply_theme(self.app.config["theme"])
         self.app.apply_opacity(self.app.config["opacity"])
         self.destroy()
+        if sys.platform == "darwin":
+            self.app.show()
 
     def save(self):
         settings = dict(self.calendar_settings(), **self.appearance.settings_values())
@@ -225,3 +249,5 @@ class PreferencesDialog(tk.Toplevel):
         self.app.apply_theme(settings["theme"])
         self.app.apply_opacity(settings["opacity"])
         self.destroy()
+        if sys.platform == "darwin":
+            self.app.show()
