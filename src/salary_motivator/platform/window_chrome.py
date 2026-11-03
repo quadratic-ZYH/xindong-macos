@@ -2,11 +2,17 @@
 import ctypes as C
 import ctypes.util
 import os
+import sys
+import tkinter as tk
 
 
 def work_area(root):
     """Return desktop bounds excluding panels, with a screen-size fallback."""
     fallback = (0, 0, root.winfo_screenwidth(), root.winfo_screenheight())
+    if sys.platform == "darwin":
+        from .macos import work_area as mac_work_area
+
+        return mac_work_area()
     if os.name == "nt":
         from ctypes import wintypes as W
 
@@ -86,6 +92,15 @@ def work_area(root):
 
 
 def undecorate(root):
+    if sys.platform == "darwin":
+        # Tk 9 exposes Cocoa style masks directly. Keep minimization enabled
+        # while removing the titlebar; Tk 8.6 uses the older Aqua command.
+        try:
+            root.attributes("-stylemask", ("miniaturizable",))
+        except tk.TclError:
+            root.tk.call("::tk::unsupported::MacWindowStyle", "style", root._w,
+                         "document", ("noTitleBar", "collapseBox"))
+        return
     root.update_idletasks()
     if os.name == "nt":
         from ctypes import wintypes as W

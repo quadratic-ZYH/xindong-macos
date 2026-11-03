@@ -1,4 +1,4 @@
-"""Native Windows notification icon; isolated GTK helper on Linux.
+"""Native notification icons on Windows/macOS; isolated GTK helper on Linux.
 
 Only plain commands cross into the Tk thread through a Queue. No Tk calls
 are made by tray callbacks or helper reader threads.
@@ -18,6 +18,18 @@ class Tray:
         self.error = None
         self.process = None
         self.hwnd = None
+        self.thread = None
+        self.native = None
+        if sys.platform == "darwin":
+            try:
+                from .macos import MenuBarIcon
+
+                self.native = MenuBarIcon(self.events)
+                self.emit("ready")
+            except Exception as error:
+                self.error = str(error)
+                self.emit("unavailable")
+            return
         self.thread = threading.Thread(
             target=self._windows if os.name == "nt" else self._linux, daemon=True
         )
@@ -29,6 +41,9 @@ class Tray:
 
     def stop(self):
         self.closed = True
+        if self.native is not None:
+            self.native.stop()
+            self.native = None
         if self.process and self.process.poll() is None:
             self.process.terminate()
             try:
@@ -48,7 +63,7 @@ class Tray:
                 ctypes.c_ssize_t,
             ]
             user.PostMessageW(self.hwnd, 0x0010, 0, 0)
-        if self.thread is not threading.current_thread():
+        if self.thread is not None and self.thread is not threading.current_thread():
             self.thread.join(timeout=2)
 
     def _linux(self):
